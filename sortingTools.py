@@ -4,7 +4,7 @@ import os
 from createFolders import folders  # folders = ['cat1/sub1', 'cat1/sub2', 'cat2/sub1', ...]
 
 unsorted = './unsorted'
-data_folder = './data'
+data_folder = './Dataset'
 
 # List images in unsorted
 image_paths = [os.path.join(unsorted, f) for f in os.listdir(unsorted)
