@@ -11,6 +11,7 @@ for subfolder in os.listdir(folder_path):
 
         for idx, filename in enumerate(os.listdir(categories_path)):
             file_path = os.path.join(categories_path, filename)
+            
             print(file_path)
             if os.path.isfile(file_path) and filename.lower().endswith(('.png', '.jpg', '.jpeg', '.bmp', '.gif')):
                 # Create the new filename
