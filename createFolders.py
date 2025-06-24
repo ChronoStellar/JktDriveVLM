@@ -1,13 +1,18 @@
 import os
 
 folders = {
-    "common": ["OppositeDirection", "BrakeCheck", "IgnoreRedlights", "Flood" ,"Parking", "Directional" ,"Pedestrian" ,"NightStreet", "OneWay"],
-    "indonesian": ["StreetPaddler", "RoadBlocks", "SmallRoads", "Deadlock", "BuswayLane", "Train", "RoadSigns", "LaneTakeover"]
+    "UrbanFlowComplexity": ["EvasiveManueverPlanning", "VRUCutIn", "VehicleCutIn" ,"VehicleRecognition"],
+    "PerceptionReasoing": ["NarrowRoadway", "UnidirectionalTraffic", "LaneRecognition", "NavigationDecissionMaking"],
+    "SafetyComplience": ["ObstacleRecognition", "LongShortParking", "TrainRailwayRecognition", "InadequateRoadConditions", "TrajectoryPlanningSigns", "TrafficSignalRecognition", "RoadSignsRecongition"]
 }
 
-os.makedirs("Dataset", exist_ok=True)
+PATH = './JktDriveVLM/Dataset'
+
+os.makedirs(PATH, exist_ok=True)
 
 for category, subfolders in folders.items():
     for subfolder in subfolders:
-        path = os.path.join("Dataset", category, subfolder)
+        path = os.path.join(PATH, category, subfolder)
         os.makedirs(path, exist_ok=True)
+
+print(f'Folders made! at {PATH}')
