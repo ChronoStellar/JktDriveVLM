@@ -6,7 +6,7 @@ folders = {
     "SafetyComplience": ["ObstacleRecognition", "LongShortParking", "TrainRailwayRecognition", "InadequateRoadConditions", "TrajectoryPlanningSigns", "TrafficSignalRecognition", "RoadSignsRecongition"]
 }
 
-PATH = './JktDriveVLM/Dataset'
+PATH = '../Dataset'
 
 os.makedirs(PATH, exist_ok=True)
 
