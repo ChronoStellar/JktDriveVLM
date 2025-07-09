@@ -10,7 +10,7 @@ if os.path.basename(script_dir) == '__pycache__':
     script_dir = os.path.dirname(script_dir)  # Move up to Utils
 BASE_DIR = os.path.abspath(os.path.join(script_dir, '..'))  # Move up to JktDriveVLM
 DIRECTORY = os.path.join(BASE_DIR, 'Dataset')
-JSON_OUTPUT_FILE = os.path.join(BASE_DIR, 'test.json')
+JSON_OUTPUT_FILE = os.path.join(BASE_DIR, 'annotation.json')
 
 # Debug paths
 print(f"Current working directory: {os.getcwd()}")
@@ -75,19 +75,22 @@ def switch_category(selected_category):
     
     if not image_list:
         status = f"No images found for category: '{selected_category}'"
-        return [], 0, None, status
+        return [], 0, None, status, "", "", "", "", ""
 
     first_image = image_list[0]
     # Check if the first image has already been annotated
     filename = os.path.basename(first_image)
     existing_data = image_data.get(filename, {})
-    field1 = existing_data.get("question", "")
-    field2 = existing_data.get("answers", "")
+    question = existing_data.get("question", "")
+    answers = existing_data.get("answers", "")
+    distractor1 = existing_data.get("distractor1", "")
+    distractor2 = existing_data.get("distractor2", "")
+    distractor3 = existing_data.get("distractor3", "")
 
     status = f"Loaded category '{selected_category}'. Image 1 of {len(image_list)}."
-    return image_list, 0, first_image, status, field1, field2
+    return image_list, 0, first_image, status, question, answers, distractor1, distractor2, distractor3
 
-def save_and_next_in_category(current_image_list, current_index, selected_category, field1, field2):
+def save_and_next_in_category(current_image_list, current_index, selected_category, question, answers, distractor1, distractor2, distractor3):
     """Saves data for the current image and loads the next one within the category."""
     global image_data
     
@@ -98,11 +101,13 @@ def save_and_next_in_category(current_image_list, current_index, selected_catego
     relative_image_path = os.path.relpath(current_image_path, DIRECTORY).replace(os.path.sep, '/')
     
     image_data[filename] = {
-        "path": relative_image_path, # Use the new relative path
+        "path": relative_image_path,
         "category": selected_category,
-        "question": field1,
-        "answers": field2,
-        "distractor": ""
+        "question": question,
+        "answers": answers,
+        "distractor1": distractor1,
+        "distractor2": distractor2,
+        "distractor3": distractor3
     }
 
     with open(JSON_OUTPUT_FILE, 'w') as f:
@@ -117,13 +122,16 @@ def save_and_next_in_category(current_image_list, current_index, selected_catego
         # Load existing data for the next image, if any
         next_filename = os.path.basename(next_image_path)
         existing_data = image_data.get(next_filename, {})
-        next_field1 = existing_data.get("question", "")
-        next_field2 = existing_data.get("answers", "")
+        next_question = existing_data.get("question", "")
+        next_answers = existing_data.get("answers", "")
+        next_distractor1 = existing_data.get("distractor1", "")
+        next_distractor2 = existing_data.get("distractor2", "")
+        next_distractor3 = existing_data.get("distractor3", "")
 
-        return new_index, next_image_path, status, next_field1, next_field2, json.dumps(image_data, indent=4)
+        return new_index, next_image_path, status, next_question, next_answers, next_distractor1, next_distractor2, next_distractor3, json.dumps(image_data, indent=4)
     else:
         status = f"✅ Saved {filename}. 🎉 Category '{selected_category}' complete!"
-        return new_index, None, status, "", "", json.dumps(image_data, indent=4)
+        return new_index, None, status, "", "", "", "", "", json.dumps(image_data, indent=4)
 
 def save_json_from_editor(json_string):
     """Saves changes from the JSON editor back to the file."""
@@ -143,9 +151,7 @@ with gr.Blocks(theme=gr.themes.Soft()) as demo:
     gr.Markdown("## 🖼️ Road Image Annotator")
     
     # State variables to manage the current session
-    # Holds the list of images for the currently selected category
     state_current_image_list = gr.State([])
-    # Holds the index for the current image within that list
     state_category_index = gr.State(0)
 
     with gr.Tabs():
@@ -157,8 +163,11 @@ with gr.Blocks(theme=gr.themes.Soft()) as demo:
                 
                 with gr.Column(scale=1):
                     folder_dropdown = gr.Dropdown(choices=folder_choices, label="Select Category")
-                    string_input_1 = gr.Textbox(label="Questions", interactive=True)
-                    string_input_2 = gr.Textbox(label="Answers", interactive=True)
+                    question_input = gr.Textbox(label="Questions", interactive=True)
+                    answers_input = gr.Textbox(label="Answers", interactive=True)
+                    distractor_1_input = gr.Textbox(label="Distractor 1", interactive=True)
+                    distractor_2_input = gr.Textbox(label="Distractor 2", interactive=True)
+                    distractor_3_input = gr.Textbox(label="Distractor 3", interactive=True)
                     save_button = gr.Button("Save & Next Image", variant="primary")
 
         with gr.TabItem("JSON Editor"):
@@ -178,14 +187,43 @@ with gr.Blocks(theme=gr.themes.Soft()) as demo:
     folder_dropdown.change(
         fn=switch_category,
         inputs=[folder_dropdown],
-        outputs=[state_current_image_list, state_category_index, image_display, tagger_status, string_input_1, string_input_2]
+        outputs=[
+            state_current_image_list, 
+            state_category_index, 
+            image_display, 
+            tagger_status, 
+            question_input, 
+            answers_input,
+            distractor_1_input,
+            distractor_2_input,
+            distractor_3_input
+        ]
     )
     
     # When the user clicks "Save & Next"
     save_button.click(
         fn=save_and_next_in_category,
-        inputs=[state_current_image_list, state_category_index, folder_dropdown, string_input_1, string_input_2],
-        outputs=[state_category_index, image_display, tagger_status, string_input_1, string_input_2, json_editor]
+        inputs=[
+            state_current_image_list, 
+            state_category_index, 
+            folder_dropdown, 
+            question_input, 
+            answers_input,
+            distractor_1_input,
+            distractor_2_input,
+            distractor_3_input
+        ],
+        outputs=[
+            state_category_index, 
+            image_display, 
+            tagger_status, 
+            question_input, 
+            answers_input,
+            distractor_1_input,
+            distractor_2_input,
+            distractor_3_input,
+            json_editor
+        ]
     )
 
     # When the user saves in the JSON editor
