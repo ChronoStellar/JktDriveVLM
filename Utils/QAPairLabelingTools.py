@@ -94,12 +94,17 @@ def save_and_next_in_category(current_image_list, current_index, selected_catego
     # Save data for the current image
     current_image_path = current_image_list[current_index]
     filename = os.path.basename(current_image_path)
+
+    relative_image_path = os.path.relpath(current_image_path, DIRECTORY).replace(os.path.sep, '/')
+    
     image_data[filename] = {
-        "path": current_image_path,
+        "path": relative_image_path, # Use the new relative path
         "category": selected_category,
         "question": field1,
-        "answers": field2
+        "answers": field2,
+        "distractor": ""
     }
+
     with open(JSON_OUTPUT_FILE, 'w') as f:
         json.dump(image_data, f, indent=4)
     
