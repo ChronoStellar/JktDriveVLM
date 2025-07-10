@@ -10,7 +10,7 @@ if os.path.basename(script_dir) == '__pycache__':
     script_dir = os.path.dirname(script_dir)  # Move up to Utils
 BASE_DIR = os.path.abspath(os.path.join(script_dir, '..'))  # Move up to JktDriveVLM
 DIRECTORY = os.path.join(BASE_DIR, 'Dataset')
-JSON_OUTPUT_FILE = os.path.join(BASE_DIR, './UrbanFlow.json')
+JSON_OUTPUT_FILE = os.path.join(BASE_DIR, './Dataset/annotation.json')
 
 # Debug paths
 print(f"Current working directory: {os.getcwd()}")
