@@ -1,9 +1,27 @@
 import os
 
 folders = {
-    "UrbanFlowComplexity": ["EvasiveManueverPlanning", "VRUCutIn", "VehicleCutIn" ,"VehicleRecognition"],
-    "PerceptionReasoing": ["NarrowRoadway", "UnidirectionalTraffic", "LaneRecognition", "NavigationDecissionMaking"],
-    "SafetyComplience": ["ObstacleRecognition", "LongShortParking", "TrainRailwayRecognition", "InadequateRoadConditions", "TrajectoryPlanningSigns", "TrafficSignalRecognition", "RoadSignsRecongition"]
+    "UrbanFlowComplexity": [
+        "EvasiveManeuverPlanning",   # Corrected spelling
+        "VRUCut-In",                 # Corrected spelling
+        "VehicleCut-In",             # Corrected spelling
+        "VehicleRecognition"
+    ],
+    "PerceptionReasoning": [       # Corrected spelling
+        "NarrowRoadway",
+        "UnidirectionalTraffic",
+        "LaneRecognition",
+        "NavigationDecisionMaking" # Corrected spelling
+    ],
+    "SafetyCompliance": [          # Corrected spelling
+        "ObstacleRecognition",
+        "LongShortParking",
+        "TrainRailwayRecognition",
+        "InadequateRoadConditions",
+        "TrajectoryPlanningSigns",
+        "TrafficSignalRecognition",
+        "RoadSignsRecognition"     # Corrected spelling
+    ]
 }
 
 PATH = '../Dataset'
