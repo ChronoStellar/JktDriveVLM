@@ -1133,7 +1133,7 @@
         "distractor2": "The green arrow indicates the start of a toll lane.",
         "distractor3": "You must stop, as the main traffic light is red."
     },
-        "LR1.png": {
+    "LR1.png": {
         "path": "PerceptionReasoning/LaneRecognition/LR1.png",
         "category": "PerceptionReasoning/LaneRecognition",
         "question": "What is the safest action, given that the lane boundary on the left is only partially visible?",
@@ -1407,7 +1407,7 @@
         "path": "PerceptionReasoning/NarrowRoadway/NR10.png",
         "category": "PerceptionReasoning/NarrowRoadway",
         "question": "Analyze the immediate environment and define the next action.",
-        "answers": "Maintain a safe following distance from the vehicles ahead and steer to stay centered within the path created by the temporary barriers on the right.",
+        "answers": "Maintain a safe following distance from the vehicles ahead and steer to stay centered.",
         "distractor1": "Try to overtake the lead vehicles to exit the construction zone faster.",
         "distractor2": "Drive closer to the barriers to allow more room for other cars.",
         "distractor3": "Stop and wait for the construction to be cleared."
@@ -1415,8 +1415,8 @@
     "NR11.png": {
         "path": "PerceptionReasoning/NarrowRoadway/NR11.png",
         "category": "PerceptionReasoning/NarrowRoadway",
-        "question": "What is the primary risk in this environment and the correct mitigating action?",
-        "answers": "Proceed slowly and maintain a central path within the narrowed lane. Prioritize creating slightly more space from the pedestrians and stalls on the left than from the fixed concrete barriers on the right.",
+        "question": "As a autonomous driving agent what is the correct mitigating action in this environment?",
+        "answers": "Proceed slowly and maintain a central path within the narrowed lane.",
         "distractor1": "Hug the concrete barrier on the right to stay as far from pedestrians as possible.",
         "distractor2": "Speed up to minimize the time spent near the unpredictable pedestrians.",
         "distractor3": "Stop and wait for all pedestrians to move away from the roadside."
@@ -1425,7 +1425,7 @@
         "path": "PerceptionReasoning/NarrowRoadway/NR12.png",
         "category": "PerceptionReasoning/NarrowRoadway",
         "question": "Determine the immediate driving decision.",
-        "answers": "Slow down and hold position, yielding to the oncoming vehicle. Proceed only after the car has passed and the path is confirmed to be clear.",
+        "answers": "Slow down and hold position. Proceed only after the car has passed and the path is confirmed to be clear.",
         "distractor1": "Flash headlights to assert right-of-way and proceed first.",
         "distractor2": "Speed up to clear the narrow section before the other car reaches it.",
         "distractor3": "Pull onto the dirt shoulder to let the other car pass."
@@ -1434,7 +1434,7 @@
         "path": "PerceptionReasoning/NarrowRoadway/NR13.png",
         "category": "PerceptionReasoning/NarrowRoadway",
         "question": "What maneuver is required to ensure safety and rule adherence?",
-        "answers": "Proceed at a minimal, creeping speed, matching the pace of the surrounding crowd. Yield to all pedestrians and motorcycles, and be prepared to stop instantly.",
+        "answers": "Proceed at a slow speed, matching the pace of the surrounding crowd and be prepared to stop instantly.",
         "distractor1": "Honk repeatedly to force a path through the crowd.",
         "distractor2": "Stop completely and wait for the entire crowd to pass.",
         "distractor3": "Follow a motorcycle closely to use it as a shield."
@@ -1443,7 +1443,7 @@
         "path": "PerceptionReasoning/NarrowRoadway/NR14.png",
         "category": "PerceptionReasoning/NarrowRoadway",
         "question": "Analyze the immediate environment and define the next action.",
-        "answers": "Follow the lead vehicle, maintaining a safe, centered path within the narrow channel defined by the construction wall on the right and the parked cars on the left.",
+        "answers": "Maintaining a safe, take a centered path within the narrow channel.",
         "distractor1": "Overtake the lead vehicle as it is moving too slowly.",
         "distractor2": "Stop and wait for the construction to be finished.",
         "distractor3": "Honk to encourage the lead vehicle to speed up."
@@ -1794,7 +1794,7 @@
         "path": "UrbanFlowComplexity/EvasiveManeuverPlanning/EMP2.png",
         "category": "UrbanFlowComplexity/EvasiveManeuverPlanning",
         "question": "Considering the overall traffic environment, what is the most significant challenge for an autonomous vehicle attempting an evasive maneuver?",
-        "answers": "Limited available space due to numerous surrounding vehicles.",
+        "answers": "Limited available space due to numerous surrounding vehicles and obstacles.",
         "distractor1": "Poor visibility due to the glare from streetlights and headlights.",
         "distractor2": "The high speed of the surrounding traffic.",
         "distractor3": "Difficulty in identifying the destination of the vehicles ahead."
@@ -1815,13 +1815,13 @@
         "answers": "A sudden brake from the car in front, indicated by its glowing brake light.",
         "distractor1": "A pedestrian suddenly crossing the road from the left.",
         "distractor2": "The car in front is preparing to accelerate quickly.",
-        "distractor3": "A vehicle merging unexpectedly from the adjacent right lane."
+        "distractor3": "There's nothing to look out for."
     },
     "EMP5.png": {
         "path": "UrbanFlowComplexity/EvasiveManeuverPlanning/EMP5.png",
         "category": "UrbanFlowComplexity/EvasiveManeuverPlanning",
         "question": "As an autonomous driving agent, what is the most appropriate action in this situation?",
-        "answers": "If the distance to the left side of the road is safe, park temporarily and wait until the vehicle in front has passed.",
+        "answers": "Pull over to ther left and wait until the vehicle in front has passed.",
         "distractor1": "Honk the horn and proceed forward to assert right-of-way.",
         "distractor2": "Quickly swerve to the right to bypass the vehicle.",
         "distractor3": "Stop abruptly and wait for the vehicle behind to react."
@@ -1840,7 +1840,7 @@
         "category": "UrbanFlowComplexity/EvasiveManeuverPlanning",
         "question": "Considering the autonomous vehicle's immediate surroundings in this image, what might be the most probable dangerous element?",
         "answers": "The motorcycle traveling in the opposite direction.",
-        "distractor1": "The parked cars on the right side of the road.",
+        "distractor1": "There's nothing to look out for.",
         "distractor2": "The risk of a tire blowout on the autonomous vehicle.",
         "distractor3": "The pedestrians walking on the distant sidewalk."
     },
@@ -1878,15 +1878,15 @@
         "answers": "The constant presence of many vulnerable road users and limited clear space.",
         "distractor1": "The brightness of the streetlights causing sensor glare.",
         "distractor2": "The lack of clearly marked lane lines.",
-        "distractor3": "The high speed of other vehicles on the road."
+        "distractor3": "There's nothing to be worried about"
     },
     "EMP13.png": {
         "path": "UrbanFlowComplexity/EvasiveManeuverPlanning/EMP13.png",
         "category": "UrbanFlowComplexity/EvasiveManeuverPlanning",
         "question": "What might require an autonomous vehicle to plan for potential sudden movement in its path?",
         "answers": "The person and cart positioned very close to the edge of the road on the right.",
-        "distractor1": "The oncoming traffic in the opposite lane.",
-        "distractor2": "The car parked on the left side of the road.",
+        "distractor1": "There's nothing to look out for.",
+        "distractor2": "The car parked on the right side of the road.",
         "distractor3": "The reflection of headlights on the wet road surface."
     },
     "EMP14.png": {
@@ -1911,7 +1911,7 @@
         "path": "UrbanFlowComplexity/EvasiveManeuverPlanning/EMP16.png",
         "category": "UrbanFlowComplexity/EvasiveManeuverPlanning",
         "question": "As an autonomous agent, what is the most appropriate action to take in this scene?",
-        "answers": "Turn slightly left while remaining cautious of passing bikes.",
+        "answers": "Move to the left lane while remaining cautious of passing bikes.",
         "distractor1": "Come to a full stop and wait for the bikes to pass.",
         "distractor2": "Speed up to get ahead of the motorcycles.",
         "distractor3": "Maintain the current course without any adjustments."
@@ -1923,7 +1923,7 @@
         "answers": "The car traveling in the opposite direction.",
         "distractor1": "The pedestrians gathered on the sidewalk.",
         "distractor2": "The parked vehicles on the side of the road.",
-        "distractor3": "The glare from the overhead streetlights."
+        "distractor3": "The glare from other vehicles headlights."
     },
     "EMP18.png": {
         "path": "UrbanFlowComplexity/EvasiveManeuverPlanning/EMP18.png",
@@ -1932,7 +1932,7 @@
         "answers": "The risk of collision with the adjacent motorcycle.",
         "distractor1": "The distance to the vehicle far ahead.",
         "distractor2": "The condition of the road surface.",
-        "distractor3": "The traffic light status in the distance."
+        "distractor3": "The narrow road space."
     },
     "EMP19.png": {
         "path": "UrbanFlowComplexity/EvasiveManeuverPlanning/EMP19.png",
@@ -2048,7 +2048,7 @@
         "question": "Which vehicle poses the most prominent risk in this scene?",
         "answers": "The white car that is currently switching lanes into the agent's current lane.",
         "distractor1": "The black car in the lane to the right.",
-        "distractor2": "The red car far ahead in the distance.",
+        "distractor2": "The motorcycle far ahead in the distance.",
         "distractor3": "The truck in the opposite lane."
     },
     "VCI13.png": {
@@ -2074,7 +2074,7 @@
         "category": "UrbanFlowComplexity/VehicleCut-In",
         "question": "In this daylight urban street scene, which vehicle poses the most risk to the current agent's path?",
         "answers": "The small blue vehicle cutting in front.",
-        "distractor1": "The white truck on the right.",
+        "distractor1": "The white car on the right.",
         "distractor2": "The cars parked on the left.",
         "distractor3": "The traffic light in the distance."
     },
@@ -2148,7 +2148,7 @@
         "answers": "Move forward steadily while remaining aware of the cutting-in motorcycle.",
         "distractor1": "Stop and wait for the motorcycle to complete its maneuver.",
         "distractor2": "Speed up to pass the motorcycle before it cuts in.",
-        "distractor3": "Change lanes to avoid the motorcycle."
+        "distractor3": "Swerve to the right to avoid the motorcycle."
     },
     "VR1.png": {
         "path": "UrbanFlowComplexity/VehicleRecognition/VR1.png",
@@ -2182,7 +2182,7 @@
         "category": "UrbanFlowComplexity/VehicleRecognition",
         "question": "Given the scene, what specific behavior recognition capability is paramount for the autonomous vehicle to avoid collisions?",
         "answers": "Predicting the lateral movements and sudden lane filtering of motorcycles.",
-        "distractor1": "Identifying the color of each motorcycle.",
+        "distractor1": "Identifying the color and visibility of each motorcycle.",
         "distractor2": "Assuming all motorcycles will stay in a single file line.",
         "distractor3": "Focusing only on the cars and ignoring the motorcycles."
     },
@@ -2193,7 +2193,7 @@
         "answers": "The black SUV is switching lanes and affecting the current agent's trajectory.",
         "distractor1": "The road ahead is clear, so acceleration is appropriate.",
         "distractor2": "The black SUV is moving away from the agent's lane.",
-        "distractor3": "The traffic light in the distance has just turned green."
+        "distractor3": "The traffic light in the distance has just turned red."
     },
     "VR6.png": {
         "path": "UrbanFlowComplexity/VehicleRecognition/VR6.png",
@@ -2208,7 +2208,7 @@
         "path": "UrbanFlowComplexity/VehicleRecognition/VR7.png",
         "category": "UrbanFlowComplexity/VehicleRecognition",
         "question": "This daytime scene features a white SUV ahead and two motorcycles with green helmets in the foreground. What is the most important type of object recognition and tracking for comprehensive surrounding awareness?",
-        "answers": "Simultaneously tracking multiple dynamic objects of various sizes and speeds, including motorcycles and cars.",
+        "answers": "Simultaneously tracking multiple dynamic road objects of various sizes and speeds.",
         "distractor1": "Focusing solely on the large white SUV as the primary object.",
         "distractor2": "Tracking only the motorcycles because they are closer.",
         "distractor3": "Ignoring the vehicles and focusing on the road infrastructure."
@@ -2219,14 +2219,14 @@
         "question": "The autonomous agent is navigating to the right. What is the most appropriate action that needs to be taken by the autonomous agent in this scene?",
         "answers": "Turn on the right turn signal and prepare to switch to the right lane.",
         "distractor1": "Make an immediate, sharp turn to the right.",
-        "distractor2": "Wait for the cars on the right to pass before signaling.",
+        "distractor2": "Wait for the vehicle on the right to pass before signaling.",
         "distractor3": "Continue straight and ignore the planned right turn."
     },
     "VR10.png": {
         "path": "UrbanFlowComplexity/VehicleRecognition/VR10.png",
         "category": "UrbanFlowComplexity/VehicleRecognition",
         "question": "The autonomous agent is moving at a slow and steady pace. What is the most appropriate action that needs to be taken by the agent?",
-        "answers": "Move forward consistently while being prepared for unpredictable moves or sudden braking from the vehicle in front.",
+        "answers": "Move forward consistently while being prepared for unpredictable moves.",
         "distractor1": "Accelerate to overtake the vehicle in front.",
         "distractor2": "Stop the car and wait for the traffic to clear.",
         "distractor3": "Follow the vehicle in front as closely as possible."
@@ -2235,7 +2235,7 @@
         "path": "UrbanFlowComplexity/VehicleRecognition/VR11.png",
         "category": "UrbanFlowComplexity/VehicleRecognition",
         "question": "The autonomous agent is moving at a fast speed. What is the most appropriate action that needs to be taken?",
-        "answers": "Decelerate slowly, considering the taillights of surrounding vehicles are lit, which indicates they are slowing down or stopping.",
+        "answers": "Decelerate slowly.",
         "distractor1": "Maintain the current speed, as there is enough distance.",
         "distractor2": "Accelerate to get through the congested area faster.",
         "distractor3": "Swerve to the right lane to avoid the slowing traffic."
@@ -2243,7 +2243,7 @@
     "VR12.png": {
         "path": "UrbanFlowComplexity/VehicleRecognition/VR12.png",
         "category": "UrbanFlowComplexity/VehicleRecognition",
-        "question": "Based on the scene, which vehicle poses the most risk to the autonomous vehicle agent?",
+        "question": "Based on the scene, which vehicle poses the most risk to the autonomous vehicle?",
         "answers": "The motorcycle driver in blue who is trying to cut in front of the vehicle.",
         "distractor1": "The white car far ahead of the agent.",
         "distractor2": "The parked cars on the side of the road.",
@@ -2291,8 +2291,8 @@
         "question": "Given the presence of a \"20\" speed limit sign, what behavioral expectation should the autonomous vehicle have regarding other drivers' speed in this zone?",
         "answers": "Drivers might not strictly follow the posted speed limit, especially if traffic allows for higher speeds.",
         "distractor1": "All drivers will strictly adhere to the 20 mph speed limit.",
-        "distractor2": "The speed limit sign is advisory and can be ignored.",
-        "distractor3": "Drivers will travel significantly slower than the posted speed limit."
+        "distractor2": "All drivers will be confused as to what the sign means.",
+        "distractor3": "Drivers will stop immediately."
     },
     "VR18.png": {
         "path": "UrbanFlowComplexity/VehicleRecognition/VR18.png",
@@ -2307,15 +2307,15 @@
         "path": "UrbanFlowComplexity/VehicleRecognition/VR19.png",
         "category": "UrbanFlowComplexity/VehicleRecognition",
         "question": "What is the most critical aspect of \"driver behavior recognition\" in this multi-lane, mixed-traffic scenario?",
-        "answers": "Anticipating how different vehicle types (minivans, cars, motorcycles) will interact and compete for space.",
+        "answers": "Anticipating how different vehicle types will interact and compete for space.",
         "distractor1": "Assuming all vehicles will stay within their designated lanes.",
         "distractor2": "Focusing only on the vehicle directly ahead.",
-        "distractor3": "Recognizing the make and model of each vehicle."
+        "distractor3": "Recognizing the model of each vehicle."
     },
     "VR20.png": {
         "path": "UrbanFlowComplexity/VehicleRecognition/VR20.png",
         "category": "UrbanFlowComplexity/VehicleRecognition",
-        "question": "What is the most probable reason for the black SUV to decelerate in this scenario?",
+        "question": "What is the most probable reason for the grey SUV to decelerate in this scenario?",
         "answers": "The bus in front is merging onto the current lane.",
         "distractor1": "The SUV is planning to make a U-turn.",
         "distractor2": "The driver of the SUV is distracted.",
@@ -2343,7 +2343,7 @@
         "path": "UrbanFlowComplexity/VRUCut-In/VRUCI3.png",
         "category": "UrbanFlowComplexity/VRUCut-In",
         "question": "In this nighttime residential-like street, what element needs to be tracked before moving forward?",
-        "answers": "The sudden appearance of a vulnerable road user (VRU).",
+        "answers": "The sudden appearance of a vulnerable road user.",
         "distractor1": "The status of the traffic light at the next intersection.",
         "distractor2": "The parked cars on both sides of the street.",
         "distractor3": "The speed limit of the area."
@@ -2352,8 +2352,8 @@
         "path": "UrbanFlowComplexity/VRUCut-In/VRUCI4.png",
         "category": "UrbanFlowComplexity/VRUCut-In",
         "question": "The agent intends to merge into the main traffic from a building. What should be the primary concern for the agent before moving forward?",
-        "answers": "The sudden appearance of pedestrians, as the agent must cross a sidewalk before entering the main street.",
-        "distractor1": "The speed of the traffic on the main street.",
+        "answers": "The high probability of pedestrians appearing and the vehicles' speed in the main street.",
+        "distractor1": "Nothing too look for.",
         "distractor2": "The width of the main street.",
         "distractor3": "The presence of traffic signals."
     },
@@ -2396,8 +2396,8 @@
     "VRUCI10.png": {
         "path": "UrbanFlowComplexity/VRUCut-In/VRUCI10.png",
         "category": "UrbanFlowComplexity/VRUCut-In",
-        "question": "This nighttime image shows a wide urban street with a median barrier. What is the recognized anomaly in this image, and what does the autonomous vehicle need to recognize to ensure its safety and robustness?",
-        "answers": "The jaywalking vulnerable road user (VRU) is an anomaly and presents unexpected behavior; the system must be able to detect VRUs anywhere on the road, regardless of expected behavior.",
+        "question": "This nighttime image shows a wide urban street with a median barrier. What is the recognized anomaly in this image, and what does the autonomous vehicle need to recognize to ensure its safety?",
+        "answers": "The jaywalking vulnerable road user (VRU) is an anomaly and presents unexpected behavior.",
         "distractor1": "The median barrier is an anomaly that obstructs the path.",
         "distractor2": "The VRU is standing still and poses no threat.",
         "distractor3": "The system should only expect pedestrians at crosswalks."
@@ -2405,7 +2405,7 @@
     "VRUCI11.png": {
         "path": "UrbanFlowComplexity/VRUCut-In/VRUCI11.png",
         "category": "UrbanFlowComplexity/VRUCut-In",
-        "question": "In this narrow scene, what is the important element to be tracked and predicted?",
+        "question": "In this narrow scene, what is the most important element to be tracked and predicted?",
         "answers": "The high probability of unannounced vulnerable road user (VRU) movements directly into the vehicle's path.",
         "distractor1": "The condition of the buildings on the side of the road.",
         "distractor2": "The possibility of a vehicle emerging from the alley.",
@@ -2424,7 +2424,7 @@
         "path": "UrbanFlowComplexity/VRUCut-In/VRUCI13.png",
         "category": "UrbanFlowComplexity/VRUCut-In",
         "question": "This nighttime image shows a very high density of people and motorcycles mingling around roadside stalls. The agent is currently stopped. When can the agent continue moving forward?",
-        "answers": "After the vulnerable road users have cleared from the agent's path and there are no more intending to cross the street from the left and right.",
+        "answers": "After the VRU have cleared from the agent's path and there are no more intending to cross the street from the left and right.",
         "distractor1": "When there is a small gap in the crowd.",
         "distractor2": "After honking to make the crowd part.",
         "distractor3": "Immediately, assuming the VRUs will move out of the way."
@@ -2442,7 +2442,7 @@
         "path": "UrbanFlowComplexity/VRUCut-In/VRUCI15.png",
         "category": "UrbanFlowComplexity/VRUCut-In",
         "question": "The agent is moving at a slow and steady speed. What is the most appropriate action for the agent to proceed?",
-        "answers": "Proceed to keep moving with extreme caution, reduced speed, and readiness to stop for pedestrians.",
+        "answers": "Keep moving with reduced speed and readiness to stop for pedestrians.",
         "distractor1": "Accelerate to quickly pass the area.",
         "distractor2": "Stop and wait for all pedestrians to clear the street.",
         "distractor3": "Honk continuously to clear a path."
@@ -2451,8 +2451,8 @@
         "path": "UrbanFlowComplexity/VRUCut-In/VRUCI18.png",
         "category": "UrbanFlowComplexity/VRUCut-In",
         "question": "This daytime scene on a busy narrow street. What comprehensive human safety strategy should the autonomous vehicle employ in such an environment?",
-        "answers": "Prioritize low speeds, constant vigilance for VRU detection, and defensive driving to avoid sudden movement.",
-        "distractor1": "Focus on reaching the destination on time.",
+        "answers": "Prioritize low speeds and constant vigilance for VRU detection.",
+        "distractor1": "Focus on reaching the destination on time, and drive faster.",
         "distractor2": "Assume pedestrians will yield the right-of-way to vehicles.",
         "distractor3": "Rely on other drivers' actions to navigate safely."
     },
@@ -2460,7 +2460,7 @@
         "path": "UrbanFlowComplexity/VRUCut-In/VRUCI19.png",
         "category": "UrbanFlowComplexity/VRUCut-In",
         "question": "This busy daytime street market scene shows many people and stalls extending close to the road. What should be the main priority that governs an autonomous vehicle's interaction with this environment?",
-        "answers": "Always assume human presence, even when not clearly visible, and prioritize their safety above all else.",
+        "answers": "Always assume human presence, even when not clearly visible.",
         "distractor1": "Navigating the market as quickly as possible.",
         "distractor2": "Maintaining a minimum distance from other vehicles.",
         "distractor3": "Finding the most efficient path through the crowd."
@@ -2469,7 +2469,7 @@
         "path": "UrbanFlowComplexity/VRUCut-In/VRUCI20.png",
         "category": "UrbanFlowComplexity/VRUCut-In",
         "question": "Based on this scene, what is the most appropriate action that the agent needs to take?",
-        "answers": "Constant detection and tracking of unexpected vulnerable road user (VRU) movement, while maintaining a constant and reduced speed moving forward.",
+        "answers": "Assumes there's vulnerable road user movement, while maintaining a constant speed moving forward.",
         "distractor1": "Accelerate to get past the VRUs quickly.",
         "distractor2": "Stop and wait indefinitely for the road to clear.",
         "distractor3": "Swerve to avoid the VRUs, even if it means entering the oncoming lane."
@@ -2487,9 +2487,9 @@
         "path": "UrbanFlowComplexity/VRUCut-In/VRUCI22.png",
         "category": "UrbanFlowComplexity/VRUCut-In",
         "question": "The agent is intending to enter the street and turn left. What should be the most prioritized constant awareness for the agent?",
-        "answers": "The child (a vulnerable road user) who might run into the street.",
+        "answers": "The child who might run into the street.",
         "distractor1": "The oncoming traffic from the right.",
-        "distractor2": "The parked cars on the side of the road.",
+        "distractor2": "The parked vehicles on the side of the road.",
         "distractor3": "The smoothness of the turn."
     },
     "VRUCI23.png": {
