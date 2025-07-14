@@ -50,7 +50,7 @@
         "question": "The vehicle needs to move to the right lane. What is the correct action?",
         "answers": "Activate the right turn signal and merge carefully to the right.",
         "distractor1": "Merge to the right without signaling.",
-        "distractor2": "Wait for a car in the right lane to slow down and let you in.",
+        "distractor2": "Wait for a vehicle in the right lane to slow down and let you in.",
         "distractor3": "Quickly swerve into the right lane to secure the spot."
     },
     "OR15.png": {
@@ -65,9 +65,9 @@
     "OR16.png": {
         "path": "SafetyCompliance/ObstacleRecognition/OR16.png",
         "category": "SafetyCompliance/ObstacleRecognition",
-        "question": "The Autonomous Driving Agent encounters this scene. What is the appropriate action?",
-        "answers": "Continue driving forward cautiously, maintaining lane position.",
-        "distractor1": "Speed up to clear the area more quickly.",
+        "question": "The Autonomous Driving Agent is currently heading to the right and encounters this scene. What is the appropriate action?",
+        "answers": "Continue driving forward cautiously, and look for another opportunity to turn right.",
+        "distractor1": "Turn right directly and pass through the barricade",
         "distractor2": "Stop the vehicle to assess if the road is safe.",
         "distractor3": "Change lanes to avoid potential, unseen hazards."
     },
@@ -83,10 +83,10 @@
     "OR4.png": {
         "path": "SafetyCompliance/ObstacleRecognition/OR4.png",
         "category": "SafetyCompliance/ObstacleRecognition",
-        "question": "The vehicle needs to move into the right lane. What is the correct procedure?",
-        "answers": "Activate the right turn signal and merge carefully to the right.",
-        "distractor1": "Slow down and merge behind the white car.",
-        "distractor2": "Speed up and cut in front of the white car.",
+        "question": "The Autonomous Driving Agent encounter this obstacle on the road. What is the appropriate action that should be taken by the agent?",
+        "answers": "Slightly Swerve to the right and stay in the current lane",
+        "distractor1": "Slow down and merge behind the vehicles in front.",
+        "distractor2": "Speed up and cut in front of the bike.",
         "distractor3": "Merge abruptly without checking the blind spot."
     },
     "OR5.png": {
@@ -102,7 +102,7 @@
         "path": "SafetyCompliance/ObstacleRecognition/OR6.png",
         "category": "SafetyCompliance/ObstacleRecognition",
         "question": "The vehicle is blocked and needs to change lanes. What should it do?",
-        "answers": "Wait for the right lane to clear, activate the right turn signal, and then merge carefully.",
+        "answers": "Wait for the right lane to clear, then swerve slightly to the right.",
         "distractor1": "Inch into the right lane to signal your intent to merge.",
         "distractor2": "Assume the blocking vehicle will move shortly and wait.",
         "distractor3": "Immediately merge into the right lane regardless of traffic."
@@ -110,7 +110,7 @@
     "OR7.png": {
         "path": "SafetyCompliance/ObstacleRecognition/OR7.png",
         "category": "SafetyCompliance/ObstacleRecognition",
-        "question": "The path forward is obstructed by traffic. What is the best course of action?",
+        "question": "The agent is currently heading forward, what should the agent do?",
         "answers": "Approach cautiously and wait until the traffic situation clears enough to pass safely.",
         "distractor1": "Try to find a small gap to squeeze through.",
         "distractor2": "Take a U-turn and find a different route.",
@@ -119,7 +119,7 @@
     "OR8.png": {
         "path": "SafetyCompliance/ObstacleRecognition/OR8.png",
         "category": "SafetyCompliance/ObstacleRecognition",
-        "question": "Pedestrians and an obstacle are on the right side of the road. What should the vehicle do?",
+        "question": "The agent is currently heading forward, what should the agent do?",
         "answers": "Prioritize pedestrian safety, activate the right turn signal, and carefully maneuver to the right, avoiding all obstacles.",
         "distractor1": "Focus on avoiding the obstacle and assume pedestrians will move.",
         "distractor2": "Stop completely until all pedestrians have cleared the area.",
@@ -128,8 +128,8 @@
     "OR9.png": {
         "path": "SafetyCompliance/ObstacleRecognition/OR9.png",
         "category": "SafetyCompliance/ObstacleRecognition",
-        "question": "An obstacle is present on the right. How should the vehicle proceed?",
-        "answers": "Maneuver to the right carefully, ensuring the vehicle does not hit the obstacle.",
+        "question": "The agent is currently heading forward, what should the agent do?",
+        "answers": "Maneuver to the left carefully, ensuring the vehicle does not hit the obstacle.",
         "distractor1": "Swerve sharply to the right.",
         "distractor2": "Maintain course, assuming the car is wide enough to pass.",
         "distractor3": "Accelerate past the obstacle quickly."
@@ -137,16 +137,16 @@
     "LSP1.png": {
         "path": "SafetyCompliance/LongShortParking/LSP1.png",
         "category": "SafetyCompliance/LongShortParking",
-        "question": "How should an autonomous vehicle behave when a lane is partially blocked by parked cars and pedestrians are nearby?",
-        "answers": "Reduce speed, move toward the center of the road to create more space, and proceed with caution.",
-        "distractor1": "Maintain speed but steer away from the pedestrians.",
-        "distractor2": "Stop and wait for all pedestrians to leave the vicinity.",
-        "distractor3": "Honk to alert the pedestrians of the vehicle's presence and maintain speed."
+        "question": "The agent is currently trying to park on the side of the road. Given the scene what should the agent do?",
+        "answers": "The agent should look for a parking lot",
+        "distractor1": "Reduce speed, then look for an opening in the side of the road to park",
+        "distractor2": "Stop and wait for VRU to leave the vicinity.",
+        "distractor3": "Honk to alert the other vehicles of the agent's presence and try to park."
     },
     "LSP10.png": {
         "path": "SafetyCompliance/LongShortParking/LSP10.png",
         "category": "SafetyCompliance/LongShortParking",
-        "question": "The vehicle is in a tight space with another car. What is the safest action?",
+        "question": "The agent is currently heading forward, what should the agent do?",
         "answers": "Proceed forward slowly, monitoring the other vehicle for any movement.",
         "distractor1": "Let the other vehicle go first, even if you have the right-of-way.",
         "distractor2": "Assume the other driver sees you and proceed at normal speed.",
@@ -155,7 +155,7 @@
     "LSP11.png": {
         "path": "SafetyCompliance/LongShortParking/LSP11.png",
         "category": "SafetyCompliance/LongShortParking",
-        "question": "How should the vehicle navigate this scene with parked cars and other road users?",
+        "question": "How should the vehicle navigate this scene with the objective of moving forward?",
         "answers": "Move forward slowly, remaining aware of all surrounding road users.",
         "distractor1": "Focus only on the road ahead and ignore parked cars.",
         "distractor2": "Follow the vehicle in front as closely as possible.",
@@ -173,16 +173,16 @@
     "LSP13.png": {
         "path": "SafetyCompliance/LongShortParking/LSP13.png",
         "category": "SafetyCompliance/LongShortParking",
-        "question": "The vehicle is proceeding straight. What actions are necessary in this situation?",
-        "answers": "Move forward slowly, allow the other vehicle to pass, and watch for any movement from the parked cars.",
-        "distractor1": "Assume you have the right-of-way and proceed without slowing.",
-        "distractor2": "Stop and flash your lights to signal the other vehicle to stop.",
-        "distractor3": "Race the other vehicle to get through the narrow passage first."
+        "question": "The passenger in the vehicle is trying to get inside the shops, so the vehicle need to be parked first. What actions are necessary in this situation?",
+        "answers": "The car cannot be parked on the side of the road, look for a parking lot.",
+        "distractor1": "Immediately park to the left of the black car",
+        "distractor2": "Go forward slowly and look for an opening to park",
+        "distractor3": "Stop and park in the current possition"
     },
     "LSP14.png": {
         "path": "SafetyCompliance/LongShortParking/LSP14.png",
         "category": "SafetyCompliance/LongShortParking",
-        "question": "How should the vehicle navigate around the parked car on the left?",
+        "question": "How should the vehicle navigate around this scene?",
         "answers": "Steer slightly to the left while maintaining speed and then proceed forward.",
         "distractor1": "Slow down significantly before steering around the car.",
         "distractor2": "Come to a complete stop before navigating around the parked car.",
@@ -209,11 +209,11 @@
     "LSP17.png": {
         "path": "SafetyCompliance/LongShortParking/LSP17.png",
         "category": "SafetyCompliance/LongShortParking",
-        "question": "The vehicle is heading straight. What should it do to get past the stopped truck?",
+        "question": "The vehicle is heading straight. What should it do to get past the scene?",
         "answers": "Activate the right turn signal, move carefully into the right lane to pass, and then continue forward.",
-        "distractor1": "Pass the truck on the right without signaling.",
-        "distractor2": "Wait behind the truck indefinitely until it moves.",
-        "distractor3": "Attempt to pass the truck on the left, into oncoming traffic."
+        "distractor1": "Pass the vehicle on the right without signaling.",
+        "distractor2": "Wait behind the vehicle indefinitely until it moves.",
+        "distractor3": "Attempt to pass the vehicle on the left, into oncoming traffic."
     },
     "LSP18.png": {
         "path": "SafetyCompliance/LongShortParking/LSP18.png",
@@ -245,7 +245,7 @@
     "LSP21.png": {
         "path": "SafetyCompliance/LongShortParking/LSP21.png",
         "category": "SafetyCompliance/LongShortParking",
-        "question": "What is the safe way to maneuver around the vehicle stopped in the lane ahead?",
+        "question": "What is the safe way to maneuver around the scene in the lane ahead?",
         "answers": "Check if the right lane is clear, then steer slightly right to pass before returning to the original lane.",
         "distractor1": "Pass on the right without checking if the lane is clear.",
         "distractor2": "Assume the stopped vehicle will move soon and wait behind it.",
@@ -263,16 +263,16 @@
     "LSP4.png": {
         "path": "SafetyCompliance/LongShortParking/LSP4.png",
         "category": "SafetyCompliance/LongShortParking",
-        "question": "The vehicle needs to move to the right. What should it do?",
-        "answers": "Activate the right turn signal and merge carefully to the right.",
-        "distractor1": "Merge first, then signal.",
-        "distractor2": "Expect other cars to make space for the merge.",
-        "distractor3": "Merge into the lane abruptly and without warning."
+        "question": "The vehicle needs to park. What should it do?",
+        "answers": "The vehicle cannot park to the left",
+        "distractor1": "Take the empty spot between the parked cars.",
+        "distractor2": "Park in front of the red car.",
+        "distractor3": "Park on the rightmost side of the road."
     },
     "LSP5.png": {
         "path": "SafetyCompliance/LongShortParking/LSP5.png",
         "category": "SafetyCompliance/LongShortParking",
-        "question": "How should the vehicle proceed past the car parked on the side of the road?",
+        "question": "How should the vehicle proceed past the scene ahead?",
         "answers": "Continue forward while steering slightly to the right to create a safe distance from the parked vehicle.",
         "distractor1": "Maintain the lane position and pass very close to the parked car.",
         "distractor2": "Stop and wait until there is no oncoming traffic before passing.",
@@ -281,8 +281,8 @@
     "LSP6.png": {
         "path": "SafetyCompliance/LongShortParking/LSP6.png",
         "category": "SafetyCompliance/LongShortParking",
-        "question": "The path ahead is crowded. What is the correct action for the autonomous vehicle?",
-        "answers": "Wait until the scene becomes clearer and there is enough space to move forward safely.",
+        "question": "What is the correct action for the autonomous vehicle given the scene ahead?",
+        "answers": "Wait until the scene becomes clearer and there is enough space to move forward, while slightly steering to the right safely.",
         "distractor1": "Edge forward slowly to claim a space.",
         "distractor2": "Reverse and find an alternative route.",
         "distractor3": "Use the horn to ask other road users to make way."
@@ -292,23 +292,23 @@
         "category": "SafetyCompliance/LongShortParking",
         "question": "As a responsible driver following the road, what is the correct action in this scene?",
         "answers": "Stay in the current lane and continue moving forward.",
-        "distractor1": "Shift to the right to be further from the center line.",
+        "distractor1": "Shift to the left to be further from the center line.",
         "distractor2": "Stop to check for potential hazards not visible.",
         "distractor3": "Increase speed as the road appears to be clear."
     },
     "LSP8.png": {
         "path": "SafetyCompliance/LongShortParking/LSP8.png",
         "category": "SafetyCompliance/LongShortParking",
-        "question": "The agent needs to move left to proceed. What is the proper sequence of actions?",
-        "answers": "Activate the left turn signal, merge carefully to the left, and then continue forward.",
-        "distractor1": "Merge to the left, then activate the signal.",
+        "question": "The agent needs to move forward to proceed. What is the proper sequence of actions?",
+        "answers": "Merge carefully to the left, and then continue forward.",
+        "distractor1": "Wait until the vehicle in front moves, then continue forward. ",
         "distractor2": "Wait for the car behind in the left lane to pass first.",
         "distractor3": "Quickly cut into the left lane before the gap closes."
     },
     "LSP9.png": {
         "path": "SafetyCompliance/LongShortParking/LSP9.png",
         "category": "SafetyCompliance/LongShortParking",
-        "question": "The vehicle needs to change to the right lane. What should it do?",
+        "question": "The vehicle currently moves forward with the speed of 30km/h. What should it do?",
         "answers": "Activate the right turn signal and merge carefully to the right.",
         "distractor1": "Drift into the right lane without signaling.",
         "distractor2": "Speed up to find a gap in the right lane.",
@@ -344,7 +344,7 @@
     "IRC1.png": {
         "path": "SafetyCompliance/InadequateRoadConditions/IRC1.png",
         "category": "SafetyCompliance/InadequateRoadConditions",
-        "question": "In heavy rain with low visibility, what action should the autonomous vehicle take?",
+        "question": "In this traffic scene, what action should the autonomous vehicle take?",
         "answers": "Slow down gradually and prepare to brake, maintaining a safe distance from the vehicle in front.",
         "distractor1": "Maintain the current speed to avoid disrupting traffic flow.",
         "distractor2": "Turn on hazard lights and pull over immediately.",
@@ -353,8 +353,8 @@
     "IRC10.png": {
         "path": "SafetyCompliance/InadequateRoadConditions/IRC10.png",
         "category": "SafetyCompliance/InadequateRoadConditions",
-        "question": "The road ahead appears clear despite the wet conditions. What should the vehicle do?",
-        "answers": "Continue moving forward at a safe and appropriate speed for the conditions.",
+        "question": "Given the current road and environmental state, What should you do as a responsible driver do?",
+        "answers": "Continue moving forward at a safe and appropriate speed.",
         "distractor1": "Increase speed because there is no other traffic.",
         "distractor2": "Stop the vehicle to verify the road is not flooded.",
         "distractor3": "Test the brakes by tapping them intermittently."
@@ -362,7 +362,7 @@
     "IRC11.png": {
         "path": "SafetyCompliance/InadequateRoadConditions/IRC11.png",
         "category": "SafetyCompliance/InadequateRoadConditions",
-        "question": "Visibility is low due to darkness and rain. What is the first action the vehicle should take?",
+        "question": "Given the current road and environmental state, What should you do as a responsible driver do?",
         "answers": "Ensure the headlights are on and then proceed forward with caution.",
         "distractor1": "Use high beams to see further, regardless of other cars.",
         "distractor2": "Wait for the rain to stop before proceeding.",
@@ -371,7 +371,7 @@
     "IRC12.png": {
         "path": "SafetyCompliance/InadequateRoadConditions/IRC12.png",
         "category": "SafetyCompliance/InadequateRoadConditions",
-        "question": "It is dark and the road is wet. What should the vehicle do?",
+        "question": "Your vehicle is currently going at 30km/h, given the current road and environmental state, What should you do as a responsible do?",
         "answers": "Turn on the headlights and move forward cautiously.",
         "distractor1": "Drive faster than usual to reduce time on the dangerous road.",
         "distractor2": "Keep headlights off to save battery.",
@@ -380,7 +380,7 @@
     "IRC13.png": {
         "path": "SafetyCompliance/InadequateRoadConditions/IRC13.png",
         "category": "SafetyCompliance/InadequateRoadConditions",
-        "question": "A vehicle is blocking the path on a flooded road. What should the AV do?",
+        "question": "Given the current road and environmental state, What should you do as a responsible driver do?",
         "answers": "Wait until the vehicle in front moves out of the way before proceeding.",
         "distractor1": "Attempt to drive around the blocking vehicle through deeper water.",
         "distractor2": "Reverse and find a non-flooded route.",
@@ -389,25 +389,25 @@
     "IRC14.jpeg": {
         "path": "SafetyCompliance/InadequateRoadConditions/IRC14.jpeg",
         "category": "SafetyCompliance/InadequateRoadConditions",
-        "question": "Visibility is extremely poor due to fog. How should the vehicle proceed?",
+        "question": "Given the current road and environmental state, What should you do as a responsible driver do?",
         "answers": "Move forward very slowly until the scene becomes clearer, then adjust speed accordingly.",
-        "distractor1": "Use high beams to try to see through the fog.",
-        "distractor2": "Stop in the current lane and wait for the fog to lift.",
+        "distractor1": "Accelerate to pass through the situation",
+        "distractor2": "Stop in the current lane and wait for the scene to clear.",
         "distractor3": "Follow the taillights of the car ahead very closely."
     },
     "IRC15.png": {
         "path": "SafetyCompliance/InadequateRoadConditions/IRC15.png",
         "category": "SafetyCompliance/InadequateRoadConditions",
-        "question": "How should the AV navigate around the puddle of water on the road?",
-        "answers": "Activate the right turn signal, steer slightly to the right to avoid the puddle, and then return to the original lane.",
-        "distractor1": "Drive through the middle of the puddle to test its depth.",
-        "distractor2": "Swerve around the puddle without signaling.",
-        "distractor3": "Maintain speed and drive through the puddle as it appears small."
+        "question": "Given the current road and environmental state, What should you do as a responsible driver do?",
+        "answers": "Steer slightly to the right, and then return to the original lane.",
+        "distractor1": "Stay in the current lane and drive through.",
+        "distractor2": "Stop completely and wait until the scene clears",
+        "distractor3": "Maintain speed and drive through."
     },
     "IRC16.png": {
         "path": "SafetyCompliance/InadequateRoadConditions/IRC16.png",
         "category": "SafetyCompliance/InadequateRoadConditions",
-        "question": "The vehicle is stopped in traffic on a wet road. What should it do?",
+        "question": "Given the current road and environmental state, What should you do as a responsible driver do?",
         "answers": "Wait until the vehicle in front moves, then proceed forward.",
         "distractor1": "Leave a very large gap to the vehicle in front.",
         "distractor2": "Try to move to another lane that might be moving.",
@@ -416,16 +416,16 @@
     "IRC17.png": {
         "path": "SafetyCompliance/InadequateRoadConditions/IRC17.png",
         "category": "SafetyCompliance/InadequateRoadConditions",
-        "question": "The camera view is obscured by rain. What is the safest course of action?",
+        "question": "Given the current road and environmental state, What should you do as a responsible driver do?",
         "answers": "Proceed at a reduced speed until visibility through the camera feed improves.",
         "distractor1": "Pull over to the side of the road and stop immediately.",
-        "distractor2": "Rely on other sensors like radar and continue at the current speed.",
+        "distractor2": "Swerve to the right side of the road and cotinue driving",
         "distractor3": "Accelerate to get out of the rainy area faster."
     },
     "IRC18.png": {
         "path": "SafetyCompliance/InadequateRoadConditions/IRC18.png",
         "category": "SafetyCompliance/InadequateRoadConditions",
-        "question": "Driving at night on a wet road, what should the vehicle do?",
+        "question": "Given the current road and environmental state, What should you do as a responsible driver do?",
         "answers": "Proceed in the current lane while carefully monitoring the surroundings.",
         "distractor1": "Drive faster to minimize time on the slippery road.",
         "distractor2": "Turn on the interior lights to improve visibility.",
@@ -434,34 +434,34 @@
     "IRC19.png": {
         "path": "SafetyCompliance/InadequateRoadConditions/IRC19.png",
         "category": "SafetyCompliance/InadequateRoadConditions",
-        "question": "It is nighttime. What immediate action should be taken before moving?",
-        "answers": "Activate the headlights and then move forward.",
-        "distractor1": "Start moving and then turn on the headlights.",
-        "distractor2": "Use parking lights only to save energy.",
+        "question": "Given the current road and environmental state, what immediate action should be taken before moving?",
+        "answers": "Activate the headlights and then move forward slowly.",
+        "distractor1": "Stop completely to analyze the scene further.",
+        "distractor2": "Accelerate and proceed forward.",
         "distractor3": "Wait for another car to pass to follow its lights."
     },
     "IRC3.png": {
         "path": "SafetyCompliance/InadequateRoadConditions/IRC3.png",
         "category": "SafetyCompliance/InadequateRoadConditions",
-        "question": "The road is flooded and occupied by other users. What should the autonomous vehicle do?",
+        "question": "Given the current road and environmental state, What should you do as a responsible driver do?",
         "answers": "Decelerate and wait until all other road users are no longer obstructing the path.",
-        "distractor1": "Create a wake by driving through the water at a moderate speed.",
-        "distractor2": "Find the shallowest-looking part of the water and proceed.",
-        "distractor3": "Follow another vehicle closely through the flooded area."
+        "distractor1": "Accelerate and drive through the streets.",
+        "distractor2": "Swerve to the right and move forward.",
+        "distractor3": "Follow another vehicle's action closely."
     },
     "IRC4.png": {
         "path": "SafetyCompliance/InadequateRoadConditions/IRC4.png",
         "category": "SafetyCompliance/InadequateRoadConditions",
-        "question": "How should the vehicle navigate this flooded street with other cars present?",
+        "question": "Given the current road and environmental state, What should you do as a responsible driver do?",
         "answers": "Move forward slowly, ensuring there is a safe distance from the other vehicles.",
-        "distractor1": "Drive on the crown of the road where the water is likely shallowest.",
-        "distractor2": "Stop and ask other drivers how deep the water is.",
-        "distractor3": "Drive quickly to prevent the engine from stalling in the water."
+        "distractor1": "Activate the turning lights and immediately go right.",
+        "distractor2": "Stop and ask other drivers how to navigate the road.",
+        "distractor3": "Drive quickly to prevent the scene to become more crowded."
     },
     "IRC5.png": {
         "path": "SafetyCompliance/InadequateRoadConditions/IRC5.png",
         "category": "SafetyCompliance/InadequateRoadConditions",
-        "question": "The vehicle is driving at night. What is the appropriate action?",
+        "question": "The vehicle is driving at a speed of 40km/h. What is the appropriate action?",
         "answers": "Keep moving forward with the headlights turned on.",
         "distractor1": "Turn high beams on, even with oncoming traffic.",
         "distractor2": "Slow down to a crawl to be extra safe.",
@@ -470,7 +470,7 @@
     "IRC6.png": {
         "path": "SafetyCompliance/InadequateRoadConditions/IRC6.png",
         "category": "SafetyCompliance/InadequateRoadConditions",
-        "question": "The vehicle is on a poorly lit, narrow road. How should it proceed?",
+        "question": "Given the current road and environmental state, What should you do as a responsible driver do?",
         "answers": "Continue forward slowly and carefully.",
         "distractor1": "Drive with high beams on at all times.",
         "distractor2": "Stay close to the center line to avoid the ditch.",
@@ -479,16 +479,16 @@
     "IRC7.png": {
         "path": "SafetyCompliance/InadequateRoadConditions/IRC7.png",
         "category": "SafetyCompliance/InadequateRoadConditions",
-        "question": "Driving in rainy conditions, what precautions must the vehicle take?",
+        "question": "Given the current road and environmental state, What should you do as a responsible driver do?",
         "answers": "Continue moving forward with headlights and taillights on, maintaining a safe distance from vehicles in front.",
         "distractor1": "Turn on hazard lights while driving to indicate caution.",
         "distractor2": "Brake frequently to dry off the brake rotors.",
-        "distractor3": "Draft behind a larger vehicle to reduce spray."
+        "distractor3": "Draft behind a larger vehicle to risk of getting hit."
     },
     "IRC8.png": {
         "path": "SafetyCompliance/InadequateRoadConditions/IRC8.png",
         "category": "SafetyCompliance/InadequateRoadConditions",
-        "question": "The vehicle is approaching a stopped car in the rain. What should it do?",
+        "question": "Given the current road and environmental state, What should you do as a responsible driver do?",
         "answers": "Move forward slowly and then apply the brakes to stop at a safe distance.",
         "distractor1": "Brake abruptly to test the road's grip.",
         "distractor2": "Prepare to swerve around the car in case it doesn't move.",
@@ -509,7 +509,7 @@
         "question": "The AV's destination is 'Meruya Joglo'. According to the sign, which action should it take?",
         "answers": "Move forward, proceeding carefully through the intersection.",
         "distractor1": "The sign is for a different destination, so ignore it.",
-        "distractor2": "Prepare to turn, as 'Joglo' is mentioned.",
+        "distractor2": "Prepare to turn right, as 'Joglo' is mentioned.",
         "distractor3": "Stop to read the sign more clearly."
     },
     "TPS11.png": {
@@ -528,7 +528,7 @@
         "answers": "Continue driving straight ahead.",
         "distractor1": "Prepare to turn left as that's where markets usually are.",
         "distractor2": "Slow down and look for a smaller sign with more details.",
-        "distractor3": "Assume the sign is old and follow the GPS navigation instead."
+        "distractor3": "Prepare to turn right as that's what the sign says."
     },
     "TPS13.png": {
         "path": "SafetyCompliance/TrajectoryPlanningSigns/TPS13.png",
@@ -537,12 +537,12 @@
         "answers": "Continue straight in the right lane.",
         "distractor1": "Move to the leftmost lane to prepare for a future exit.",
         "distractor2": "Take the exit for 'Tangerang' as it's in the same general direction.",
-        "distractor3": "Stay in the current lane, as all lanes go to 'Kebon Jeruk'."
+        "distractor3": "Stop to read the sign more clearly."
     },
     "TPS14.png": {
         "path": "SafetyCompliance/TrajectoryPlanningSigns/TPS14.png",
         "category": "SafetyCompliance/TrajectoryPlanningSigns",
-        "question": "The AV's destination is 'Kebon Jeruk'. Based on the road sign, which action is correct?",
+        "question": "The AV's destination is 'Rawa Belong'. Based on the road sign, which action is correct?",
         "answers": "Move into the right lane and prepare to turn right.",
         "distractor1": "Continue straight, as the sign is just an indicator for a future turn.",
         "distractor2": "Go straight through the intersection and make a U-turn.",
@@ -552,9 +552,9 @@
         "path": "SafetyCompliance/TrajectoryPlanningSigns/TPS15.png",
         "category": "SafetyCompliance/TrajectoryPlanningSigns",
         "question": "The AV's destination is 'Angke'. Which lane should the vehicle take?",
-        "answers": "Position the vehicle in the leftmost lane.",
+        "answers": "Position the vehicle to stay in the current lane.",
         "distractor1": "Stay in the middle lane for flexibility.",
-        "distractor2": "Any lane is fine as long as you turn left eventually.",
+        "distractor2": "Any lane is fine as long as you turn right eventually.",
         "distractor3": "Take the right lane to avoid heavy traffic on the left."
     },
     "TPS16.png": {
@@ -580,7 +580,7 @@
         "category": "SafetyCompliance/TrajectoryPlanningSigns",
         "question": "The AV's destination is 'Tomang'. According to the sign, which lane is correct?",
         "answers": "Remain in the current lane.",
-        "distractor1": "Move to the left lane as it's also signed for 'Tomang'.",
+        "distractor1": "Move to the right lane as it's also signed for 'Tomang'.",
         "distractor2": "Exit the highway to take local roads to 'Tomang'.",
         "distractor3": "Follow signs for 'Grogol' as it is nearby."
     },
@@ -588,7 +588,7 @@
         "path": "SafetyCompliance/TrajectoryPlanningSigns/TPS19.png",
         "category": "SafetyCompliance/TrajectoryPlanningSigns",
         "question": "The AV's destination is 'Pasar Baru'. Based on the sign, what should the vehicle do?",
-        "answers": "Move into the left lane and turn left at the upcoming fork.",
+        "answers": "Move into the right lane and turn right at the upcoming fork.",
         "distractor1": "Stay in the right lane and make a sharp left turn.",
         "distractor2": "Go straight, then make a U-turn to approach from the other side.",
         "distractor3": "Follow signs for 'Ancol' as it's a major landmark."
@@ -609,7 +609,7 @@
         "answers": "Continue forward in the current direction.",
         "distractor1": "Turn left, as 'Tanah Abang' is a large market district.",
         "distractor2": "The sign is unclear; stop to consult a map.",
-        "distractor3": "Move to the right lane to get a better view of upcoming signs."
+        "distractor3": "Turn to the right lane to get a better view of upcoming signs."
     },
     "TPS21.png": {
         "path": "SafetyCompliance/TrajectoryPlanningSigns/TPS21.png",
@@ -633,7 +633,7 @@
         "path": "SafetyCompliance/TrajectoryPlanningSigns/TPS23.png",
         "category": "SafetyCompliance/TrajectoryPlanningSigns",
         "question": "The AV's destination is 'Kebon Jeruk'. Based on the sign, what can be concluded?",
-        "answers": "The destination is in the opposite direction of current travel.",
+        "answers": "The destination is in the opposite direction of current travel, make a U-turn when the road allows it.",
         "distractor1": "The sign for 'Kebon Jeruk' is for traffic coming the other way, so ignore it.",
         "distractor2": "There is a 'Kebon Jeruk' exit coming up on the left.",
         "distractor3": "Perform an immediate U-turn to go toward 'Kebon Jeruk'."
@@ -731,7 +731,7 @@
     "TSR1.png": {
         "path": "SafetyCompliance/TrafficSignalRecognition/TSR1.png",
         "category": "SafetyCompliance/TrafficSignalRecognition",
-        "question": "The traffic light ahead is green. What should the autonomous vehicle do?",
+        "question": "With the traffic scene ahead, what should the autonomous vehicle do?",
         "answers": "Proceed through the intersection while the light is green, maintaining a safe speed.",
         "distractor1": "Slow down and prepare to stop in case the light changes.",
         "distractor2": "Come to a complete stop to check for cross-traffic.",
@@ -740,7 +740,7 @@
     "TSR10.png": {
         "path": "SafetyCompliance/TrafficSignalRecognition/TSR10.png",
         "category": "SafetyCompliance/TrafficSignalRecognition",
-        "question": "The traffic light is red. What is the required action?",
+        "question": "With the traffic scene ahead, what should the autonomous vehicle do?",
         "answers": "Stop the vehicle before the line and wait for the light to turn green.",
         "distractor1": "Slow down and proceed if there is no cross-traffic.",
         "distractor2": "Stop after the line to get a better view of the intersection.",
@@ -749,7 +749,7 @@
     "TSR11.png": {
         "path": "SafetyCompliance/TrafficSignalRecognition/TSR11.png",
         "category": "SafetyCompliance/TrafficSignalRecognition",
-        "question": "The traffic light is red. Where should the autonomous vehicle stop?",
+        "question": "With the traffic scene ahead, what should the autonomous vehicle do?",
         "answers": "Stop before the crosswalk and wait for the light to turn green.",
         "distractor1": "Stop on the crosswalk to be closer to the intersection.",
         "distractor2": "Stop only if there are pedestrians waiting to cross.",
@@ -758,7 +758,7 @@
     "TSR12.png": {
         "path": "SafetyCompliance/TrafficSignalRecognition/TSR12.png",
         "category": "SafetyCompliance/TrafficSignalRecognition",
-        "question": "The traffic light is red, but a green arrow for turning is not visible. What should the vehicle do?",
+        "question": "With the traffic scene ahead, what should the autonomous vehicle do?",
         "answers": "Remain stopped and wait for the main traffic light to turn green before proceeding.",
         "distractor1": "Proceed straight, as the red light is only for turning vehicles.",
         "distractor2": "Turn left cautiously, as the red light might not apply to turns.",
@@ -767,7 +767,7 @@
     "TSR13.png": {
         "path": "SafetyCompliance/TrafficSignalRecognition/TSR13.png",
         "category": "SafetyCompliance/TrafficSignalRecognition",
-        "question": "What is the correct action when approaching a green traffic light?",
+        "question": "With the traffic scene ahead, what should the autonomous vehicle do?",
         "answers": "Continue moving forward cautiously while the light remains green.",
         "distractor1": "Stop to ensure the light is not about to change.",
         "distractor2": "Always slow down at a green light.",
@@ -776,7 +776,7 @@
     "TSR2.png": {
         "path": "SafetyCompliance/TrafficSignalRecognition/TSR2.png",
         "category": "SafetyCompliance/TrafficSignalRecognition",
-        "question": "The traffic light is green. How should the autonomous vehicle proceed?",
+        "question": "With the traffic scene ahead, what should the autonomous vehicle do?",
         "answers": "Continue moving forward, but be prepared to stop if the light changes to yellow or red.",
         "distractor1": "Maintain speed regardless of how long the light has been green.",
         "distractor2": "Yield to any vehicles wanting to turn left from the opposite direction.",
@@ -785,7 +785,7 @@
     "TSR3.png": {
         "path": "SafetyCompliance/TrafficSignalRecognition/TSR3.png",
         "category": "SafetyCompliance/TrafficSignalRecognition",
-        "question": "With a green light, what is the proper way to navigate this intersection?",
+        "question": "With the traffic scene ahead, what should the autonomous vehicle do?",
         "answers": "Proceed through the intersection, maintaining a safe distance from other vehicles.",
         "distractor1": "Follow the car in front as closely as possible.",
         "distractor2": "Change lanes within the intersection to get ahead.",
@@ -794,7 +794,7 @@
     "TSR4.png": {
         "path": "SafetyCompliance/TrafficSignalRecognition/TSR4.png",
         "category": "SafetyCompliance/TrafficSignalRecognition",
-        "question": "The light is green and traffic is moving. What should the AV do?",
+        "question": "With the traffic scene ahead, what should the autonomous vehicle do?",
         "answers": "Follow the flow of traffic and proceed through the intersection while the light is green.",
         "distractor1": "Wait for the car in front to completely clear the intersection before starting to move.",
         "distractor2": "Try to pass the slower car on the right.",
@@ -803,7 +803,7 @@
     "TSR5.png": {
         "path": "SafetyCompliance/TrafficSignalRecognition/TSR5.png",
         "category": "SafetyCompliance/TrafficSignalRecognition",
-        "question": "The traffic light is green. What is the appropriate action?",
+        "question": "With the traffic scene ahead, what should the autonomous vehicle do?",
         "answers": "Continue forward at the current safe speed.",
         "distractor1": "Honk to alert pedestrians that you are proceeding.",
         "distractor2": "Stop to let the cars on the side road go first.",
@@ -812,7 +812,7 @@
     "TSR6.png": {
         "path": "SafetyCompliance/TrafficSignalRecognition/TSR6.png",
         "category": "SafetyCompliance/TrafficSignalRecognition",
-        "question": "Given the green light, what should the vehicle do?",
+        "question": "With the traffic scene ahead, what should the autonomous vehicle do?",
         "answers": "Proceed forward, remaining alert for any change in the traffic light's color.",
         "distractor1": "Cover the brake pedal in anticipation of a sudden yellow light.",
         "distractor2": "Focus only on the light and ignore other vehicles.",
@@ -821,7 +821,7 @@
     "TSR7.png": {
         "path": "SafetyCompliance/TrafficSignalRecognition/TSR7.png",
         "category": "SafetyCompliance/TrafficSignalRecognition",
-        "question": "What must the autonomous vehicle do at this red light?",
+        "question": "With the traffic scene ahead, what should the autonomous vehicle do?",
         "answers": "Stop before the crosswalk and wait until the traffic light turns green.",
         "distractor1": "Stop after the crosswalk to allow cars behind to move up.",
         "distractor2": "Since no cars are coming, proceed through the red light.",
@@ -830,7 +830,7 @@
     "TSR8.png": {
         "path": "SafetyCompliance/TrafficSignalRecognition/TSR8.png",
         "category": "SafetyCompliance/TrafficSignalRecognition",
-        "question": "The vehicle intends to turn left. What does the green light signal permit?",
+        "question": "With the traffic scene ahead, what should the autonomous vehicle do when the current direction is to the left?",
         "answers": "Proceed with the left turn, yielding to oncoming traffic if necessary.",
         "distractor1": "Turn left immediately as the green light gives you the right-of-way.",
         "distractor2": "Wait for a green arrow before turning left.",
@@ -839,15 +839,15 @@
     "TSR9.png": {
         "path": "SafetyCompliance/TrafficSignalRecognition/TSR9.png",
         "category": "SafetyCompliance/TrafficSignalRecognition",
-        "question": "The traffic light is green. What should the vehicle do?",
+        "question": "With the traffic scene ahead, what should the autonomous vehicle do?",
         "answers": "Continue moving forward while the light remains green.",
         "distractor1": "Stop, as the intersection looks congested.",
         "distractor2": "Wait for the light to turn yellow, then proceed.",
         "distractor3": "Accelerate to beat the yellow light."
     },
     "RSR10.png": {
-        "path": "SafetyCompliance/RoadSignsRecongition/RSR10.png",
-        "category": "SafetyCompliance/RoadSignsRecongition",
+        "path": "SafetyCompliance/RoadSignsRecognition/RSR10.png",
+        "category": "SafetyCompliance/RoadSignsRecognition",
         "question": "The vehicle intends to turn right. What does the road sign indicate?",
         "answers": "The sign indicates 'No Right Turn', so the vehicle must continue straight or turn left.",
         "distractor1": "Make a right turn, but only if there are no police around.",
@@ -855,8 +855,8 @@
         "distractor3": "Disregard the sign and turn right."
     },
     "RSR11.png": {
-        "path": "SafetyCompliance/RoadSignsRecongition/RSR11.png",
-        "category": "SafetyCompliance/RoadSignsRecongition",
+        "path": "SafetyCompliance/RoadSignsRecognition/RSR11.png",
+        "category": "SafetyCompliance/RoadSignsRecognition",
         "question": "What potential hazard does the road sign ahead indicate?",
         "answers": "Be aware of pedestrians who may be crossing the road.",
         "distractor1": "The sign indicates a playground, so look for children playing.",
@@ -864,17 +864,17 @@
         "distractor3": "The sign is a general caution sign with no specific meaning."
     },
     "RSR12.png": {
-        "path": "SafetyCompliance/RoadSignsRecongition/RSR12.png",
-        "category": "SafetyCompliance/RoadSignsRecongition",
-        "question": "What action is required upon seeing this pedestrian crossing sign?",
+        "path": "SafetyCompliance/RoadSignsRecognition/RSR12.png",
+        "category": "SafetyCompliance/RoadSignsRecognition",
+        "question": "What action is required upon seeing these sign?",
         "answers": "Slow down and be prepared to stop for any pedestrian using the crosswalk.",
         "distractor1": "Maintain speed unless a pedestrian is already in the crosswalk.",
         "distractor2": "Stop at the crosswalk even if no pedestrians are visible.",
         "distractor3": "Honk to warn pedestrians that you are not stopping."
     },
     "RSR13.png": {
-        "path": "SafetyCompliance/RoadSignsRecongition/RSR13.png",
-        "category": "SafetyCompliance/RoadSignsRecongition",
+        "path": "SafetyCompliance/RoadSignsRecognition/RSR13.png",
+        "category": "SafetyCompliance/RoadSignsRecognition",
         "question": "What do the signs indicate about stopping or parking here?",
         "answers": "Drive forward cautiously and do not stop or park on the side of the road.",
         "distractor1": "You can stop briefly to pick up or drop off passengers.",
@@ -882,8 +882,8 @@
         "distractor3": "The signs apply only during business hours."
     },
     "RSR14.png": {
-        "path": "SafetyCompliance/RoadSignsRecongition/RSR14.png",
-        "category": "SafetyCompliance/RoadSignsRecongition",
+        "path": "SafetyCompliance/RoadSignsRecognition/RSR14.png",
+        "category": "SafetyCompliance/RoadSignsRecognition",
         "question": "The vehicle needs to reverse its direction. What does the sign indicate?",
         "answers": "Proceed to the designated U-turn area ahead to change direction.",
         "distractor1": "Make an immediate U-turn at the sign.",
@@ -891,8 +891,8 @@
         "distractor3": "Turn right, then left, then left again to reverse direction."
     },
     "RSR15.png": {
-        "path": "SafetyCompliance/RoadSignsRecongition/RSR15.png",
-        "category": "SafetyCompliance/RoadSignsRecongition",
+        "path": "SafetyCompliance/RoadSignsRecognition/RSR15.png",
+        "category": "SafetyCompliance/RoadSignsRecognition",
         "question": "What precaution should the vehicle take based on this road sign?",
         "answers": "Reduce speed in anticipation of potential pedestrians crossing the road.",
         "distractor1": "Increase speed to clear the area quickly.",
@@ -900,8 +900,8 @@
         "distractor3": "Ignore the sign as it is not a regulatory stop sign."
     },
     "RSR16.png": {
-        "path": "SafetyCompliance/RoadSignsRecongition/RSR16.png",
-        "category": "SafetyCompliance/RoadSignsRecongition",
+        "path": "SafetyCompliance/RoadSignsRecognition/RSR16.png",
+        "category": "SafetyCompliance/RoadSignsRecognition",
         "question": "What restriction does the road sign impose?",
         "answers": "The vehicle is not permitted to park on the side of the road.",
         "distractor1": "Stopping is not permitted, but parking is allowed.",
@@ -909,8 +909,8 @@
         "distractor3": "The sign indicates a designated parking area ahead."
     },
     "RSR17.png": {
-        "path": "SafetyCompliance/RoadSignsRecongition/RSR17.png",
-        "category": "SafetyCompliance/RoadSignsRecongition",
+        "path": "SafetyCompliance/RoadSignsRecognition/RSR17.png",
+        "category": "SafetyCompliance/RoadSignsRecognition",
         "question": "What information does this sign provide to the driver?",
         "answers": "The current lane is exclusively for entering the adjacent building.",
         "distractor1": "The sign indicates the exit from the building.",
@@ -918,8 +918,8 @@
         "distractor3": "The sign is an advertisement for the building."
     },
     "RSR18.png": {
-        "path": "SafetyCompliance/RoadSignsRecongition/RSR18.png",
-        "category": "SafetyCompliance/RoadSignsRecongition",
+        "path": "SafetyCompliance/RoadSignsRecognition/RSR18.png",
+        "category": "SafetyCompliance/RoadSignsRecognition",
         "question": "The vehicle is exiting a building. Where is the exit according to the sign?",
         "answers": "The sign indicates the exit is to the left.",
         "distractor1": "The sign indicates the entrance is to the left.",
@@ -927,8 +927,8 @@
         "distractor3": "All vehicles must turn left."
     },
     "RSR19.png": {
-        "path": "SafetyCompliance/RoadSignsRecongition/RSR19.png",
-        "category": "SafetyCompliance/RoadSignsRecongition",
+        "path": "SafetyCompliance/RoadSignsRecognition/RSR19.png",
+        "category": "SafetyCompliance/RoadSignsRecognition",
         "question": "What upcoming road feature does this sign warn about?",
         "answers": "The sign indicates that two lanes of traffic will merge into one ahead.",
         "distractor1": "The sign indicates that a new lane is being added.",
@@ -936,8 +936,8 @@
         "distractor3": "The sign warns of a divided highway ending."
     },
     "RSR2.png": {
-        "path": "SafetyCompliance/RoadSignsRecongition/RSR2.png",
-        "category": "SafetyCompliance/RoadSignsRecongition",
+        "path": "SafetyCompliance/RoadSignsRecognition/RSR2.png",
+        "category": "SafetyCompliance/RoadSignsRecognition",
         "question": "The vehicle is traveling at 40 km/h and approaching this sign. What adjustment must it make?",
         "answers": "Reduce speed to comply with the 20 km/h speed limit indicated by the sign.",
         "distractor1": "Increase speed to at least 20 km/h.",
@@ -945,8 +945,8 @@
         "distractor3": "Maintain 40 km/h as the sign only applies to trucks."
     },
     "RSR20.png": {
-        "path": "SafetyCompliance/RoadSignsRecongition/RSR20.png",
-        "category": "SafetyCompliance/RoadSignsRecongition",
+        "path": "SafetyCompliance/RoadSignsRecognition/RSR20.png",
+        "category": "SafetyCompliance/RoadSignsRecognition",
         "question": "What should the agent do in response to this sign?",
         "answers": "Continue moving forward while being vigilant for pedestrians crossing.",
         "distractor1": "Stop at the sign and wait for pedestrians.",
@@ -954,8 +954,8 @@
         "distractor3": "Speed up to pass the crossing area before pedestrians arrive."
     },
     "RSR21.png": {
-        "path": "SafetyCompliance/RoadSignsRecongition/RSR21.png",
-        "category": "SafetyCompliance/RoadSignsRecongition",
+        "path": "SafetyCompliance/RoadSignsRecognition/RSR21.png",
+        "category": "SafetyCompliance/RoadSignsRecognition",
         "question": "The vehicle needs to turn right. What does the sign command?",
         "answers": "The sign prohibits turning right, so the vehicle must continue straight.",
         "distractor1": "The sign means right turns are allowed on a red light.",
@@ -963,8 +963,8 @@
         "distractor3": "Turn right, as the sign is likely outdated."
     },
     "RSR22.png": {
-        "path": "SafetyCompliance/RoadSignsRecongition/RSR22.png",
-        "category": "SafetyCompliance/RoadSignsRecongition",
+        "path": "SafetyCompliance/RoadSignsRecognition/RSR22.png",
+        "category": "SafetyCompliance/RoadSignsRecognition",
         "question": "What does this 'Hati-Hati' (Caution) sign advise the vehicle to do?",
         "answers": "Drive slowly and with increased caution.",
         "distractor1": "The sign means 'Stop Ahead'.",
@@ -972,8 +972,8 @@
         "distractor3": "The sign is purely informational and requires no action."
     },
     "RSR23.png": {
-        "path": "SafetyCompliance/RoadSignsRecongition/RSR23.png",
-        "category": "SafetyCompliance/RoadSignsRecongition",
+        "path": "SafetyCompliance/RoadSignsRecognition/RSR23.png",
+        "category": "SafetyCompliance/RoadSignsRecognition",
         "question": "What does this sign indicate about the lane ahead?",
         "answers": "The right lane is ending, and the vehicle must merge safely to the left.",
         "distractor1": "A new lane is opening on the left.",
@@ -981,8 +981,8 @@
         "distractor3": "Traffic from the left must merge into your lane."
     },
     "RSR24.png": {
-        "path": "SafetyCompliance/RoadSignsRecongition/RSR24.png",
-        "category": "SafetyCompliance/RoadSignsRecongition",
+        "path": "SafetyCompliance/RoadSignsRecognition/RSR24.png",
+        "category": "SafetyCompliance/RoadSignsRecognition",
         "question": "What rules do the signs on the pole indicate?",
         "answers": "Continue in the current lane and do not stop on the road.",
         "distractor1": "You must stop, but parking is allowed.",
@@ -990,8 +990,8 @@
         "distractor3": "The signs are for buses only."
     },
     "RSR25.png": {
-        "path": "SafetyCompliance/RoadSignsRecongition/RSR25.png",
-        "category": "SafetyCompliance/RoadSignsRecongition",
+        "path": "SafetyCompliance/RoadSignsRecognition/RSR25.png",
+        "category": "SafetyCompliance/RoadSignsRecognition",
         "question": "The vehicle needs to turn around. What does the sign indicate is the correct action?",
         "answers": "The vehicle is permitted to make a U-turn at the intersection ahead.",
         "distractor1": "The sign prohibits U-turns at the intersection.",
@@ -999,8 +999,8 @@
         "distractor3": "The sign indicates a sharp curve ahead, not a U-turn."
     },
     "RSR26.png": {
-        "path": "SafetyCompliance/RoadSignsRecongition/RSR26.png",
-        "category": "SafetyCompliance/RoadSignsRecongition",
+        "path": "SafetyCompliance/RoadSignsRecognition/RSR26.png",
+        "category": "SafetyCompliance/RoadSignsRecognition",
         "question": "What do these road signs instruct the vehicle to do?",
         "answers": "Remain in the current lane and maintain a maximum speed of 25 km/h.",
         "distractor1": "You must drive at exactly 25 km/h and can use any lane.",
@@ -1008,17 +1008,17 @@
         "distractor3": "The speed limit is 25 km/h, and you must exit to the left."
     },
     "RSR27.png": {
-        "path": "SafetyCompliance/RoadSignsRecongition/RSR27.png",
-        "category": "SafetyCompliance/RoadSignsRecongition",
-        "question": "What does the 'Dilarang Stop' (No Stopping) sign mean for the vehicle?",
+        "path": "SafetyCompliance/RoadSignsRecognition/RSR27.png",
+        "category": "SafetyCompliance/RoadSignsRecognition",
+        "question": "What does the sign in the scene mean for the vehicle and how should you as a driver react?",
         "answers": "Continue moving forward and do not stop suddenly in this area.",
         "distractor1": "You cannot park, but you can stop for up to 5 minutes.",
         "distractor2": "The sign applies only to the shoulder of the road.",
         "distractor3": "The sign indicates an upcoming stop sign."
     },
     "RSR28.png": {
-        "path": "SafetyCompliance/RoadSignsRecongition/RSR28.png",
-        "category": "SafetyCompliance/RoadSignsRecongition",
+        "path": "SafetyCompliance/RoadSignsRecognition/RSR28.png",
+        "category": "SafetyCompliance/RoadSignsRecognition",
         "question": "What information does the sign provide about the road ahead?",
         "answers": "The entrance to the toll gate is located in the right lane.",
         "distractor1": "The right lane is for toll payment with cash only.",
@@ -1026,8 +1026,8 @@
         "distractor3": "The toll gate is exiting to the right."
     },
     "RSR29.png": {
-        "path": "SafetyCompliance/RoadSignsRecongition/RSR29.png",
-        "category": "SafetyCompliance/RoadSignsRecongition",
+        "path": "SafetyCompliance/RoadSignsRecognition/RSR29.png",
+        "category": "SafetyCompliance/RoadSignsRecognition",
         "question": "Based on the sign, what should the vehicle do?",
         "answers": "Continue driving forward while being cautious of pedestrians crossing.",
         "distractor1": "The sign indicates a mandatory stop for pedestrians.",
@@ -1035,17 +1035,17 @@
         "distractor3": "This sign warns pedestrians to be cautious of cars."
     },
     "RSR3.png": {
-        "path": "SafetyCompliance/RoadSignsRecongition/RSR3.png",
-        "category": "SafetyCompliance/RoadSignsRecongition",
+        "path": "SafetyCompliance/RoadSignsRecognition/RSR3.png",
+        "category": "SafetyCompliance/RoadSignsRecognition",
         "question": "The vehicle's destination is to the left. What does the sign indicate?",
-        "answers": "The vehicle is permitted to turn left immediately without waiting for a green light, if the way is clear.",
+        "answers": "The vehicle is permitted to turn left immediately.",
         "distractor1": "You must turn left at the next intersection.",
         "distractor2": "You must wait for the green light before turning left.",
         "distractor3": "You can only turn left if you are in the far left lane."
     },
     "RSR30.png": {
-        "path": "SafetyCompliance/RoadSignsRecongition/RSR30.png",
-        "category": "SafetyCompliance/RoadSignsRecongition",
+        "path": "SafetyCompliance/RoadSignsRecognition/RSR30.png",
+        "category": "SafetyCompliance/RoadSignsRecognition",
         "question": "What should the agent be aware of, according to this sign?",
         "answers": "The vehicle can proceed forward but must be vigilant for pedestrians.",
         "distractor1": "The sign means pedestrians have the absolute right-of-way.",
@@ -1053,17 +1053,17 @@
         "distractor3": "The vehicle should honk to warn pedestrians of its approach."
     },
     "RSR31.png": {
-        "path": "SafetyCompliance/RoadSignsRecongition/RSR31.png",
-        "category": "SafetyCompliance/RoadSignsRecongition",
+        "path": "SafetyCompliance/RoadSignsRecognition/RSR31.png",
+        "category": "SafetyCompliance/RoadSignsRecognition",
         "question": "The agent wants to turn left. What restriction does the sign specify?",
-        "answers": "Left turns are only permitted during specific hours (6:00-10:00). Outside these hours, the vehicle must proceed straight.",
+        "answers": "Based on the time of day turn left immediately.",
         "distractor1": "Left turns are prohibited between 6:00 and 10:00.",
         "distractor2": "You can turn left anytime, but there might be heavy traffic between 6:00 and 10:00.",
         "distractor3": "The sign is a recommendation, not a mandatory rule."
     },
     "RSR32.png": {
-        "path": "SafetyCompliance/RoadSignsRecongition/RSR32.png",
-        "category": "SafetyCompliance/RoadSignsRecongition",
+        "path": "SafetyCompliance/RoadSignsRecognition/RSR32.png",
+        "category": "SafetyCompliance/RoadSignsRecognition",
         "question": "What information does this sign provide about the upcoming toll?",
         "answers": "There is a cashless-only toll gate ahead.",
         "distractor1": "The toll gate ahead accepts cash in all lanes.",
@@ -1071,8 +1071,8 @@
         "distractor3": "This sign is an advertisement for a cashless payment app."
     },
     "RSR33.png": {
-        "path": "SafetyCompliance/RoadSignsRecongition/RSR33.png",
-        "category": "SafetyCompliance/RoadSignsRecongition",
+        "path": "SafetyCompliance/RoadSignsRecognition/RSR33.png",
+        "category": "SafetyCompliance/RoadSignsRecognition",
         "question": "What two rules are indicated by the signs in this image?",
         "answers": "Do not park on the side of the road and continue moving forward.",
         "distractor1": "You cannot stop, but you can park.",
@@ -1080,8 +1080,8 @@
         "distractor3": "The signs indicate a one-way street with no parking."
     },
     "RSR4.png": {
-        "path": "SafetyCompliance/RoadSignsRecongition/RSR4.png",
-        "category": "SafetyCompliance/RoadSignsRecongition",
+        "path": "SafetyCompliance/RoadSignsRecognition/RSR4.png",
+        "category": "SafetyCompliance/RoadSignsRecognition",
         "question": "What does this road sign warn the driver about?",
         "answers": "Lanes will be merging ahead, so drive cautiously.",
         "distractor1": "The road ahead will split into two different directions.",
@@ -1089,8 +1089,8 @@
         "distractor3": "The sign warns that the right lane is for trucks only."
     },
     "RSR5.png": {
-        "path": "SafetyCompliance/RoadSignsRecongition/RSR5.png",
-        "category": "SafetyCompliance/RoadSignsRecongition",
+        "path": "SafetyCompliance/RoadSignsRecognition/RSR5.png",
+        "category": "SafetyCompliance/RoadSignsRecognition",
         "question": "What should the driver do in response to this sign showing a car on a slippery surface?",
         "answers": "Drive forward carefully and maintain a safe distance from other vehicles as the road may be slippery.",
         "distractor1": "Brake suddenly to test the road's traction.",
@@ -1098,8 +1098,8 @@
         "distractor3": "Accelerate to get through the slippery section faster."
     },
     "RSR6.png": {
-        "path": "SafetyCompliance/RoadSignsRecongition/RSR6.png",
-        "category": "SafetyCompliance/RoadSignsRecongition",
+        "path": "SafetyCompliance/RoadSignsRecognition/RSR6.png",
+        "category": "SafetyCompliance/RoadSignsRecognition",
         "question": "What action should be taken in response to this pedestrian crossing sign?",
         "answers": "Continue moving forward while carefully watching for pedestrians on the crosswalk.",
         "distractor1": "The sign requires you to come to a complete stop, even if no one is there.",
@@ -1107,8 +1107,8 @@
         "distractor3": "Increase speed to clear the crosswalk area quickly."
     },
     "RSR7.png": {
-        "path": "SafetyCompliance/RoadSignsRecongition/RSR7.png",
-        "category": "SafetyCompliance/RoadSignsRecongition",
+        "path": "SafetyCompliance/RoadSignsRecognition/RSR7.png",
+        "category": "SafetyCompliance/RoadSignsRecognition",
         "question": "What restriction does this sign indicate for the vehicle?",
         "answers": "Proceed forward, but only if the vehicle's height is less than 4.2 meters.",
         "distractor1": "The vehicle's width must be less than 4.2 meters.",
@@ -1116,7 +1116,7 @@
         "distractor3": "The bridge ahead is 4.2 miles away."
     },
     "RSR8.png": {
-        "path": "SafetyCompliance/RoadSignsRecongition/RSR8.png",
+        "path": "SafetyCompliance/RoadSignsRecognition/RSR8.png",
         "category": "SafetyCompliance/RoadSignsRecognition",
         "question": "What does this blue arrow sign indicate?",
         "answers": "Continue driving straight ahead in the current lane.",
@@ -1125,8 +1125,8 @@
         "distractor3": "The sign indicates a sharp curve ahead."
     },
     "RSR9.png": {
-        "path": "SafetyCompliance/RoadSignsRecongition/RSR9.png",
-        "category": "SafetyCompliance/RoadSignsRecongition",
+        "path": "SafetyCompliance/RoadSignsRecognition/RSR9.png",
+        "category": "SafetyCompliance/RoadSignsRecognition",
         "question": "What does this green arrow light signal indicate?",
         "answers": "The lane is open and the vehicle may proceed.",
         "distractor1": "You must turn in the direction of the arrow.",
