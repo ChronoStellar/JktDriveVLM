@@ -1133,11 +1133,11 @@
         "distractor2": "The green arrow indicates the start of a toll lane.",
         "distractor3": "You must stop, as the main traffic light is red."
     },
-    "LR1.png": {
+        "LR1.png": {
         "path": "PerceptionReasoning/LaneRecognition/LR1.png",
         "category": "PerceptionReasoning/LaneRecognition",
         "question": "What is the safest action, given that the lane boundary on the left is only partially visible?",
-        "answers": "Maintain lane-centering and proceed with caution, continuously monitoring markings and traffic flow.",
+        "answers": "Maintain lane-centering and proceed with caution, continuously check surroundings and traffic flow.",
         "distractor1": "Shift to the far right of the lane to maximize distance from the unclear boundary.",
         "distractor2": "Speed up to quickly pass the area of poor visibility.",
         "distractor3": "Assume the lane is ending and begin looking for an opportunity to merge right."
@@ -1146,7 +1146,7 @@
         "path": "PerceptionReasoning/LaneRecognition/LR2.png",
         "category": "PerceptionReasoning/LaneRecognition",
         "question": "Given the dense and unpredictable traffic, what is the safest immediate action for the vehicle?",
-        "answers": "Maintain a slow, predictable speed within the current lane, while identifying the solid line on the left as a boundary and ensuring the vehicle does not enter the adjacent lane.",
+        "answers": "Maintain a slow, steady speed. Do not cross the solid line into the adjacent lane on the left.",
         "distractor1": "Attempt to overtake the slower vehicles on the left to make progress.",
         "distractor2": "Stop completely and wait for the traffic ahead to clear before proceeding.",
         "distractor3": "Honk to alert other drivers and then accelerate through the dense traffic."
@@ -1155,7 +1155,7 @@
         "path": "PerceptionReasoning/LaneRecognition/LR3.png",
         "category": "PerceptionReasoning/LaneRecognition",
         "question": "Based on the current road environment, what is the vehicle's correct course of action?",
-        "answers": "Recognize the area to the left is not a lane for through traffic, maintain the current lane, and continue following the flow of traffic behind the truck.",
+        "answers": "Stay in the current lane and follow behind the truck, do not enter the left lane",
         "distractor1": "Use the open paved area on the left to overtake the slow-moving truck.",
         "distractor2": "Come to a stop to allow faster traffic to pass on the left.",
         "distractor3": "Signal left and merge into the open area, assuming it is a new lane forming."
@@ -1164,7 +1164,7 @@
         "path": "PerceptionReasoning/LaneRecognition/LR4.png",
         "category": "PerceptionReasoning/LaneRecognition",
         "question": "Given the current road layout, what is the correct lane positioning for our vehicle?",
-        "answers": "Continue in the current lane of traffic, identifying the lane on the right as a restricted Transjakarta busway that must not be entered.",
+        "answers": "Continue in the current lane. Avoid Transjakarta lane",
         "distractor1": "Merge into the right lane to allow faster vehicles to pass on the left.",
         "distractor2": "Enter the busway on the right, as it currently has less traffic.",
         "distractor3": "Stop and wait for instructions from traffic officials before proceeding."
@@ -1173,7 +1173,7 @@
         "path": "PerceptionReasoning/LaneRecognition/LR5.png",
         "category": "PerceptionReasoning/LaneRecognition",
         "question": "Considering the road markings and signs, what is the correct action for the vehicle in this traffic?",
-        "answers": "Identify the green-painted path on the left as a bicycle lane that must not be entered. The vehicle must remain in its current lane and wait for the traffic ahead to proceed.",
+        "answers": "Stay in the current lane and wait for traffic to move, avoid the green lane.",
         "distractor1": "Move partially into the green bicycle lane to make space for motorcycles.",
         "distractor2": "Use the bicycle lane to get ahead of the stopped traffic.",
         "distractor3": "Honk at the cars ahead to encourage them to move into the bicycle lane."
@@ -1181,8 +1181,8 @@
     "LR6.png": {
         "path": "PerceptionReasoning/LaneRecognition/LR6.png",
         "category": "PerceptionReasoning/LaneRecognition",
-        "question": "Based on our current lane and the surrounding road features, what is the vehicle's status and priority?",
-        "answers": "The vehicle is incorrectly positioned inside a red-painted, dedicated Transjakarta busway. The immediate priority is to find the first safe and legal opportunity to exit this lane and merge into the general traffic lanes to the right.",
+        "question": "What is the correct lane recognition decision in this scenario?",
+        "answers": "Switch to the general traffic lane on the right",
         "distractor1": "Continue driving in the busway as it offers a clear path with less traffic.",
         "distractor2": "Stop immediately and reverse out of the busway.",
         "distractor3": "Accelerate to match the speed of the buses that use this lane."
@@ -1191,7 +1191,7 @@
         "path": "PerceptionReasoning/LaneRecognition/LR7.png",
         "category": "PerceptionReasoning/LaneRecognition",
         "question": "Based on the road layout and the other vehicle present, what is the correct driving procedure?",
-        "answers": "Identify the green path on the right as a bicycle lane and remain in the current, correct lane. The vehicle should obey the \"No Stopping\" signs and monitor the motorcycle for unpredictable movements.",
+        "answers": "Stay in the current lane, follow the no-stopping rule, and watch the motorcycle closely and avoid green lane",
         "distractor1": "Pull over into the green bicycle lane to allow the motorcycle to pass more easily.",
         "distractor2": "Use the empty bicycle lane to overtake the slower traffic ahead.",
         "distractor3": "Stop to ask the motorcycle rider for directions."
@@ -1199,8 +1199,8 @@
     "LR8.png": {
         "path": "PerceptionReasoning/LaneRecognition/LR8.png",
         "category": "PerceptionReasoning/LaneRecognition",
-        "question": "Based on the overhead signs, what is the critical navigational decision the vehicle must make?",
-        "answers": "The vehicle must consult its programmed route. To go straight towards Kemayoran/Ancol, it should maintain its current lane. To move towards Kelapa Gading/Pulo Gadung, it must prepare to shift to the right, while simultaneously identifying the lane indicated by the yellow sign as a restricted Transjakarta busway that must not be entered.",
+        "question": "What decisions should the vehicle make in this traffic situation",
+        "answers": "Stay in the current general traffic lane, do not enter Transjakarta lane.",
         "distractor1": "Immediately move into the yellow-signed lane to follow the directions for Kelapa Gading.",
         "distractor2": "Stop under the signs to confirm the route before proceeding.",
         "distractor3": "Ignore the signs and follow the vehicle directly ahead."
@@ -1217,8 +1217,8 @@
     "LR11.png": {
         "path": "PerceptionReasoning/LaneRecognition/LR11.png",
         "category": "PerceptionReasoning/LaneRecognition",
-        "question": "Based on the upcoming navigational sign, what is the critical decision for the vehicle's lane positioning?",
-        "answers": "The vehicle must immediately consult its programmed route. If the destination requires taking this exit, the vehicle will begin planning a safe, multi-lane maneuver to the left. If the route continues straight, the vehicle will maintain its current lane positioning on the right side of the expressway.",
+        "question": "What is the critical lane decision based on the road layout and busway lane ahead?",
+        "answers": "Stay out of the busway lane on the left. Keep position in the correct traffic lane.",
         "distractor1": "Immediately begin moving to the left to avoid missing the exit.",
         "distractor2": "Speed up to get ahead of traffic before deciding which lane to be in.",
         "distractor3": "Stop on the shoulder to safely read the sign and decide on a course of action."
@@ -1227,7 +1227,7 @@
         "path": "PerceptionReasoning/LaneRecognition/LR12.png",
         "category": "PerceptionReasoning/LaneRecognition",
         "question": "Given the green light, what is the correct lane to select and the immediate action to take?",
-        "answers": "The vehicle will select the standard traffic lane. The action is to proceed forward, maintaining position within this lane and ensuring separation from the restricted bicycle lane on the left.",
+        "answers": "Stay in current lane, move forward while keeping clear of the bicycle lane on the left",
         "distractor1": "Use the empty bicycle lane on the left to get through the intersection more quickly.",
         "distractor2": "Wait for the bicycles to go first, even though the light is green for cars.",
         "distractor3": "Drive in the middle of the two lanes to keep options open."
@@ -1235,8 +1235,8 @@
     "LR13.png": {
         "path": "PerceptionReasoning/LaneRecognition/LR13.png",
         "category": "PerceptionReasoning/LaneRecognition",
-        "question": "Based purely on the lane markings, what is the agent's decision regarding its freedom of movement?",
-        "answers": "The decision is that the vehicle's movement is not restricted to the current lane. The dashed white lines on both sides permit the vehicle to execute a safe lane change to either the left or the right.",
+        "question": "What lane recognition decision should the vehicle make in this situation",
+        "answers": "Stay in the center or right traffic lanes and avoid bicycle lane on the far left",
         "distractor1": "The vehicle must stay in the current lane because it is the centermost lane.",
         "distractor2": "The vehicle should drift between lanes as the markings are only suggestions.",
         "distractor3": "The vehicle must exit the highway soon because dashed lines indicate an upcoming exit."
@@ -1245,7 +1245,7 @@
         "path": "PerceptionReasoning/LaneRecognition/LR14.png",
         "category": "PerceptionReasoning/LaneRecognition",
         "question": "Determine the status of the adjacent left lane and the resulting driving decision for our vehicle.",
-        "answers": "The lane to the left is identified as a restricted bicycle lane, a status confirmed by both the green pavement and the explicit \"Hati-Hati Lajur Sepeda\" warning sign. The decision is to treat this lane as a no-go area, maintaining our path within the standard traffic lane.",
+        "answers": "Avoid this lane and stay within the standard traffic lane.",
         "distractor1": "The green lane is a special-purpose lane; enter it to yield to faster traffic from behind.",
         "distractor2": "The sign is a general warning; the lane can be used for overtaking if it is clear.",
         "distractor3": "Shift slightly into the green lane to create more space from the traffic on the right."
@@ -1254,7 +1254,7 @@
         "path": "PerceptionReasoning/LaneRecognition/LR15.png",
         "category": "PerceptionReasoning/LaneRecognition",
         "question": "What is the correct lane selection and the main constraint in this environment?",
-        "answers": "The vehicle will maintain its current path in the standard traffic lane. The primary constraint is the green bicycle lane on the left, which is a restricted zone.",
+        "answers": "Stay in the standard lane, avoiding the restricted green bicycle lane on the left",
         "distractor1": "The vehicle should move into the green lane, as it has less traffic.",
         "distractor2": "The primary constraint is the slow-moving car ahead, which should be overtaken using the green lane.",
         "distractor3": "The vehicle should stop and wait for the bicycle lane to be completely clear before proceeding."
@@ -1263,7 +1263,7 @@
         "path": "PerceptionReasoning/LaneRecognition/LR16.png",
         "category": "PerceptionReasoning/LaneRecognition",
         "question": "Select the correct path for the vehicle and identify the immediate lane constraints.",
-        "answers": "The vehicle will continue forward in its current lane. It is constrained by the restricted bicycle lane on the left and the physically separated roadway on the right, both of which must be avoided.",
+        "answers": "Stay in current lane, avoid the restricted bicycle lane on the left and the separated road on the right.",
         "distractor1": "The correct path is to merge into the bicycle lane to avoid traffic congestion.",
         "distractor2": "The vehicle should prepare to merge right across the physical separator at the next available gap.",
         "distractor3": "The vehicle should stop, as it is boxed in by restricted lanes."
@@ -1272,7 +1272,7 @@
         "path": "PerceptionReasoning/LaneRecognition/LR17.png",
         "category": "PerceptionReasoning/LaneRecognition",
         "question": "Identify the status of the lane to the right and determine the required action.",
-        "answers": "The physically separated lane to the right is identified as a restricted Transjakarta busway. The vehicle will continue forward in the general traffic lanes and is prohibited from entering the busway.",
+        "answers": "Stay in general traffic lanes and not enter the busway lanes.",
         "distractor1": "The lane to the right is an express lane; the vehicle should merge into it to make better progress.",
         "distractor2": "The vehicle should prepare to enter the busway to pick up or drop off passengers.",
         "distractor3": "The separation indicates a toll road; the vehicle must prepare to pay a toll to enter the right lane."
@@ -1281,7 +1281,7 @@
         "path": "PerceptionReasoning/LaneRecognition/LR18.png",
         "category": "PerceptionReasoning/LaneRecognition",
         "question": "Determine the primary boundary of our current roadway and the resulting path.",
-        "answers": "The vehicle will continue forward on the current roadway. The landscaped median on the right is a hard boundary, making the road beyond it inaccessible from our current path.",
+        "answers": "Stay in  current lane. Avoid left lane and hard boundary.",
         "distractor1": "The median indicates a temporary diversion; the vehicle should look for a way to cross it.",
         "distractor2": "The primary boundary is the car ahead; the path is to follow it closely.",
         "distractor3": "The road beyond the median is the destination; the vehicle must perform a U-turn to access it."
@@ -1290,7 +1290,7 @@
         "path": "PerceptionReasoning/LaneRecognition/LR19.png",
         "category": "PerceptionReasoning/LaneRecognition",
         "question": "What is the vehicle's correct course of action?",
-        "answers": "The vehicle will continue forward in the general traffic lanes. The physically separated lane on the right is a restricted busway and must not be entered.",
+        "answers": "Stay in current lanes. The separated busway on the right is restricted and must be avoided.",
         "distractor1": "The lane on the right is an express lane; prepare to merge into it.",
         "distractor2": "The barrier on the right is temporary for construction; cautiously merge right.",
         "distractor3": "Stop and wait for the bus to pass before attempting to enter the right lane."
@@ -1299,7 +1299,7 @@
         "path": "PerceptionReasoning/LaneRecognition/LR20.png",
         "category": "PerceptionReasoning/LaneRecognition",
         "question": "What is the vehicle's correct course of action?",
-        "answers": "The vehicle will maintain its position in the current left lane. The sign ahead designates the right lane as a restricted Transjakarta bus lane, which must not be entered.",
+        "answers": "Stay in the left lane. The right lane is a restricted Transjakarta bus lane and must be avoided.",
         "distractor1": "Merge into the right lane to take advantage of the lighter traffic.",
         "distractor2": "The sign indicates buses are allowed, but cars can also use the lane if clear.",
         "distractor3": "Move to the right lane to prepare for a right turn at the upcoming intersection."
@@ -1308,7 +1308,7 @@
         "path": "PerceptionReasoning/LaneRecognition/LR21.png",
         "category": "PerceptionReasoning/LaneRecognition",
         "question": "Determine the immediate driving decision.",
-        "answers": "The vehicle will continue forward in the current lane. It is the only valid path, constrained by the restricted bicycle lane on the left and the chevron-marked buffer zone on the right.",
+        "answers": "Continue in the current lane, avoid left lane and only enter right lane under certain situation.",
         "distractor1": "Use the bicycle lane on the left to bypass the traffic ahead.",
         "distractor2": "Drive over the chevron-marked area to get into the faster-moving lane on the right.",
         "distractor3": "Stop, as the lane appears to be closing from both sides."
@@ -1317,7 +1317,7 @@
         "path": "PerceptionReasoning/LaneRecognition/LR22.png",
         "category": "PerceptionReasoning/LaneRecognition",
         "question": "What is the vehicle's correct course of action?",
-        "answers": "The vehicle is correctly positioned in the dedicated U-turn lane. The sign ahead prohibits proceeding straight into the busway.",
+        "answers": "Proceed to do U-turn. avoid going straight in the busway lane",
         "distractor1": "Proceed straight into the busway as it is the most direct path.",
         "distractor2": "Ignore the sign and follow the car in front.",
         "distractor3": "Reverse out of the U-turn lane and get into the main traffic lane."
@@ -1326,7 +1326,7 @@
         "path": "PerceptionReasoning/NarrowRoadway/NR1.png",
         "category": "PerceptionReasoning/NarrowRoadway",
         "question": "What is the primary risk in this environment and the correct mitigating action?",
-        "answers": "The decision is to proceed at minimal speed, maximizing clearance on all sides while actively scanning for hazards.",
+        "answers": "The decision is to proceed at minimal speed, maximizing clearance on all sides.",
         "distractor1": "Accelerate to get through the narrow section as quickly as possible.",
         "distractor2": "Stop and wait for all pedestrians and motorcycles to clear the area.",
         "distractor3": "Honk continuously to assert right-of-way and force a clear path."
@@ -1335,7 +1335,7 @@
         "path": "PerceptionReasoning/NarrowRoadway/NR2.png",
         "category": "PerceptionReasoning/NarrowRoadway",
         "question": "What maneuver is required to ensure safety and rule adherence?",
-        "answers": "Slow to a stop before the bottleneck and yield to the oncoming vehicle. Proceed only after the path is clear.",
+        "answers": "Stop before the bottleneck and let the oncoming vehicle pass. Go only when the way is clear.",
         "distractor1": "Accelerate to try and clear the narrow section before the oncoming vehicle arrives.",
         "distractor2": "Pull as far to the left as possible and attempt to squeeze past the oncoming vehicle.",
         "distractor3": "Flash high beams to signal the oncoming vehicle to yield."
@@ -1344,7 +1344,7 @@
         "path": "PerceptionReasoning/NarrowRoadway/NR3.png",
         "category": "PerceptionReasoning/NarrowRoadway",
         "question": "Analyze the immediate environment and define the next action.",
-        "answers": "Proceed forward at a minimal, creeping speed. Maintain maximum distance from the dense crowd of pedestrians and motorcycles, and be prepared to stop instantly.",
+        "answers": "Move forward slowly and keep a safe distance from the crowd and be ready to stop immediately.",
         "distractor1": "Stop the vehicle completely until every pedestrian has cleared the roadway.",
         "distractor2": "Use the horn to clear a path through the crowd.",
         "distractor3": "Accelerate slightly to keep pace with the motorcycles."
@@ -1353,7 +1353,7 @@
         "path": "PerceptionReasoning/NarrowRoadway/NR4.png",
         "category": "PerceptionReasoning/NarrowRoadway",
         "question": "What is the primary risk in this environment and the correct mitigating action?",
-        "answers": "proceed at a minimal, creeping speed, maintaining a precise central path while actively monitoring side clearances.",
+        "answers": "Move very slowly in the center of the lane while watching the space on both sides.",
         "distractor1": "Drive quickly to minimize time spent in the narrow area.",
         "distractor2": "Stop and reverse to find a wider street.",
         "distractor3": "Rely on the horn to warn any unseen obstacles around the corner."
@@ -1362,7 +1362,7 @@
         "path": "PerceptionReasoning/NarrowRoadway/NR5.png",
         "category": "PerceptionReasoning/NarrowRoadway",
         "question": "Determine the immediate driving decision.",
-        "answers": "Hold position and yield to the dense mix of pedestrians, motorcycles, and oncoming traffic. Proceed at a minimal creeping speed only when a safe path is clear.",
+        "answers": "Wait for pedestrians and oncoming vehicle traffic. Move forward slowly only when it\u2019s safe.",
         "distractor1": "Gently push forward into the crowd to claim space.",
         "distractor2": "Use the horn to demand right-of-way from pedestrians and motorcycles.",
         "distractor3": "Attempt to pass the oncoming car on the right side."
@@ -1371,7 +1371,7 @@
         "path": "PerceptionReasoning/NarrowRoadway/NR6.png",
         "category": "PerceptionReasoning/NarrowRoadway",
         "question": "Analyze the current environment and define the next action.",
-        "answers": "Creep forward slowly to the edge of the narrow road to clear the blind spots. Stop and yield to any approaching traffic from both directions before committing to the turn.",
+        "answers": "Proceed slowly in the center of the lane, avoiding vehicles and obstacles on both sides.",
         "distractor1": "Quickly turn into the narrow road before any cross-traffic appears.",
         "distractor2": "Honk before turning to warn potential traffic.",
         "distractor3": "Wait for another vehicle to make the turn first and then follow it."
@@ -1380,7 +1380,7 @@
         "path": "PerceptionReasoning/NarrowRoadway/NR7.png",
         "category": "PerceptionReasoning/NarrowRoadway",
         "question": "What maneuver is required to ensure safety and rule adherence?",
-        "answers": "Yield to the oncoming motorcycle. After it passes, proceed slowly through the narrow gap, maintaining precise positioning to safely clear the stopped truck on the left.",
+        "answers": "Wait for the motorcycle to pass. Then move slowly, keeping a steady path to safely pass the truck on the left.",
         "distractor1": "Attempt to squeeze past the motorcycle and truck simultaneously.",
         "distractor2": "Honk at the motorcycle to get it to move out of the way.",
         "distractor3": "Reverse and find an alternate route."
@@ -1389,7 +1389,7 @@
         "path": "PerceptionReasoning/NarrowRoadway/NR8.png",
         "category": "PerceptionReasoning/NarrowRoadway",
         "question": "Determine the immediate driving decision.",
-        "answers": "Approach the crest of the ramp with caution and reduce speed. Be prepared to stop and yield to the vehicle at the top or any unseen cross-traffic.",
+        "answers": "Proceed slowly, be cautious to stop for any vehicle ahead or hidden cross-traffic.",
         "distractor1": "Accelerate up the ramp to clear it quickly.",
         "distractor2": "Honk as you approach the top to warn other drivers.",
         "distractor3": "Assume right-of-way as the vehicle proceeding straight."
@@ -1398,7 +1398,7 @@
         "path": "PerceptionReasoning/NarrowRoadway/NR9.png",
         "category": "PerceptionReasoning/NarrowRoadway",
         "question": "What is the required maneuver to ensure safety and rule adherence?",
-        "answers": "Slow down and hold position, yielding to the oncoming car. Proceed only after it has cleared the narrow section and the path is clear.",
+        "answers": "Slow down and wait for the oncoming car to pass. Proceed only when the narrow path is clear.",
         "distractor1": "Accelerate to get through the narrow section first.",
         "distractor2": "Signal the other car to back up.",
         "distractor3": "Attempt to pass the car on the shoulder."
@@ -1452,7 +1452,7 @@
         "path": "PerceptionReasoning/NarrowRoadway/NR15.png",
         "category": "PerceptionReasoning/NarrowRoadway",
         "question": "Determine the optimal path based on the current scene.",
-        "answers": "Proceed at a minimal, creeping speed, maintaining a precise central path to maximize the tight clearance on both sides. Be prepared for an immediate stop.",
+        "answers": "Proceed slowly and stay centered to safely pass through narrow space",
         "distractor1": "Accelerate to get through the gap quickly.",
         "distractor2": "Get as close as possible to the left wall to maximize space on the right.",
         "distractor3": "Wait for another car to go first to see if there is enough space."
@@ -1461,7 +1461,7 @@
         "path": "PerceptionReasoning/NarrowRoadway/NR16.png",
         "category": "PerceptionReasoning/NarrowRoadway",
         "question": "What is the immediate priority for a safe maneuver?",
-        "answers": "Hold position and yield until the crossing motorcyclist has cleared the path. Afterward, creep forward to the edge of the road to scan for traffic before entering the narrow street.",
+        "answers": "Wait until the motorcyclist passes. Then move forward slowly and check for traffic before entering.",
         "distractor1": "Quickly turn in front of the motorcyclist.",
         "distractor2": "Honk at the motorcyclist to make them yield to you.",
         "distractor3": "Ignore the motorcyclist and focus only on the narrow street entrance."
@@ -1470,7 +1470,7 @@
         "path": "PerceptionReasoning/UnidirectionalTraffic/UT1.png",
         "category": "PerceptionReasoning/UnidirectionalTraffic",
         "question": "Determine the immediate driving decision.",
-        "answers": "Approach the intersection, stop, and look left for approaching vehicles. When a safe gap in traffic is confirmed, execute a left turn to merge into the unidirectional flow.",
+        "answers": "Stop at the intersection and check for traffic. Proceed when it's safe to join the one-way road",
         "distractor1": "Assume the road is clear and make the left turn without stopping.",
         "distractor2": "Turn right, as it is easier than merging left into traffic.",
         "distractor3": "Wait for a complete stop in traffic before attempting to merge."
@@ -1479,7 +1479,7 @@
         "path": "PerceptionReasoning/UnidirectionalTraffic/UT2.png",
         "category": "PerceptionReasoning/UnidirectionalTraffic",
         "question": "What is the primary risk in this environment and the correct mitigating action?",
-        "answers": "Maintain a predictable speed and path within the current lane. Before any lane change, perform extensive blind-spot checks due to the high density of filtering motorcycles.",
+        "answers": "Maintain current speed and stay in your lane. Check blind spots carefully before changing lanes.",
         "distractor1": "Frequently change lanes to find the fastest path through the traffic.",
         "distractor2": "Drive faster than the surrounding traffic to reduce the risk of being hit from behind.",
         "distractor3": "Focus only on the car directly ahead and ignore the motorcycles."
@@ -1488,7 +1488,7 @@
         "path": "PerceptionReasoning/UnidirectionalTraffic/UT3.png",
         "category": "PerceptionReasoning/UnidirectionalTraffic",
         "question": "Identify the primary hazard and the appropriate response.",
-        "answers": "Assess the narrow gap to the left of the stopped van. Due to the extremely high risk of a collision, the decision is to hold position and wait for the van to move.",
+        "answers": "Check the narrow space beside the van. If it\u2019s too tight, wait until the van moves.",
         "distractor1": "Attempt to squeeze through the narrow gap on the left of the van.",
         "distractor2": "Honk at the van to pressure the driver to move.",
         "distractor3": "Mount the curb on the right to get around the stopped van."
@@ -1497,7 +1497,7 @@
         "path": "PerceptionReasoning/UnidirectionalTraffic/UT4.png",
         "category": "PerceptionReasoning/UnidirectionalTraffic",
         "question": "What is the vehicle's plan for navigating this immediate area?",
-        "answers": "Follow the path indicated by the yellow arrow on the pavement. Proceed slowly, yield to the pedestrian ahead, and stay alert for truck movements as warned by the sign.",
+        "answers": "Follow the yellow arrow. Move slowly, give way to the pedestrian, and watch for trucks.",
         "distractor1": "Ignore the arrow and proceed straight, as it is the most direct route.",
         "distractor2": "Follow the arrow quickly to get out of the way of potential trucks.",
         "distractor3": "Stop and wait for the pedestrian to be completely off the road before moving."
@@ -1506,7 +1506,7 @@
         "path": "PerceptionReasoning/UnidirectionalTraffic/UT5.png",
         "category": "PerceptionReasoning/UnidirectionalTraffic",
         "question": "Define the next maneuver.",
-        "answers": "Slow down and adjust position to maximize clearance from the oncoming motorcycle. Be prepared to stop and yield to allow it to pass safely.",
+        "answers": "Slow down and shift to give space to the motorcycle. Stop if needed to let it pass safely",
         "distractor1": "Maintain speed and course, assuming the motorcycle will yield.",
         "distractor2": "Accelerate to pass the area before the motorcycle gets closer.",
         "distractor3": "Honk to warn the motorcycle of your presence."
@@ -1515,7 +1515,7 @@
         "path": "PerceptionReasoning/UnidirectionalTraffic/UT7.png",
         "category": "PerceptionReasoning/UnidirectionalTraffic",
         "question": "Identify the required maneuver and any immediate constraints.",
-        "answers": "Proceed straight, following the flow of traffic. The immediate constraint is the dense formation of motorcycles ahead, requiring a slow and cautious speed.",
+        "answers": "Perform a U-turn with traffic. Move slowly and carefully through the vehicles ahead.",
         "distractor1": "Attempt to overtake the motorcycles on the right.",
         "distractor2": "Stop and wait for the motorcycles to disperse.",
         "distractor3": "Honk to make the motorcycles clear a path."
@@ -1524,7 +1524,7 @@
         "path": "PerceptionReasoning/UnidirectionalTraffic/UT8.png",
         "category": "PerceptionReasoning/UnidirectionalTraffic",
         "question": "Define the next maneuver.",
-        "answers": "Maintain the current lane and speed, following the flow of unidirectional traffic. Continue to monitor surrounding vehicles for safe lane discipline.",
+        "answers": "Stay in your lane and keep your speed. Watch nearby vehicles to maintain safe lane discipline.",
         "distractor1": "Weave through traffic to find the fastest route.",
         "distractor2": "Slow down significantly to let other cars pass.",
         "distractor3": "Focus solely on the center line to maintain lane position."
@@ -1533,7 +1533,7 @@
         "path": "PerceptionReasoning/UnidirectionalTraffic/UT9.png",
         "category": "PerceptionReasoning/UnidirectionalTraffic",
         "question": "How should the vehicle safely navigate past the parked truck in this narrow tunnel?",
-        "answers": "Slow down to a minimal speed. Carefully align the vehicle to pass through the narrow gap on the left of the truck, using all sensors to monitor clearance on both sides.",
+        "answers": "Slow down carefully to pass the narrow gap left of the truck and check clearance on both sides.",
         "distractor1": "Speed up to get past the truck as quickly as possible.",
         "distractor2": "Stop and wait for the truck to move, even if it is parked.",
         "distractor3": "Honk to alert the parked truck before passing."
@@ -1551,7 +1551,7 @@
         "path": "PerceptionReasoning/UnidirectionalTraffic/UT11.png",
         "category": "PerceptionReasoning/UnidirectionalTraffic",
         "question": "How should the vehicle react to the pedestrians crossing the road ahead?",
-        "answers": "Slow to a complete stop at a safe distance before the crosswalk and yield to all pedestrians. Proceed only after they have safely cleared the vehicle's path.",
+        "answers": "Stop before the crosswalk and wait for all pedestrians to cross. Continue only when the path is clear",
         "distractor1": "Proceed slowly through the crosswalk, forcing pedestrians to walk around the vehicle.",
         "distractor2": "Honk to signal the pedestrians to cross faster.",
         "distractor3": "Drive around the pedestrians by using the oncoming lane."
@@ -1560,7 +1560,7 @@
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM1.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
         "question": "Based on the visible traffic signs, what is the primary navigational rule the vehicle must adhere to on this road?",
-        "answers": "Acknowledge the 'No U-turn' sign and update the path planner to prohibit that maneuver for this segment. Continue following the main roadway with the flow of traffic.",
+        "answers": "Acknowledge the 'No U-turn' sign and stay on the main road with traffic.",
         "distractor1": "Ignore the sign as it is likely only a suggestion.",
         "distractor2": "Make a U-turn, but do it quickly to avoid being caught.",
         "distractor3": "Stop the vehicle to re-route, as the planned U-turn is not allowed."
@@ -1569,7 +1569,7 @@
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM2.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
         "question": "Based on the regulatory signs ahead, what is the most critical adjustment the vehicle must make?",
-        "answers": "Reduce speed immediately to comply with the posted 20 km/h limit. Acknowledge the \"No Stopping\" regulation for this zone and proceed at the new, lower speed.",
+        "answers": "Slow down to 20 km/h and observe the no-stopping rule while continuing through the zone.",
         "distractor1": "Maintain current speed, as the limit is for larger vehicles.",
         "distractor2": "Pull over and stop to observe the traffic conditions ahead.",
         "distractor3": "Accelerate to clear the restricted speed zone more quickly."
@@ -1578,7 +1578,7 @@
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM3.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
         "question": "What action does the green traffic light authorize the vehicle to perform?",
-        "answers": "Acknowledge the green light as a signal to proceed. Continue through the intersection, maintaining a safe speed while monitoring the lead vehicle and surrounding traffic.",
+        "answers": "Proceed through the intersection at a safe speed, watching the lead vehicle and traffic.",
         "distractor1": "Stop and check for cross-traffic, as the green light may be malfunctioning.",
         "distractor2": "Accelerate rapidly to clear the intersection before the light changes.",
         "distractor3": "Wait for the car behind to honk before proceeding."
@@ -1587,7 +1587,7 @@
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM4.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
         "question": "Given that the motorcycle directly ahead is signaling its turn signal, what should the autonomous vehicle (AV) do next?",
-        "answers": "Slow down and maintain a safe following distance, allowing the motorcycle to complete the turn.",
+        "answers": "Slow down and keep a safe gap to let the motorcycle finish its merging",
         "distractor1": "Overtake the motorcycle before it begins to turn.",
         "distractor2": "Honk to signal that it is safe for the motorcycle to turn.",
         "distractor3": "Maintain current speed, assuming the motorcycle will turn quickly."
@@ -1596,7 +1596,7 @@
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM5.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
         "question": "Based on the overhead sign and painted markings on the floor, which path should the vehicle take?",
-        "answers": "Follow the path indicated by the yellow arrow on the floor, proceeding towards the parking exit designated by the overhead sign. Prepare to navigate to the right.",
+        "answers": "Follow the yellow arrow toward the parking exit. Get ready to turn left",
         "distractor1": "Ignore the floor markings and go straight, as it appears to be a shorter path.",
         "distractor2": "Stop and wait for other cars to confirm the correct path.",
         "distractor3": "Follow the exit sign but disregard the arrow, choosing the widest lane."
@@ -1605,7 +1605,7 @@
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM6.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
         "question": "Given that the motorcycle directly ahead is signaling its turn signal, what should the autonomous vehicle (AV) do next?",
-        "answers": "Slow down and maintain a safe following distance, allowing the motorcycle to complete the turn.",
+        "answers": "Slow down and maintain a safe following distance, allowing the motorcycle to merge to right lane",
         "distractor1": "Speed up to pass the motorcycle before it turns.",
         "distractor2": "Follow the motorcycle closely to protect it from rear traffic.",
         "distractor3": "Change lanes to go around the turning motorcycle."
@@ -1614,7 +1614,7 @@
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM7.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
         "question": "The large truck ahead is signaling a left turn into a narrow side street. What is the correct and safe response?",
-        "answers": "Reduce speed and maintain a safe following distance, allowing the truck ample space and time to complete its slow maneuver into the narrow street. Do not attempt to overtake.",
+        "answers": "Slow down and keep a safe distance. Do not try to overtake",
         "distractor1": "Quickly overtake the truck on the right before it starts turning.",
         "distractor2": "Honk at the truck to encourage it to complete the turn faster.",
         "distractor3": "Follow the truck closely to slip past it as it turns."
@@ -1632,7 +1632,7 @@
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM9.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
         "question": "The motorcycle in the adjacent right lane is signaling to exit the road. What is the correct response from our vehicle?",
-        "answers": "Acknowledge the motorcycle's signal. Since it does not conflict with our current path, maintain a predictable speed and lane position while continuing to monitor the motorcycle as it completes its maneuver.",
+        "answers": "Acknowledge the motorcycle\u2019s signal. Stay steady in speed and lane while monitoring its movement.",
         "distractor1": "Slow down and yield, even though the motorcycle is in another lane.",
         "distractor2": "Speed up to ensure you are clear of the motorcycle before it exits.",
         "distractor3": "Change lanes to the left to create more space."
@@ -1641,7 +1641,7 @@
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM10.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
         "question": "What is the correct action based on the observed movement of the dark gray car ahead?",
-        "answers": "Maintain a safe following distance from the white lead vehicle. The gray car ahead is proceeding straight within the lane and requires no immediate change to our current path.",
+        "answers": "Keep a safe distance from the white vehicle. The gray car ahead is going straight, no path change is needed.",
         "distractor1": "Anticipate the gray car will brake suddenly and reduce speed pre-emptively.",
         "distractor2": "Prepare to overtake the gray car as it seems to be moving slowly.",
         "distractor3": "Focus only on the white car, as the gray car is too far away to be relevant."
@@ -1650,7 +1650,7 @@
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM12.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
         "question": "The motorcycle directly ahead is signaling to change into the right lane. What is the safest response?",
-        "answers": "Acknowledge the lead motorcycle's right-turn signal. Increase the following distance and be prepared for it to decelerate as it waits for a safe gap in the adjacent lane. Do not attempt to overtake.",
+        "answers": "Acknowledge motorcycle\u2019s right-turn signal. Leave space, expect it to slow down, and do not overtake.",
         "distractor1": "Accelerate to pass the motorcycle on the left before it can change lanes.",
         "distractor2": "Honk to let the motorcycle know you are behind it.",
         "distractor3": "Block the lane change by moving slightly to the right."
@@ -1659,7 +1659,7 @@
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM13.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
         "question": "A blue van from the opposing direction is making a U-turn and blocking our path. What is the required action?",
-        "answers": "Slow to a stop and yield the right-of-way to the van completing its U-turn. Hold position until the van has cleared the lane and it is safe to proceed.",
+        "answers": "Stop and let the van finish its U-turn. Wait until the lane is clear before moving.",
         "distractor1": "Accelerate to try and get past the van before it completely blocks the road.",
         "distractor2": "Honk aggressively to force the van to stop its maneuver.",
         "distractor3": "Attempt to drive around the van on the right shoulder."
@@ -1668,7 +1668,7 @@
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM14.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
         "question": "The lead vehicle has signaled its intention to merge into the left lane. What is our vehicle's correct response?",
-        "answers": "Acknowledge the lead vehicle's signal to merge left. Increase the following distance to allow it space to slow down and safely complete the lane change. Do not attempt to overtake.",
+        "answers": "Recognize the lead vehicle\u2019s left signal. Create space for it to merge safely and avoid overtaking.",
         "distractor1": "Speed up and overtake the lead vehicle on the right before it merges.",
         "distractor2": "Move to the left to block the merge and maintain lane position.",
         "distractor3": "Honk to signal to the lead vehicle that it is not clear to merge."
@@ -1677,7 +1677,7 @@
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM15.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
         "question": "The black car to our left is in a lane where the painted arrow permits a left turn. How should our vehicle proceed?",
-        "answers": "Maintain the current course and speed, as it is not signaling a turn, while continuing to monitor it for any change in speed or position that would indicate an imminent maneuver.",
+        "answers": "Stay on course and maintain speed. Watch for any changes that might signal a sudden maneuver.",
         "distractor1": "Slow down and yield, assuming the car will turn left without signaling.",
         "distractor2": "Speed up to pass the car before reaching the intersection.",
         "distractor3": "Move to the right lane to avoid a potential conflict."
@@ -1686,7 +1686,7 @@
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM16.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
         "question": "What is the correct action in relation to the white car in the adjacent right lane?",
-        "answers": "Maintain current course and speed. The white car in the right lane is proceeding straight and does not require any deviation from our current path.",
+        "answers": "Maintain current course and speed. The white car is going straight and doesn\u2019t affect our path.",
         "distractor1": "Slow down in case the white car decides to merge unexpectedly.",
         "distractor2": "Speed up to create more distance from the white car.",
         "distractor3": "Move to the leftmost lane to be further away from the white car."
@@ -1695,7 +1695,7 @@
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM17.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
         "question": "What is the correct action in response to the blue car's current movement?",
-        "answers": "The blue car further up the road is proceeding straight within the lane and does not require any adjustment to our current path.",
+        "answers": "The blue car ahead is going straight. No change to our path is needed.",
         "distractor1": "Prepare to stop as the blue car might be turning.",
         "distractor2": "Speed up to catch up with the blue car.",
         "distractor3": "Change lanes as a precaution."
@@ -1704,7 +1704,7 @@
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM18.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
         "question": "A motorcycle from the left is merging into our lane with minimal clearance. What is the immediate safety action required?",
-        "answers": "Immediately reduce speed to create a safe gap for the motorcycle entering the lane. Yield the space and adjust our speed to match its movement to re-establish a safe following distance.",
+        "answers": "Slow down to let the motorcycle in. Match its speed to restore a safe following distance.",
         "distractor1": "Accelerate to prevent the motorcycle from merging in front.",
         "distractor2": "Honk loudly and maintain lane position to assert right-of-way.",
         "distractor3": "Swerve into the adjacent right lane to avoid the motorcycle."
@@ -1713,7 +1713,7 @@
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM19.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
         "question": "What is the correct action in response to the motorcycle traveling in the adjacent left lane?",
-        "answers": "Maintain current course and speed. The motorcycle is proceeding straight and does not require any immediate deviation from our plan.",
+        "answers": "Maintain current lane and speed. The motorcycle is going straight and poses no need to adjust.",
         "distractor1": "Slow down to let the motorcycle get ahead.",
         "distractor2": "Speed up to pass the motorcycle.",
         "distractor3": "Warn the motorcycle of your presence with a light honk."
@@ -1722,7 +1722,7 @@
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM20.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
         "question": "The white car in the adjacent left lane is signaling to merge into our lane. What is the safest action?",
-        "answers": "Acknowledge the signal from the white car. Yield the space in front by easing off the throttle or light braking, allowing the vehicle to safely merge into our lane ahead.",
+        "answers": "Acknowledge the white car\u2019s signal. Slow down to let it merge safely ahead.",
         "distractor1": "Accelerate to close the gap and prevent the merge.",
         "distractor2": "Honk to indicate that there is not enough space to merge.",
         "distractor3": "Maintain speed and course, forcing the other car to merge behind."
@@ -1731,7 +1731,7 @@
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM21.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
         "question": "The lead vehicle is signaling a left turn, What is the correct safety action?",
-        "answers": "Acknowledge the lead vehicle's left-turn signal. Anticipate its imminent deceleration by reducing our speed and increasing the following distance, creating a safe buffer for it to complete its turn.",
+        "answers": "Acknowledge vehicle\u2019s left signal. Slow down and leave space for it to turn safely.",
         "distractor1": "Quickly overtake the vehicle on the right before it begins to slow down.",
         "distractor2": "Maintain speed and follow closely, preparing to brake hard when it turns.",
         "distractor3": "Honk to signal that you are waiting behind it."
@@ -1740,7 +1740,7 @@
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM22.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
         "question": "Both the painted arrow on the floor and the illuminated sign indicate a left turn is required. What is the correct maneuver?",
-        "answers": "Execute a left turn, following the consistent direction provided by the painted and illuminated arrow signs. Proceed with caution, ensuring safe clearance from the pedestrian on the right.",
+        "answers": "Turn left as indicated by the arrows. Proceed carefully.",
         "distractor1": "Go straight, assuming the signs are for a different lane.",
         "distractor2": "Stop and wait for the pedestrian to move further away before turning.",
         "distractor3": "Turn right, away from the pedestrian."
@@ -1749,7 +1749,7 @@
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM23.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
         "question": "A motorcycle from the adjacent left lane is signaling and merging into our immediate path. What is the required safety action?",
-        "answers": "Immediately reduce speed to create a safe gap for the motorcycle merging from the left. Yield the space to avoid a collision and then adjust to establish a new, safe following distance.",
+        "answers": "Slow down to let the motorcycle merge from the left. Then adjust to a safe following distance",
         "distractor1": "Accelerate to get ahead of the motorcycle before it fully enters the lane.",
         "distractor2": "Swerve to the right to avoid the merging motorcycle.",
         "distractor3": "Maintain speed and honk to assert your right-of-way."
@@ -1758,7 +1758,7 @@
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM24.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
         "question": "The lead vehicle has signaled its intention to merge into the left lane. What is our vehicle's correct response?",
-        "answers": "Acknowledge the lead vehicle's left-turn signal. Increase the following distance to create a safe buffer, anticipating that it will slow down to wait for a gap in the adjacent lane.",
+        "answers": "Acknowledge lead vehicle\u2019s left signal. Increase distance, expecting it to slow for a lane change.",
         "distractor1": "Speed up to overtake on the right before the merge happens.",
         "distractor2": "Follow closely to prevent other cars from cutting in.",
         "distractor3": "Honk to signal that it is not clear to merge."
@@ -1767,7 +1767,7 @@
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM25.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
         "question": "The SUV in the adjacent right lane is signaling to merge into our lane. What is the required safety maneuver?",
-        "answers": "Acknowledge the signal from the SUV on the right. Ease off the throttle or apply light braking to create a safe gap, yielding the space to allow the vehicle to merge into our lane ahead.",
+        "answers": "Recognize the SUV\u2019s signal. Slow down slightly to allow it to merge safely ahead.",
         "distractor1": "Speed up to close the gap and prevent the SUV from merging.",
         "distractor2": "Swerve into the left lane to avoid the SUV.",
         "distractor3": "Maintain your speed and position, forcing the SUV to merge behind you."
@@ -1776,7 +1776,7 @@
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM26.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
         "question": "What is the correct action in response to the movement of the black motorcycle ahead of the lead \"Gojek\" rider?",
-        "answers": "Maintain a safe following distance from the lead motorcycle. The black motorcycle further ahead is following the natural curve of the road and currently requires no deviation from our path.",
+        "answers": "Keep a safe distance from the lead motorcycle. The black motorcycle ahead follows the curve and doesn\u2019t affect our path.",
         "distractor1": "Slow down, assuming the black motorcycle is about to stop.",
         "distractor2": "Overtake both motorcycles as they are moving slowly.",
         "distractor3": "Focus only on the Gojek rider, as the other motorcycle is not relevant."
