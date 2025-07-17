@@ -517,7 +517,7 @@
         "category": "SafetyCompliance/TrajectoryPlanningSigns",
         "question": "The AV's destination is 'Daan Mogot'. According to the overhead sign, which lane should the vehicle be in?",
         "answers": "Position the vehicle in the right lane.",
-        "distractor1": "Stay in the current lane and change later.",
+        "distractor1": "Make a U-turn because you have passed the intersection.",
         "distractor2": "Take the leftmost lane as it appears to be moving faster.",
         "distractor3": "The sign is advisory, so any lane is acceptable."
     },
@@ -546,14 +546,14 @@
         "answers": "Move into the right lane and prepare to turn right.",
         "distractor1": "Continue straight, as the sign is just an indicator for a future turn.",
         "distractor2": "Go straight through the intersection and make a U-turn.",
-        "distractor3": "Turn right from the current lane."
+        "distractor3": "Turn left from the current lane."
     },
     "TPS15.png": {
         "path": "SafetyCompliance/TrajectoryPlanningSigns/TPS15.png",
         "category": "SafetyCompliance/TrajectoryPlanningSigns",
         "question": "The AV's destination is 'Angke'. Which lane should the vehicle take?",
         "answers": "Position the vehicle to stay in the current lane.",
-        "distractor1": "Stay in the middle lane for flexibility.",
+        "distractor1": "Make a U-turn because you have passed the intersection.",
         "distractor2": "Any lane is fine as long as you turn right eventually.",
         "distractor3": "Take the right lane to avoid heavy traffic on the left."
     },
@@ -573,7 +573,7 @@
         "answers": "Proceed to the left.",
         "distractor1": "Go straight as 'Duri' is also listed for that direction.",
         "distractor2": "Turn right to find parking for the station.",
-        "distractor3": "Follow the bus in front of the car, assuming it's going to the station."
+        "distractor3": "Follow the mini bus in front of the car, assuming it's going to the station."
     },
     "TPS18.png": {
         "path": "SafetyCompliance/TrajectoryPlanningSigns/TPS18.png",
@@ -599,7 +599,7 @@
         "question": "The AV's destination is 'Kota'. According to the sign, which lane should it use?",
         "answers": "Remain in the current lane.",
         "distractor1": "Move to the far left lane to prepare for a later turn.",
-        "distractor2": "It doesn't matter which lane is used at this point.",
+        "distractor2": "Make a U-turn because you have passed the intersection.",
         "distractor3": "Exit the main road and use side streets."
     },
     "TPS20.png": {
@@ -652,7 +652,7 @@
         "category": "SafetyCompliance/TrajectoryPlanningSigns",
         "question": "The autonomous vehicle's destination is 'Jembatan Lima'. Which direction should it take?",
         "answers": "Proceed to the left.",
-        "distractor1": "Go straight to 'Roxy', which is nearby.",
+        "distractor1": "Go straight forward.",
         "distractor2": "Turn right to avoid the crowded market area.",
         "distractor3": "Stop and confirm the route as the sign is confusing."
     },
@@ -696,9 +696,9 @@
         "path": "SafetyCompliance/TrajectoryPlanningSigns/TPS6.png",
         "category": "SafetyCompliance/TrajectoryPlanningSigns",
         "question": "The AV's destination is 'Tanah Abang'. What maneuver is required based on the sign?",
-        "answers": "Turn right, then make a left.",
+        "answers": "Make a U-Turn, then make a left turn.",
         "distractor1": "Turn left directly.",
-        "distractor2": "Make a U-turn at the intersection.",
+        "distractor2": "Make a U-turn at the intersection, then go straight.",
         "distractor3": "Go straight and follow a different sign for 'Tanah Abang'."
     },
     "TPS7.png": {
@@ -735,30 +735,30 @@
         "answers": "Proceed through the intersection while the light is green, maintaining a safe speed.",
         "distractor1": "Slow down and prepare to stop in case the light changes.",
         "distractor2": "Come to a complete stop to check for cross-traffic.",
-        "distractor3": "Accelerate to get through the intersection before the light turns yellow."
+        "distractor3": "Accelerate to get through the intersection before the light turns red."
     },
     "TSR10.png": {
         "path": "SafetyCompliance/TrafficSignalRecognition/TSR10.png",
         "category": "SafetyCompliance/TrafficSignalRecognition",
         "question": "With the traffic scene ahead, what should the autonomous vehicle do?",
-        "answers": "Stop the vehicle before the line and wait for the light to turn green.",
-        "distractor1": "Slow down and proceed if there is no cross-traffic.",
-        "distractor2": "Stop after the line to get a better view of the intersection.",
-        "distractor3": "Proceed, as the light may be broken."
+        "answers": "Stop the vehicle and wait for the light to turn green.",
+        "distractor1": "There's too many information going on, the agent cannot make a decision.",
+        "distractor2": "The light is yellow so prepare to move forward.",
+        "distractor3": "Accelerate, as the light may be broken."
     },
     "TSR11.png": {
         "path": "SafetyCompliance/TrafficSignalRecognition/TSR11.png",
         "category": "SafetyCompliance/TrafficSignalRecognition",
         "question": "With the traffic scene ahead, what should the autonomous vehicle do?",
         "answers": "Stop before the crosswalk and wait for the light to turn green.",
-        "distractor1": "Stop on the crosswalk to be closer to the intersection.",
+        "distractor1": "inch closer to the crosswalk to be closer to the intersection.",
         "distractor2": "Stop only if there are pedestrians waiting to cross.",
         "distractor3": "Turn right, as turning right on red is always permitted."
     },
     "TSR12.png": {
         "path": "SafetyCompliance/TrafficSignalRecognition/TSR12.png",
         "category": "SafetyCompliance/TrafficSignalRecognition",
-        "question": "With the traffic scene ahead, what should the autonomous vehicle do?",
+        "question": "With the traffic scene ahead, what should the autonomous vehicle do, given the current direction is forward?",
         "answers": "Remain stopped and wait for the main traffic light to turn green before proceeding.",
         "distractor1": "Proceed straight, as the red light is only for turning vehicles.",
         "distractor2": "Turn left cautiously, as the red light might not apply to turns.",
@@ -778,7 +778,7 @@
         "category": "SafetyCompliance/TrafficSignalRecognition",
         "question": "With the traffic scene ahead, what should the autonomous vehicle do?",
         "answers": "Continue moving forward, but be prepared to stop if the light changes to yellow or red.",
-        "distractor1": "Maintain speed regardless of how long the light has been green.",
+        "distractor1": "Stop because the light has turned red.",
         "distractor2": "Yield to any vehicles wanting to turn left from the opposite direction.",
         "distractor3": "Accelerate to ensure passage through the intersection."
     },
@@ -787,7 +787,7 @@
         "category": "SafetyCompliance/TrafficSignalRecognition",
         "question": "With the traffic scene ahead, what should the autonomous vehicle do?",
         "answers": "Proceed through the intersection, maintaining a safe distance from other vehicles.",
-        "distractor1": "Follow the car in front as closely as possible.",
+        "distractor1": "Follow the vehicle in front as closely as possible.",
         "distractor2": "Change lanes within the intersection to get ahead.",
         "distractor3": "Stop in the middle of the intersection if traffic backs up."
     },
@@ -795,17 +795,17 @@
         "path": "SafetyCompliance/TrafficSignalRecognition/TSR4.png",
         "category": "SafetyCompliance/TrafficSignalRecognition",
         "question": "With the traffic scene ahead, what should the autonomous vehicle do?",
-        "answers": "Follow the flow of traffic and proceed through the intersection while the light is green.",
-        "distractor1": "Wait for the car in front to completely clear the intersection before starting to move.",
+        "answers": "Follow the flow of traffic and proceed through the road while the light is green.",
+        "distractor1": "Wait for the car in front to completely clear the road before starting to move.",
         "distractor2": "Try to pass the slower car on the right.",
-        "distractor3": "Assume the light will stay green and look at the scenery."
+        "distractor3": "The light is red, stop immediately."
     },
     "TSR5.png": {
         "path": "SafetyCompliance/TrafficSignalRecognition/TSR5.png",
         "category": "SafetyCompliance/TrafficSignalRecognition",
         "question": "With the traffic scene ahead, what should the autonomous vehicle do?",
         "answers": "Continue forward at the current safe speed.",
-        "distractor1": "Honk to alert pedestrians that you are proceeding.",
+        "distractor1": "Turn right for clearer traffic.",
         "distractor2": "Stop to let the cars on the side road go first.",
         "distractor3": "Accelerate significantly."
     },
@@ -815,23 +815,23 @@
         "question": "With the traffic scene ahead, what should the autonomous vehicle do?",
         "answers": "Proceed forward, remaining alert for any change in the traffic light's color.",
         "distractor1": "Cover the brake pedal in anticipation of a sudden yellow light.",
-        "distractor2": "Focus only on the light and ignore other vehicles.",
+        "distractor2": "Focus on the red light and stop.",
         "distractor3": "Speed up before the light can change."
     },
     "TSR7.png": {
         "path": "SafetyCompliance/TrafficSignalRecognition/TSR7.png",
         "category": "SafetyCompliance/TrafficSignalRecognition",
-        "question": "With the traffic scene ahead, what should the autonomous vehicle do?",
+        "question": "With the traffic scene ahead, what should the autonomous vehicle do, given that the current direction is to the right?",
         "answers": "Stop before the crosswalk and wait until the traffic light turns green.",
         "distractor1": "Stop after the crosswalk to allow cars behind to move up.",
-        "distractor2": "Since no cars are coming, proceed through the red light.",
+        "distractor2": "Go follow the road with green light to the middle lane.",
         "distractor3": "Make a right turn to avoid waiting for the light."
     },
     "TSR8.png": {
         "path": "SafetyCompliance/TrafficSignalRecognition/TSR8.png",
         "category": "SafetyCompliance/TrafficSignalRecognition",
-        "question": "With the traffic scene ahead, what should the autonomous vehicle do when the current direction is to the left?",
-        "answers": "Proceed with the left turn, yielding to oncoming traffic if necessary.",
+        "question": "With the traffic scene ahead, what should the autonomous vehicle do when the current direction is to the right?",
+        "answers": "Proceed with the right turn, yielding to oncoming traffic if necessary.",
         "distractor1": "Turn left immediately as the green light gives you the right-of-way.",
         "distractor2": "Wait for a green arrow before turning left.",
         "distractor3": "Go straight and make a U-turn later."
@@ -843,7 +843,7 @@
         "answers": "Continue moving forward while the light remains green.",
         "distractor1": "Stop, as the intersection looks congested.",
         "distractor2": "Wait for the light to turn yellow, then proceed.",
-        "distractor3": "Accelerate to beat the yellow light."
+        "distractor3": "Stop completely because the light is red."
     },
     "RSR10.png": {
         "path": "SafetyCompliance/RoadSignsRecognition/RSR10.png",
@@ -1133,7 +1133,7 @@
         "distractor2": "The green arrow indicates the start of a toll lane.",
         "distractor3": "You must stop, as the main traffic light is red."
     },
-        "LR1.png": {
+    "LR1.png": {
         "path": "PerceptionReasoning/LaneRecognition/LR1.png",
         "category": "PerceptionReasoning/LaneRecognition",
         "question": "What is the safest action, given that the lane boundary on the left is only partially visible?",
@@ -1334,8 +1334,8 @@
     "NR2.png": {
         "path": "PerceptionReasoning/NarrowRoadway/NR2.png",
         "category": "PerceptionReasoning/NarrowRoadway",
-        "question": "What maneuver is required to ensure safety and rule adherence?",
-        "answers": "Stop before the bottleneck and let the oncoming vehicle pass. Go only when the way is clear.",
+        "question": "What maneuver is required to ensure safety and rule adherence, given the intended action of the vehicle in front?",
+        "answers": "Wait until the way is clear, then proceed forward.",
         "distractor1": "Accelerate to try and clear the narrow section before the oncoming vehicle arrives.",
         "distractor2": "Pull as far to the left as possible and attempt to squeeze past the oncoming vehicle.",
         "distractor3": "Flash high beams to signal the oncoming vehicle to yield."
@@ -1352,7 +1352,7 @@
     "NR4.png": {
         "path": "PerceptionReasoning/NarrowRoadway/NR4.png",
         "category": "PerceptionReasoning/NarrowRoadway",
-        "question": "What is the primary risk in this environment and the correct mitigating action?",
+        "question": "What is the correct mitigating action to the current environment?",
         "answers": "Move very slowly in the center of the lane while watching the space on both sides.",
         "distractor1": "Drive quickly to minimize time spent in the narrow area.",
         "distractor2": "Stop and reverse to find a wider street.",
@@ -1362,8 +1362,8 @@
         "path": "PerceptionReasoning/NarrowRoadway/NR5.png",
         "category": "PerceptionReasoning/NarrowRoadway",
         "question": "Determine the immediate driving decision.",
-        "answers": "Wait for pedestrians and oncoming vehicle traffic. Move forward slowly only when it\u2019s safe.",
-        "distractor1": "Gently push forward into the crowd to claim space.",
+        "answers": "Gently push forward into the crowd to claim space.",
+        "distractor1": "Accelerate when there's enough space for the Autonomous Vehicle.",
         "distractor2": "Use the horn to demand right-of-way from pedestrians and motorcycles.",
         "distractor3": "Attempt to pass the oncoming car on the right side."
     },
@@ -1380,7 +1380,7 @@
         "path": "PerceptionReasoning/NarrowRoadway/NR7.png",
         "category": "PerceptionReasoning/NarrowRoadway",
         "question": "What maneuver is required to ensure safety and rule adherence?",
-        "answers": "Wait for the motorcycle to pass. Then move slowly, keeping a steady path to safely pass the truck on the left.",
+        "answers": "Wait for the motorcycle to pass. Then drive forward safely.",
         "distractor1": "Attempt to squeeze past the motorcycle and truck simultaneously.",
         "distractor2": "Honk at the motorcycle to get it to move out of the way.",
         "distractor3": "Reverse and find an alternate route."
@@ -1397,11 +1397,11 @@
     "NR9.png": {
         "path": "PerceptionReasoning/NarrowRoadway/NR9.png",
         "category": "PerceptionReasoning/NarrowRoadway",
-        "question": "What is the required maneuver to ensure safety and rule adherence?",
-        "answers": "Slow down and wait for the oncoming car to pass. Proceed only when the narrow path is clear.",
-        "distractor1": "Accelerate to get through the narrow section first.",
-        "distractor2": "Signal the other car to back up.",
-        "distractor3": "Attempt to pass the car on the shoulder."
+        "question": "Given the situation ahead, will the agent's vehicle able to drive through the vehicle from opposite direction?",
+        "answers": "Attempt to proceed carefully, as the agent might still fit through the gap",
+        "distractor1": "The agent can proceed through the road, as it is a two-way lane with just enough clearance.",
+        "distractor2": "The agent cannot pass through, as the roadway is too narrow to navigate safely.",
+        "distractor3": "The agent should accelerate immediately, as the available gap is closing and may soon become impassable."
     },
     "NR10.png": {
         "path": "PerceptionReasoning/NarrowRoadway/NR10.png",
@@ -1428,7 +1428,7 @@
         "answers": "Slow down and hold position. Proceed only after the car has passed and the path is confirmed to be clear.",
         "distractor1": "Flash headlights to assert right-of-way and proceed first.",
         "distractor2": "Speed up to clear the narrow section before the other car reaches it.",
-        "distractor3": "Pull onto the dirt shoulder to let the other car pass."
+        "distractor3": "Stop immediately to let the other car pass."
     },
     "NR13.png": {
         "path": "PerceptionReasoning/NarrowRoadway/NR13.png",
@@ -1443,7 +1443,7 @@
         "path": "PerceptionReasoning/NarrowRoadway/NR14.png",
         "category": "PerceptionReasoning/NarrowRoadway",
         "question": "Analyze the immediate environment and define the next action.",
-        "answers": "Maintaining a safe, take a centered path within the narrow channel.",
+        "answers": "Maintain a safe distance, take a centered path within the narrow channel.",
         "distractor1": "Overtake the lead vehicle as it is moving too slowly.",
         "distractor2": "Stop and wait for the construction to be finished.",
         "distractor3": "Honk to encourage the lead vehicle to speed up."
@@ -2518,5 +2518,23 @@
         "distractor1": "They will quickly move to the sidewalk once they notice the agent.",
         "distractor2": "They are waiting for a gap in traffic to cross the street.",
         "distractor3": "They will leave the road as soon as the agent honks."
+    },
+    "UT10.jpg": {
+        "path": "PerceptionReasoning/UnidirectionalTraffic/UT10.jpg",
+        "category": "PerceptionReasoning/UnidirectionalTraffic",
+        "question": "",
+        "answers": "",
+        "distractor1": "",
+        "distractor2": "",
+        "distractor3": ""
+    },
+    "LR9.jpg": {
+        "path": "PerceptionReasoning/LaneRecognition/LR9.jpg",
+        "category": "PerceptionReasoning/LaneRecognition",
+        "question": "",
+        "answers": "",
+        "distractor1": "",
+        "distractor2": "",
+        "distractor3": ""
     }
 }
