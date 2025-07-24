@@ -1136,74 +1136,74 @@
     "LR1.png": {
         "path": "PerceptionReasoning/LaneRecognition/LR1.png",
         "category": "PerceptionReasoning/LaneRecognition",
-        "question": "What is the safest action, given that the lane boundary on the left is only partially visible?",
-        "answers": "Maintain lane-centering and proceed with caution, continuously check surroundings and traffic flow.",
-        "distractor1": "Shift to the far right of the lane to maximize distance from the unclear boundary.",
-        "distractor2": "Speed up to quickly pass the area of poor visibility.",
-        "distractor3": "Assume the lane is ending and begin looking for an opportunity to merge right."
+        "question": "What is the purpose of the red-colored pavement on the far right lane?",
+        "answers": "It designates a special-use lane, the TransJakarta buses.",
+        "distractor1": "It indicates a high-speed or express lane for all vehicles willing to pay a toll.",
+        "distractor2": "It serves as a warning to drivers that the road surface in that area is damaged or under construction.",
+        "distractor3": " It marks an emergency lane that must be kept clear for ambulances and fire trucks only."
     },
     "LR2.png": {
         "path": "PerceptionReasoning/LaneRecognition/LR2.png",
         "category": "PerceptionReasoning/LaneRecognition",
-        "question": "Given the dense and unpredictable traffic, what is the safest immediate action for the vehicle?",
-        "answers": "Maintain a slow, steady speed. Do not cross the solid line into the adjacent lane on the left.",
-        "distractor1": "Attempt to overtake the slower vehicles on the left to make progress.",
-        "distractor2": "Stop completely and wait for the traffic ahead to clear before proceeding.",
-        "distractor3": "Honk to alert other drivers and then accelerate through the dense traffic."
+        "question": "What is the specific purpose signified by the green-colored pavement on the lane to the left?",
+        "answers": "Dedicated for bicycle.",
+        "distractor1": "It marks a priority lane for public transport, such as the blue 'bajaj' and other small shuttles.",
+        "distractor2": "To designate a legal stopping and passenger drop-off zone for taxis and ride-sharing vehicles.",
+        "distractor3": "The green color is used for aesthetic purposes to guide the flow of traffic smoothly around the corner."
     },
     "LR3.png": {
         "path": "PerceptionReasoning/LaneRecognition/LR3.png",
         "category": "PerceptionReasoning/LaneRecognition",
-        "question": "Based on the current road environment, what is the vehicle's correct course of action?",
-        "answers": "Stay in the current lane and follow behind the truck, do not enter the left lane",
-        "distractor1": "Use the open paved area on the left to overtake the slow-moving truck.",
-        "distractor2": "Come to a stop to allow faster traffic to pass on the left.",
-        "distractor3": "Signal left and merge into the open area, assuming it is a new lane forming."
+        "question": "Excluding the vehicle's current lane, how many other regular traffic lanes are available for the car to use?",
+        "answers": "Two lanes (one to the left and one to the right).",
+        "distractor1": "One lane (only the lane on the right).",
+        "distractor2": "Three lanes.",
+        "distractor3": "Zero lanes, as all other lanes are blocked or restricted."
     },
     "LR4.png": {
         "path": "PerceptionReasoning/LaneRecognition/LR4.png",
         "category": "PerceptionReasoning/LaneRecognition",
         "question": "Given the current road layout, what is the correct lane positioning for our vehicle?",
-        "answers": "Continue in the current lane. Avoid Transjakarta lane",
-        "distractor1": "Merge into the right lane to allow faster vehicles to pass on the left.",
-        "distractor2": "Enter the busway on the right, as it currently has less traffic.",
-        "distractor3": "Stop and wait for instructions from traffic officials before proceeding."
+        "answers": "Designate as a special bus lane.  A distinct color to warn other vehicles not to enter.",
+        "distractor1": "temporary detour or construction zone, with the red color serving as a warning to all traffic.",
+        "distractor2": "Exclusive lane for motorcycle traffic.",
+        "distractor3": "The red color and different material are used purely for better visibility for drivers during nighttime or rainy conditions."
     },
     "LR5.png": {
         "path": "PerceptionReasoning/LaneRecognition/LR5.png",
         "category": "PerceptionReasoning/LaneRecognition",
-        "question": "Considering the road markings and signs, what is the correct action for the vehicle in this traffic?",
-        "answers": "Stay in the current lane and wait for traffic to move, avoid the green lane.",
-        "distractor1": "Move partially into the green bicycle lane to make space for motorcycles.",
-        "distractor2": "Use the bicycle lane to get ahead of the stopped traffic.",
-        "distractor3": "Honk at the cars ahead to encourage them to move into the bicycle lane."
+        "question": "What specific function is indicated by the green-colored pavement on the lane to the left?",
+        "answers": "It designates for bicycle lane.",
+        "distractor1": "It marks the mandatory lane for all vehicles turning left ahead.",
+        "distractor2": "The green color indicates a permitted short-term parking or stopping zone, overriding the 'No Stopping' sign.",
+        "distractor3": "It is a priority lane for public transport vehicles, such as small buses and shuttles."
     },
     "LR6.png": {
         "path": "PerceptionReasoning/LaneRecognition/LR6.png",
         "category": "PerceptionReasoning/LaneRecognition",
-        "question": "What is the correct lane recognition decision in this scenario?",
-        "answers": "Switch to the general traffic lane on the right",
-        "distractor1": "Continue driving in the busway as it offers a clear path with less traffic.",
-        "distractor2": "Stop immediately and reverse out of the busway.",
-        "distractor3": "Accelerate to match the speed of the buses that use this lane."
+        "question": "The lane recognition system detects that the pavement in the current lane is marked with a red color. What is the primary purpose of this red marking?",
+        "answers": "To designate the lane as a busway lane, a special corridor reserved for TransJakarta buses.",
+        "distractor1": "It indicates a dedicated emergency lane that all vehicles must keep clear for ambulances and police.",
+        "distractor2": "It marks a high-occupancy vehicle (HOV) or express toll lane, requiring a special pass or multiple passengers.",
+        "distractor3": "The red color serves as a general warning for an upcoming dangerous section of road or a speed reduction zone."
     },
     "LR7.png": {
         "path": "PerceptionReasoning/LaneRecognition/LR7.png",
         "category": "PerceptionReasoning/LaneRecognition",
-        "question": "Based on the road layout and the other vehicle present, what is the correct driving procedure?",
-        "answers": "Stay in the current lane, follow the no-stopping rule, and watch the motorcycle closely and avoid green lane",
-        "distractor1": "Pull over into the green bicycle lane to allow the motorcycle to pass more easily.",
-        "distractor2": "Use the empty bicycle lane to overtake the slower traffic ahead.",
-        "distractor3": "Stop to ask the motorcycle rider for directions."
+        "question": "What is the specific function of the green-painted lane on the right side of the road?",
+        "answers": "It designates a dedicated lane for bicycles.",
+        "distractor1": "It is a priority lane reserved exclusively for motorcycles.",
+        "distractor2": " It indicates an express or high-speed overtaking lane for all vehicles.",
+        "distractor3": "The green color marks it as a legal shoulder area for temporary stopping or parking."
     },
     "LR8.png": {
         "path": "PerceptionReasoning/LaneRecognition/LR8.png",
         "category": "PerceptionReasoning/LaneRecognition",
-        "question": "What decisions should the vehicle make in this traffic situation",
-        "answers": "Stay in the current general traffic lane, do not enter Transjakarta lane.",
-        "distractor1": "Immediately move into the yellow-signed lane to follow the directions for Kelapa Gading.",
-        "distractor2": "Stop under the signs to confirm the route before proceeding.",
-        "distractor3": "Ignore the signs and follow the vehicle directly ahead."
+        "question": "What is the functional reason for this difference in appearance for the right lane?",
+        "answers": "It is a dedicated busway lane, and its unique construction is a key feature for identifying it as such.",
+        "distractor1": "It is a special, high-capacity lane exclusively for motorcycles.",
+        "distractor2": "It is a toll road on-ramp or an express lane.",
+        "distractor3": "It is a reinforced emergency shoulder for heavy vehicle breakdowns, like trucks."
     },
     "LR9.png": {
         "path": "PerceptionReasoning/LaneRecognition/LR9.png",
@@ -1217,110 +1217,110 @@
     "LR11.png": {
         "path": "PerceptionReasoning/LaneRecognition/LR11.png",
         "category": "PerceptionReasoning/LaneRecognition",
-        "question": "What is the critical lane decision based on the road layout and busway lane ahead?",
-        "answers": "Stay out of the busway lane on the left. Keep position in the correct traffic lane.",
-        "distractor1": "Immediately begin moving to the left to avoid missing the exit.",
-        "distractor2": "Speed up to get ahead of traffic before deciding which lane to be in.",
-        "distractor3": "Stop on the shoulder to safely read the sign and decide on a course of action."
+        "question": "What does the difference in road material of the right lane typically signify?",
+        "answers": "It signifies a special-use lane, a busway lane.",
+        "distractor1": "It indicates that this section of the road is newly constructed.",
+        "distractor2": "It is an experimental road.",
+        "distractor3": "It is a special surface designed for improved water drainage during heavy rain."
     },
     "LR12.png": {
         "path": "PerceptionReasoning/LaneRecognition/LR12.png",
         "category": "PerceptionReasoning/LaneRecognition",
-        "question": "Given the green light, what is the correct lane to select and the immediate action to take?",
-        "answers": "Stay in current lane, move forward while keeping clear of the bicycle lane on the left",
-        "distractor1": "Use the empty bicycle lane on the left to get through the intersection more quickly.",
-        "distractor2": "Wait for the bicycles to go first, even though the light is green for cars.",
-        "distractor3": "Drive in the middle of the two lanes to keep options open."
+        "question": "For a car, is it permissible to use the highlighted green lane on the left as a regular travel lane since other vehicle uses it?",
+        "answers": "No, it is a dedicated bicycle lane.",
+        "distractor1": "No, the lane is currently blocked by a van.",
+        "distractor2": "Yes, it is a special lane for vehicles.",
+        "distractor3": "Yes, it is an overtaking lane."
     },
     "LR13.png": {
         "path": "PerceptionReasoning/LaneRecognition/LR13.png",
         "category": "PerceptionReasoning/LaneRecognition",
-        "question": "What lane recognition decision should the vehicle make in this situation",
-        "answers": "Stay in the center or right traffic lanes and avoid bicycle lane on the far left",
-        "distractor1": "The vehicle must stay in the current lane because it is the centermost lane.",
-        "distractor2": "The vehicle should drift between lanes as the markings are only suggestions.",
-        "distractor3": "The vehicle must exit the highway soon because dashed lines indicate an upcoming exit."
+        "question": "How many regular traffic lanes does the lane recognition system identify as available for use?",
+        "answers": "Three lanes.",
+        "distractor1": "Two lanes.",
+        "distractor2": "Five lanes.",
+        "distractor3": "Four lanes."
     },
     "LR14.png": {
         "path": "PerceptionReasoning/LaneRecognition/LR14.png",
         "category": "PerceptionReasoning/LaneRecognition",
-        "question": "Determine the status of the adjacent left lane and the resulting driving decision for our vehicle.",
-        "answers": "Avoid this lane and stay within the standard traffic lane.",
-        "distractor1": "The green lane is a special-purpose lane; enter it to yield to faster traffic from behind.",
-        "distractor2": "The sign is a general warning; the lane can be used for overtaking if it is clear.",
-        "distractor3": "Shift slightly into the green lane to create more space from the traffic on the right."
+        "question": "Is a car permitted to use the left lane for general travel?",
+        "answers": "No, because the green color explicitly designate it as a bicycle lane.",
+        "distractor1": "Yes, the green color means cars can use it, but they must be cautious of cyclists.",
+        "distractor2": "Yes, the green color indicates it is an 'eco-friendly' lane, available for any vehicle to use to promote green initiatives.",
+        "distractor3": "No, because the lane is too narrow for a car to fit safely."
     },
     "LR15.png": {
         "path": "PerceptionReasoning/LaneRecognition/LR15.png",
         "category": "PerceptionReasoning/LaneRecognition",
-        "question": "What is the correct lane selection and the main constraint in this environment?",
-        "answers": "Stay in the standard lane, avoiding the restricted green bicycle lane on the left",
-        "distractor1": "The vehicle should move into the green lane, as it has less traffic.",
-        "distractor2": "The primary constraint is the slow-moving car ahead, which should be overtaken using the green lane.",
-        "distractor3": "The vehicle should stop and wait for the bicycle lane to be completely clear before proceeding."
+        "question": "What is the purpose of the green lane, and is it permissible for the car to use it as a travel lane?",
+        "answers": "No, it is not permissible because the green marking designates a dedicated bicycle lane.",
+        "distractor1": "No, because that lane is reserved for vehicles making a left turn at the pedestrian overpass.",
+        "distractor2": "Yes, it is a special overtaking lane that can be used to pass the slower traffic on the right.",
+        "distractor3": "Yes, it is a lane designated for short-term parking or for vehicles accessing the shops on the left."
     },
     "LR16.png": {
         "path": "PerceptionReasoning/LaneRecognition/LR16.png",
         "category": "PerceptionReasoning/LaneRecognition",
-        "question": "Select the correct path for the vehicle and identify the immediate lane constraints.",
-        "answers": "Stay in current lane, avoid the restricted bicycle lane on the left and the separated road on the right.",
-        "distractor1": "The correct path is to merge into the bicycle lane to avoid traffic congestion.",
-        "distractor2": "The vehicle should prepare to merge right across the physical separator at the next available gap.",
-        "distractor3": "The vehicle should stop, as it is boxed in by restricted lanes."
+        "question": "Is it permissible to use the green lane for parking?",
+        "answers": "No, because this is a dedicated bicycle lane, and parking a car here would obstruct the path designated for cyclists.",
+        "distractor1": "Yes, it is permitted to park here outside of peak traffic hours.",
+        "distractor2": "Yes, parking is allowed for a short duration (under 5 minutes) as long as hazard lights are used.",
+        "distractor3": "No, because parking is only allowed if a lane is not painted."
     },
     "LR17.png": {
         "path": "PerceptionReasoning/LaneRecognition/LR17.png",
         "category": "PerceptionReasoning/LaneRecognition",
-        "question": "Identify the status of the lane to the right and determine the required action.",
-        "answers": "Stay in general traffic lanes and not enter the busway lanes.",
-        "distractor1": "The lane to the right is an express lane; the vehicle should merge into it to make better progress.",
-        "distractor2": "The vehicle should prepare to enter the busway to pick up or drop off passengers.",
-        "distractor3": "The separation indicates a toll road; the vehicle must prepare to pay a toll to enter the right lane."
+        "question": "Is it permissible for a car to use the red-colored lane on the right?",
+        "answers": "No, it is a dedicated busway lane.",
+        "distractor1": "Yes, it is a high-speed overtaking lane.",
+        "distractor2": "No, the lane is currently under construction.",
+        "distractor3": "Yes, it is a special lane for motorcycles."
     },
     "LR18.png": {
         "path": "PerceptionReasoning/LaneRecognition/LR18.png",
         "category": "PerceptionReasoning/LaneRecognition",
-        "question": "Determine the primary boundary of our current roadway and the resulting path.",
-        "answers": "Stay in  current lane. Avoid left lane and hard boundary.",
-        "distractor1": "The median indicates a temporary diversion; the vehicle should look for a way to cross it.",
-        "distractor2": "The primary boundary is the car ahead; the path is to follow it closely.",
-        "distractor3": "The road beyond the median is the destination; the vehicle must perform a U-turn to access it."
+        "question": "How many lanes on the main roadway are legally and safely available for the car to use?",
+        "answers": "Two lanes (the current lane and the lane to the left).",
+        "distractor1": "One lane (the current lane only).",
+        "distractor2": "Three lanes (including the separated lane on the far right).",
+        "distractor3": "Four lanes (including the separated lane on the right and the shoulder area on the left)."
     },
     "LR19.png": {
         "path": "PerceptionReasoning/LaneRecognition/LR19.png",
         "category": "PerceptionReasoning/LaneRecognition",
-        "question": "What is the vehicle's correct course of action?",
-        "answers": "Stay in current lanes. The separated busway on the right is restricted and must be avoided.",
-        "distractor1": "The lane on the right is an express lane; prepare to merge into it.",
-        "distractor2": "The barrier on the right is temporary for construction; cautiously merge right.",
-        "distractor3": "Stop and wait for the bus to pass before attempting to enter the right lane."
+        "question": "If an entrance gap appears ahead, is it permissible for a private car to use that lane?",
+        "answers": "No, because lane recognition identifies this as a dedicated bus.",
+        "distractor1": "Yes, the entrance gaps are designed to allow cars to use the lane for overtaking slower traffic.",
+        "distractor2": "Yes, private cars are permitted to use the busway during non-peak hours to help ease congestion.",
+        "distractor3": "It can be used if it's empty."
     },
     "LR20.png": {
         "path": "PerceptionReasoning/LaneRecognition/LR20.png",
         "category": "PerceptionReasoning/LaneRecognition",
-        "question": "What is the vehicle's correct course of action?",
-        "answers": "Stay in the left lane. The right lane is a restricted Transjakarta bus lane and must be avoided.",
-        "distractor1": "Merge into the right lane to take advantage of the lighter traffic.",
-        "distractor2": "The sign indicates buses are allowed, but cars can also use the lane if clear.",
-        "distractor3": "Move to the right lane to prepare for a right turn at the upcoming intersection."
+        "question": "Is it permissible for a private car to use the lane on the right, and why?",
+        "answers": "No, because its physical separation by a raised curb indicates it is a dedicated for special vehicle.",
+        "distractor1": "Yes, the raised curb is simply a guide, and cars can enter at the next available gap to use the lane.",
+        "distractor2": "Yes, because it is an express lane or overtaking lane for cars wanting to go faster.",
+        "distractor3": "No, because it appears to be an unfinished lane or a lane under construction."
     },
     "LR21.png": {
         "path": "PerceptionReasoning/LaneRecognition/LR21.png",
         "category": "PerceptionReasoning/LaneRecognition",
-        "question": "Determine the immediate driving decision.",
-        "answers": "Continue in the current lane, avoid left lane and only enter right lane under certain situation.",
-        "distractor1": "Use the bicycle lane on the left to bypass the traffic ahead.",
-        "distractor2": "Drive over the chevron-marked area to get into the faster-moving lane on the right.",
-        "distractor3": "Stop, as the lane appears to be closing from both sides."
+        "question": "Based on road markings is it legal to enter that area?",
+        "answers": "No, the diagonal hatch markings indicate a painted buffer zone that vehicles are not permitted to drive on.",
+        "distractor1": "Yes, it is a designated lane for slow vehicles like the 'bajaj', so it is permissible to enter.",
+        "distractor2": "Yes, entering the hatched area is permitted, but only for the specific purpose of making a U-turn.",
+        "distractor3": "No, because that lane is exclusively for three-wheeled vehicles like the 'bajaj'."
     },
     "LR22.png": {
         "path": "PerceptionReasoning/LaneRecognition/LR22.png",
         "category": "PerceptionReasoning/LaneRecognition",
-        "question": "What is the vehicle's correct course of action?",
-        "answers": "Proceed to do U-turn. avoid going straight in the busway lane",
-        "distractor1": "Proceed straight into the busway as it is the most direct path.",
-        "distractor2": "Ignore the sign and follow the car in front.",
-        "distractor3": "Reverse out of the U-turn lane and get into the main traffic lane."
+        "question": "The lane on the right has red-colored pavement and a different surface texture. What is the primary function signified by these features?",
+        "answers": "Special lane for the public bus.",
+        "distractor1": "A public U-turn lane for all vehicles.",
+        "distractor2": "A temporary warning for a damaged or uneven road surface in the intersection.",
+        "distractor3": "A dedicated emergency lane that must be kept clear for ambulances and police cars."
     },
     "NR1.png": {
         "path": "PerceptionReasoning/NarrowRoadway/NR1.png",
@@ -1469,74 +1469,74 @@
     "UT1.png": {
         "path": "PerceptionReasoning/UnidirectionalTraffic/UT1.png",
         "category": "PerceptionReasoning/UnidirectionalTraffic",
-        "question": "Determine the immediate driving decision.",
-        "answers": "Stop at the intersection and check for traffic. Proceed when it's safe to join the one-way road",
-        "distractor1": "Assume the road is clear and make the left turn without stopping.",
-        "distractor2": "Turn right, as it is easier than merging left into traffic.",
-        "distractor3": "Wait for a complete stop in traffic before attempting to merge."
+        "question": "To safely exit this lane and merge with the main road, what is the correct action?",
+        "answers": "Stop at the intersection and check for traffic. Proceed when it's safe to join the traffic flow.",
+        "distractor1": "Turn right and drive against the designated traffic direction.",
+        "distractor2": "Proceed with a U-turn in the current situation, as our path is blocked by oncoming traffic.",
+        "distractor3": "Pull halfway into the main road and stop, forcing traffic to yield."
     },
     "UT2.png": {
         "path": "PerceptionReasoning/UnidirectionalTraffic/UT2.png",
         "category": "PerceptionReasoning/UnidirectionalTraffic",
-        "question": "What is the primary risk in this environment and the correct mitigating action?",
-        "answers": "Maintain current speed and stay in your lane. Check blind spots carefully before changing lanes.",
-        "distractor1": "Frequently change lanes to find the fastest path through the traffic.",
-        "distractor2": "Drive faster than the surrounding traffic to reduce the risk of being hit from behind.",
-        "distractor3": "Focus only on the car directly ahead and ignore the motorcycles."
+        "question": "To safely execute a U-turn, what is the correct procedure for the driver to follow?",
+        "answers": "Signal right, check for a safe gap, and move to the right lane.",
+        "distractor1": "Make a U-turn directly from the current lane.",
+        "distractor2": "Stop in the lane and reverse to find an earlier U-turn spot.",
+        "distractor3": "Quickly swerve right to get ahead of the motorcycles."
     },
     "UT3.png": {
         "path": "PerceptionReasoning/UnidirectionalTraffic/UT3.png",
         "category": "PerceptionReasoning/UnidirectionalTraffic",
-        "question": "Identify the primary hazard and the appropriate response.",
-        "answers": "Check the narrow space beside the van. If it\u2019s too tight, wait until the van moves.",
-        "distractor1": "Attempt to squeeze through the narrow gap on the left of the van.",
-        "distractor2": "Honk at the van to pressure the driver to move.",
-        "distractor3": "Mount the curb on the right to get around the stopped van."
+        "question": "How should the vehicle proceed to left this place?",
+        "answers": "Proceed straight ahead, following the flow of traffic.",
+        "distractor1": "Execute a U-turn to go back in the opposite direction.",
+        "distractor2": "Reverse and exit the alley from the entrance.",
+        "distractor3": "Turn left into the building's garage."
     },
     "UT4.png": {
         "path": "PerceptionReasoning/UnidirectionalTraffic/UT4.png",
         "category": "PerceptionReasoning/UnidirectionalTraffic",
-        "question": "What is the vehicle's plan for navigating this immediate area?",
-        "answers": "Follow the yellow arrow. Move slowly, give way to the pedestrian, and watch for trucks.",
-        "distractor1": "Ignore the arrow and proceed straight, as it is the most direct route.",
-        "distractor2": "Follow the arrow quickly to get out of the way of potential trucks.",
-        "distractor3": "Stop and wait for the pedestrian to be completely off the road before moving."
+        "question": "What is the vehicle's plan for navigating this area?",
+        "answers": "Proceed straight ahead, following the yellow arrow.",
+        "distractor1": "Make a U-turn and drive back towards the building on the left.",
+        "distractor2": "Turn right and merge onto the road where the trucks are parked.",
+        "distractor3": "Drive over the orange cones and onto the area to the left of the building."
     },
     "UT5.png": {
         "path": "PerceptionReasoning/UnidirectionalTraffic/UT5.png",
         "category": "PerceptionReasoning/UnidirectionalTraffic",
-        "question": "Define the next maneuver.",
-        "answers": "Slow down and shift to give space to the motorcycle. Stop if needed to let it pass safely",
-        "distractor1": "Maintain speed and course, assuming the motorcycle will yield.",
-        "distractor2": "Accelerate to pass the area before the motorcycle gets closer.",
-        "distractor3": "Honk to warn the motorcycle of your presence."
+        "question": "What is the correct and legal direction for the vehicle to proceed?",
+        "answers": "Proceed straight ahead, navigating past the street vendor and surrounding motorcycles.",
+        "distractor1": "Make a U-turn and proceed to follow the direction of the motorcycle.",
+        "distractor2": "Reverse back to the main road to find a wider street.",
+        "distractor3": "Menuever to the right and drive on the sidewalk to avoid the motorcycles."
     },
     "UT7.png": {
         "path": "PerceptionReasoning/UnidirectionalTraffic/UT7.png",
         "category": "PerceptionReasoning/UnidirectionalTraffic",
-        "question": "Identify the required maneuver and any immediate constraints.",
-        "answers": "Perform a U-turn with traffic. Move slowly and carefully through the vehicles ahead.",
-        "distractor1": "Attempt to overtake the motorcycles on the right.",
-        "distractor2": "Stop and wait for the motorcycles to disperse.",
-        "distractor3": "Honk to make the motorcycles clear a path."
+        "question": "To correctly merge with the flow of traffic, which action should the vehicle take?",
+        "answers": "Proceed U - turn  and merge with the traffic moving from left to right.",
+        "distractor1": "Turn left and drive against the flow of oncoming cars.",
+        "distractor2": "Drive straight over the median into the opposite lane.",
+        "distractor3": "Remain stationary and wait for the traffic to stop completely."
     },
     "UT8.png": {
         "path": "PerceptionReasoning/UnidirectionalTraffic/UT8.png",
         "category": "PerceptionReasoning/UnidirectionalTraffic",
-        "question": "Define the next maneuver.",
-        "answers": "Stay in your lane and keep your speed. Watch nearby vehicles to maintain safe lane discipline.",
-        "distractor1": "Weave through traffic to find the fastest route.",
-        "distractor2": "Slow down significantly to let other cars pass.",
-        "distractor3": "Focus solely on the center line to maintain lane position."
+        "question": "Following traffic regulations on this road, what is the correct immediate action for the vehicle?",
+        "answers": "Continue straight ahead within the designated lane.",
+        "distractor1": "Make a U-turn using the available space between lanes.",
+        "distractor2": "Turn sharply left into the oncoming lane.",
+        "distractor3": "Pull over to the right and stop against the flow of traffic."
     },
     "UT9.png": {
         "path": "PerceptionReasoning/UnidirectionalTraffic/UT9.png",
         "category": "PerceptionReasoning/UnidirectionalTraffic",
         "question": "How should the vehicle safely navigate past the parked truck in this narrow tunnel?",
-        "answers": "Slow down carefully to pass the narrow gap left of the truck and check clearance on both sides.",
-        "distractor1": "Speed up to get past the truck as quickly as possible.",
-        "distractor2": "Stop and wait for the truck to move, even if it is parked.",
-        "distractor3": "Honk to alert the parked truck before passing."
+        "answers": "Carefully maneuver to the left, utilizing the available space to pass.",
+        "distractor1": "Stop and reverse to take a another exit path.",
+        "distractor2": "Make a U-turn to avoid the obstruction by going back in the opposite direction.",
+        "distractor3": "Stop completely and wait behind the truck."
     },
     "UT10.png": {
         "path": "PerceptionReasoning/UnidirectionalTraffic/UT10.png",
@@ -1550,20 +1550,20 @@
     "UT11.png": {
         "path": "PerceptionReasoning/UnidirectionalTraffic/UT11.png",
         "category": "PerceptionReasoning/UnidirectionalTraffic",
-        "question": "How should the vehicle react to the pedestrians crossing the road ahead?",
-        "answers": "Stop before the crosswalk and wait for all pedestrians to cross. Continue only when the path is clear",
-        "distractor1": "Proceed slowly through the crosswalk, forcing pedestrians to walk around the vehicle.",
-        "distractor2": "Honk to signal the pedestrians to cross faster.",
-        "distractor3": "Drive around the pedestrians by using the oncoming lane."
+        "question": "As you prepare to enter the main road shown in the image, how should you position your attention and vehicle before merging?",
+        "answers": "Turn left to join the flow.",
+        "distractor1": "Turn right and drive against the flow of traffic.",
+        "distractor2": "Proceed with a U-turn in the current situation, as our path is blocked by oncoming traffic.",
+        "distractor3": "Drive straight ahead through the traffic flow."
     },
     "NDM1.png": {
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM1.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
-        "question": "Based on the visible traffic signs, what is the primary navigational rule the vehicle must adhere to on this road?",
-        "answers": "Acknowledge the 'No U-turn' sign and stay on the main road with traffic.",
-        "distractor1": "Ignore the sign as it is likely only a suggestion.",
-        "distractor2": "Make a U-turn, but do it quickly to avoid being caught.",
-        "distractor3": "Stop the vehicle to re-route, as the planned U-turn is not allowed."
+        "question": "Based on the traffic sign visible on the right side of the road, is performing a U-turn allowed?",
+        "answers": "No, the sign with the crossed-out U-turn arrow explicitly prohibits this maneuver at this location.",
+        "distractor1": "Yes, the sign indicates that a designated U-turn spot is approaching.",
+        "distractor2": "No, because U-turns are never allowed on roads with more than one lane.",
+        "distractor3": "Yes, as long as the U-turn is completed without crossing the solid white line on the right."
     },
     "NDM2.png": {
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM2.png",
@@ -1578,55 +1578,37 @@
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM3.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
         "question": "What action does the green traffic light authorize the vehicle to perform?",
-        "answers": "Proceed through the intersection at a safe speed, watching the lead vehicle and traffic.",
-        "distractor1": "Stop and check for cross-traffic, as the green light may be malfunctioning.",
-        "distractor2": "Accelerate rapidly to clear the intersection before the light changes.",
-        "distractor3": "Wait for the car behind to honk before proceeding."
+        "answers": "Proceed straight while staying alert to possible obstructions ahead, such as parked motorcycles and the bus.",
+        "distractor1": "Turn left or right immediately to avoid the congestion ahead.",
+        "distractor2": "Honk and try to overtake the motorcycles waiting near the sidewalk.",
+        "distractor3": "Drive on the far left shoulder past the parked motorcycles."
     },
     "NDM4.png": {
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM4.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
         "question": "Given that the motorcycle directly ahead is signaling its turn signal, what should the autonomous vehicle (AV) do next?",
-        "answers": "Slow down and keep a safe gap to let the motorcycle finish its merging",
-        "distractor1": "Overtake the motorcycle before it begins to turn.",
-        "distractor2": "Honk to signal that it is safe for the motorcycle to turn.",
-        "distractor3": "Maintain current speed, assuming the motorcycle will turn quickly."
+        "answers": "Yes, the blue arrow sign and enterance ahead indicates a left turn is allowed.",
+        "distractor1": "Yes, by slowing down and carefully crossing the solid white line.",
+        "distractor2": "No, because the traffic is too heavy to make the turn safely.",
+        "distractor3": "No, the solid white line prohibits changing into the left lane now."
     },
     "NDM5.png": {
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM5.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
-        "question": "Based on the overhead sign and painted markings on the floor, which path should the vehicle take?",
-        "answers": "Follow the yellow arrow toward the parking exit. Get ready to turn left",
-        "distractor1": "Ignore the floor markings and go straight, as it appears to be a shorter path.",
-        "distractor2": "Stop and wait for other cars to confirm the correct path.",
-        "distractor3": "Follow the exit sign but disregard the arrow, choosing the widest lane."
-    },
-    "NDM6.png": {
-        "path": "PerceptionReasoning/NavigationDecisionMaking/NDM6.png",
-        "category": "PerceptionReasoning/NavigationDecisionMaking",
-        "question": "Given that the motorcycle directly ahead is signaling its turn signal, what should the autonomous vehicle (AV) do next?",
-        "answers": "Slow down and maintain a safe following distance, allowing the motorcycle to merge to right lane",
-        "distractor1": "Speed up to pass the motorcycle before it turns.",
-        "distractor2": "Follow the motorcycle closely to protect it from rear traffic.",
-        "distractor3": "Change lanes to go around the turning motorcycle."
-    },
-    "NDM7.png": {
-        "path": "PerceptionReasoning/NavigationDecisionMaking/NDM7.png",
-        "category": "PerceptionReasoning/NavigationDecisionMaking",
-        "question": "The large truck ahead is signaling a left turn into a narrow side street. What is the correct and safe response?",
-        "answers": "Slow down and keep a safe distance. Do not try to overtake",
-        "distractor1": "Quickly overtake the truck on the right before it starts turning.",
-        "distractor2": "Honk at the truck to encourage it to complete the turn faster.",
-        "distractor3": "Follow the truck closely to slip past it as it turns."
+        "question": "The driver is looking for a parking spot within this indoor parking area. Which direction should the vehicle proceed to explore available spaces?",
+        "answers": "Follow the  straight yellow arrow painted path.",
+        "distractor1": "Turn left ahead towards.",
+        "distractor2": "Immediately reverse back to the garage entrance.",
+        "distractor3": "Drive towards the area marked with red lights, as this usually indicates vacant spots."
     },
     "NDM8.png": {
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM8.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
-        "question": "What is the correct action in response to the lead motorcycle's right-turn signal?",
-        "answers": "Acknowledge the motorcycle's signal. Maintain a safe following distance and proceed.",
-        "distractor1": "Overtake the motorcycle on the left before it turns.",
-        "distractor2": "Slow down significantly and prepare to stop.",
-        "distractor3": "Signal to the motorcycle that it is clear to turn."
+        "question": "If the vehicle's intended route is to the right, what is the correct navigation decision based on the current lane position and road markings?",
+        "answers": " It is too late; the solid white line prohibits a lane change to the right.",
+        "distractor1": "Yes, by signaling and carefully crossing the solid white line.",
+        "distractor2": "Yes, by stopping and waiting for a gap in traffic to merge right.",
+        "distractor3": "Yes, by making a right turn directly from the current (left) lane."
     },
     "NDM9.png": {
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM9.png",
@@ -1637,113 +1619,86 @@
         "distractor2": "Speed up to ensure you are clear of the motorcycle before it exits.",
         "distractor3": "Change lanes to the left to create more space."
     },
-    "NDM10.png": {
-        "path": "PerceptionReasoning/NavigationDecisionMaking/NDM10.png",
-        "category": "PerceptionReasoning/NavigationDecisionMaking",
-        "question": "What is the correct action based on the observed movement of the dark gray car ahead?",
-        "answers": "Keep a safe distance from the white vehicle. The gray car ahead is going straight, no path change is needed.",
-        "distractor1": "Anticipate the gray car will brake suddenly and reduce speed pre-emptively.",
-        "distractor2": "Prepare to overtake the gray car as it seems to be moving slowly.",
-        "distractor3": "Focus only on the white car, as the gray car is too far away to be relevant."
-    },
     "NDM12.png": {
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM12.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
-        "question": "The motorcycle directly ahead is signaling to change into the right lane. What is the safest response?",
-        "answers": "Acknowledge motorcycle\u2019s right-turn signal. Leave space, expect it to slow down, and do not overtake.",
-        "distractor1": "Accelerate to pass the motorcycle on the left before it can change lanes.",
-        "distractor2": "Honk to let the motorcycle know you are behind it.",
-        "distractor3": "Block the lane change by moving slightly to the right."
+        "question": "Is it permitable to park on the left lane or right turn ahead?",
+        "answers": "Both parking on the side and making a right turn are prohibited.",
+        "distractor1": "Parking on the side is prohibited, but making a right turn is allowed.",
+        "distractor2": "Making a right turn is prohibited, but parking on the side is allowed for a short time.",
+        "distractor3": "Both parking and making a right turn are permitted, as the signs only apply to trucks."
     },
     "NDM13.png": {
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM13.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
-        "question": "A blue van from the opposing direction is making a U-turn and blocking our path. What is the required action?",
-        "answers": "Stop and let the van finish its U-turn. Wait until the lane is clear before moving.",
-        "distractor1": "Accelerate to try and get past the van before it completely blocks the road.",
-        "distractor2": "Honk aggressively to force the van to stop its maneuver.",
-        "distractor3": "Attempt to drive around the van on the right shoulder."
-    },
-    "NDM14.png": {
-        "path": "PerceptionReasoning/NavigationDecisionMaking/NDM14.png",
-        "category": "PerceptionReasoning/NavigationDecisionMaking",
-        "question": "The lead vehicle has signaled its intention to merge into the left lane. What is our vehicle's correct response?",
-        "answers": "Recognize the lead vehicle\u2019s left signal. Create space for it to merge safely and avoid overtaking.",
-        "distractor1": "Speed up and overtake the lead vehicle on the right before it merges.",
-        "distractor2": "Move to the left to block the merge and maintain lane position.",
-        "distractor3": "Honk to signal to the lead vehicle that it is not clear to merge."
+        "question": "While approaching this intersection, what is the correct navigation decision based on road signs and markings?",
+        "answers": "Avoid entering the red lane on the right as it is designated for TransJakarta busway only.",
+        "distractor1": "Shift into the red lane to bypass traffic faster.",
+        "distractor2": "Use the red lane temporarily and merge back into regular traffic ahead.",
+        "distractor3": "Follow motorcycles into the red lane since it is less congested."
     },
     "NDM15.png": {
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM15.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
-        "question": "The black car to our left is in a lane where the painted arrow permits a left turn. How should our vehicle proceed?",
-        "answers": "Stay on course and maintain speed. Watch for any changes that might signal a sudden maneuver.",
-        "distractor1": "Slow down and yield, assuming the car will turn left without signaling.",
-        "distractor2": "Speed up to pass the car before reaching the intersection.",
-        "distractor3": "Move to the right lane to avoid a potential conflict."
+        "question": "The vehicle's navigation plan requires a right turn ahead. Based on the painted arrows on the road, which lane must the vehicle occupy?",
+        "answers": "The right lane.",
+        "distractor1": "Any lane, as long as a right signal is used.",
+        "distractor2": "The center lane, to allow space for motorcycles.",
+        "distractor3": "The current lane."
     },
     "NDM16.png": {
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM16.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
-        "question": "What is the correct action in relation to the white car in the adjacent right lane?",
-        "answers": "Maintain current course and speed. The white car is going straight and doesn\u2019t affect our path.",
-        "distractor1": "Slow down in case the white car decides to merge unexpectedly.",
-        "distractor2": "Speed up to create more distance from the white car.",
-        "distractor3": "Move to the leftmost lane to be further away from the white car."
+        "question": "The navigation plan requires a U-turn at an upcoming intersection. What is the best action to take from the current lane position?",
+        "answers": "Signal right and prepare to safely merge into the right-most lane.",
+        "distractor1": "Move left into the green bicycle lane to get a clear path.",
+        "distractor2": "Prepare to make the U-turn from the current (middle) lane.",
+        "distractor3": "Cross the median on the right to use the empty busway."
     },
     "NDM17.png": {
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM17.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
-        "question": "What is the correct action in response to the blue car's current movement?",
-        "answers": "The blue car ahead is going straight. No change to our path is needed.",
-        "distractor1": "Prepare to stop as the blue car might be turning.",
-        "distractor2": "Speed up to catch up with the blue car.",
-        "distractor3": "Change lanes as a precaution."
-    },
-    "NDM18.png": {
-        "path": "PerceptionReasoning/NavigationDecisionMaking/NDM18.png",
-        "category": "PerceptionReasoning/NavigationDecisionMaking",
-        "question": "A motorcycle from the left is merging into our lane with minimal clearance. What is the immediate safety action required?",
-        "answers": "Slow down to let the motorcycle in. Match its speed to restore a safe following distance.",
-        "distractor1": "Accelerate to prevent the motorcycle from merging in front.",
-        "distractor2": "Honk loudly and maintain lane position to assert right-of-way.",
-        "distractor3": "Swerve into the adjacent right lane to avoid the motorcycle."
+        "question": "Considering the visible road conditions ahead in the right lane, is making a right turn a feasible option at this moment?",
+        "answers": "No, the right lane appears to be physically obstructed by lane separator",
+        "distractor1": "Yes, the right lane appears clear for turning.",
+        "distractor2": "Yes, as long as the vehicle signals and proceeds cautiously.",
+        "distractor3": "No, because there is a 'No Right Turn' sign visible further down the road."
     },
     "NDM19.png": {
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM19.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
-        "question": "What is the correct action in response to the motorcycle traveling in the adjacent left lane?",
-        "answers": "Maintain current lane and speed. The motorcycle is going straight and poses no need to adjust.",
-        "distractor1": "Slow down to let the motorcycle get ahead.",
-        "distractor2": "Speed up to pass the motorcycle.",
-        "distractor3": "Warn the motorcycle of your presence with a light honk."
+        "question": "Based on the current road layout, what is the best navigation decision to go straight?",
+        "answers": "Stay in the center or right lane to maintain smooth traffic flow.",
+        "distractor1": "Shift into the right lane and wait for the vehicles ahead to finish U - turn.",
+        "distractor2": "Merge left to follow the motorcycles ahead.",
+        "distractor3": "Move closer to the median for better visibility."
     },
     "NDM20.png": {
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM20.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
         "question": "The white car in the adjacent left lane is signaling to merge into our lane. What is the safest action?",
-        "answers": "Acknowledge the white car\u2019s signal. Slow down to let it merge safely ahead.",
-        "distractor1": "Accelerate to close the gap and prevent the merge.",
-        "distractor2": "Honk to indicate that there is not enough space to merge.",
-        "distractor3": "Maintain speed and course, forcing the other car to merge behind."
+        "answers": "No, U-turns is prohibited as indicated by the traffic sign.",
+        "distractor1": "Yes, the green light gives permission for any maneuver, including a U-turn.",
+        "distractor2": "Yes, because there is no sign explicitly prohibiting a U-turn.",
+        "distractor3": "No, because U-turns are illegal everywhere in the city at night."
     },
     "NDM21.png": {
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM21.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
-        "question": "The lead vehicle is signaling a left turn, What is the correct safety action?",
-        "answers": "Acknowledge vehicle\u2019s left signal. Slow down and leave space for it to turn safely.",
-        "distractor1": "Quickly overtake the vehicle on the right before it begins to slow down.",
-        "distractor2": "Maintain speed and follow closely, preparing to brake hard when it turns.",
-        "distractor3": "Honk to signal that you are waiting behind it."
+        "question": "To execute U - turn ahead correct and safely, which lane should the driver position the vehicle in?",
+        "answers": "The vehicle should stay in current lane, as the U - turn is at the right side",
+        "distractor1": "The vehicle should manuever to left lane first, then perform u - turn.",
+        "distractor2": "Either the left or right lane can be used, as long as the turn signal is activated.",
+        "distractor3": "Neither lane should be chosen, as the 'No Right Turn' sign also prohibits U-turns."
     },
     "NDM22.png": {
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM22.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
-        "question": "Both the painted arrow on the floor and the illuminated sign indicate a left turn is required. What is the correct maneuver?",
-        "answers": "Turn left as indicated by the arrows. Proceed carefully.",
-        "distractor1": "Go straight, assuming the signs are for a different lane.",
-        "distractor2": "Stop and wait for the pedestrian to move further away before turning.",
-        "distractor3": "Turn right, away from the pedestrian."
+        "question": "To follow the designated exit route, which action should the driver take based on the signs and pavement markings?",
+        "answers": "Follow the yellow arrow on the pavement and turn left.",
+        "distractor1": "Make a U-turn and go back the way you came.",
+        "distractor2": "Proceed straight ahead towards the security guard.",
+        "distractor3": "Turn right and exit through the other side of the booth."
     },
     "NDM23.png": {
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM23.png",
@@ -1776,10 +1731,10 @@
         "path": "PerceptionReasoning/NavigationDecisionMaking/NDM26.png",
         "category": "PerceptionReasoning/NavigationDecisionMaking",
         "question": "What is the correct action in response to the movement of the black motorcycle ahead of the lead \"Gojek\" rider?",
-        "answers": "Keep a safe distance from the lead motorcycle. The black motorcycle ahead follows the curve and doesn\u2019t affect our path.",
-        "distractor1": "Slow down, assuming the black motorcycle is about to stop.",
-        "distractor2": "Overtake both motorcycles as they are moving slowly.",
-        "distractor3": "Focus only on the Gojek rider, as the other motorcycle is not relevant."
+        "answers": "Wait in the current lane for the traffic ahead to move.",
+        "distractor1": "Use the empty space in the left lane to overtake.",
+        "distractor2": "Overtake the traffic ahead using the free right lane",
+        "distractor3": "Honk the horn to make the vehicles ahead move faster."
     },
     "EMP1.png": {
         "path": "UrbanFlowComplexity/EvasiveManeuverPlanning/EMP1.png",
@@ -2522,19 +2477,10 @@
     "UT10.jpg": {
         "path": "PerceptionReasoning/UnidirectionalTraffic/UT10.jpg",
         "category": "PerceptionReasoning/UnidirectionalTraffic",
-        "question": "",
-        "answers": "",
-        "distractor1": "",
-        "distractor2": "",
-        "distractor3": ""
-    },
-    "LR9.jpg": {
-        "path": "PerceptionReasoning/LaneRecognition/LR9.jpg",
-        "category": "PerceptionReasoning/LaneRecognition",
-        "question": "",
-        "answers": "",
-        "distractor1": "",
-        "distractor2": "",
-        "distractor3": ""
+        "question": "What is the most appropriate driving action to take?",
+        "answers": "Continue driving forward slowly, positioning the vehicle toward the center of the lane.",
+        "distractor1": "Pull over to the left side and wait in case a vehicle comes from the opposite direction.",
+        "distractor2": "Reverse and find an alternate route to avoid a possible head-on collision.",
+        "distractor3": "Honk and flash your headlights to alert any oncoming traffic before proceeding."
     }
 }
