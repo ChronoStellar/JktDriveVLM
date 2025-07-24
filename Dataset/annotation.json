@@ -1206,7 +1206,7 @@
         "distractor3": "It is a reinforced emergency shoulder for heavy vehicle breakdowns, like trucks."
     },
     "LR9.png": {
-        "path": "PerceptionReasoning/LaneRecognition/LR9.png",
+        "path": "PerceptionReasoning/LaneRecognition/LR9.jpg",
         "category": "PerceptionReasoning/LaneRecognition",
         "question": "What is the critical observation about the lead vehicle's position, and how should that affect our own driving?",
         "answers": "The lead vehicle is improperly encroaching on the green-painted bicycle lane. Our vehicle must ignore this incorrect path, maintain its position fully within the standard traffic lane, and respect the solid line boundary.",
@@ -1285,15 +1285,6 @@
         "distractor1": "One lane (the current lane only).",
         "distractor2": "Three lanes (including the separated lane on the far right).",
         "distractor3": "Four lanes (including the separated lane on the right and the shoulder area on the left)."
-    },
-    "LR19.png": {
-        "path": "PerceptionReasoning/LaneRecognition/LR19.png",
-        "category": "PerceptionReasoning/LaneRecognition",
-        "question": "If an entrance gap appears ahead, is it permissible for a private car to use that lane?",
-        "answers": "No, because lane recognition identifies this as a dedicated bus.",
-        "distractor1": "Yes, the entrance gaps are designed to allow cars to use the lane for overtaking slower traffic.",
-        "distractor2": "Yes, private cars are permitted to use the busway during non-peak hours to help ease congestion.",
-        "distractor3": "It can be used if it's empty."
     },
     "LR20.png": {
         "path": "PerceptionReasoning/LaneRecognition/LR20.png",
@@ -1539,7 +1530,7 @@
         "distractor3": "Stop completely and wait behind the truck."
     },
     "UT10.png": {
-        "path": "PerceptionReasoning/UnidirectionalTraffic/UT10.png",
+        "path": "PerceptionReasoning/UnidirectionalTraffic/UT10.jpg",
         "category": "PerceptionReasoning/UnidirectionalTraffic",
         "question": "How must the vehicle control its speed and position to safely pass through this extremely narrow alley?",
         "answers": "Proceed at a minimal, creeping speed. Maintain a precise central path to equalize the tight clearances on both sides and be prepared for an immediate stop.",
