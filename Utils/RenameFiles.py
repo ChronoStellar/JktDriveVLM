@@ -1,6 +1,7 @@
 import os
 import json
 import re
+from collections import defaultdict
 
 # --- Configuration ---
 # The root folder containing the image subdirectories.
@@ -9,8 +10,6 @@ folder_path = r'Dataset'
 annotation_path = "/Users/rx0/Desktop/Thesis/Experiment/JktDriveVLM/Dataset/annotation.json"
 
 # Dictionary mapping old prefixes to new prefixes.
-# The script will change filenames starting with a key to start with the corresponding value.
-# e.g., "VRUCI" -> "VRU", "VR" -> "VRE", etc.
 rename_map = {
     "EMP" : "EMP",
     "VRUCI" : "VRU",
@@ -28,118 +27,119 @@ rename_map = {
     "RSR" : "RSR",
 }
 
-def rename_files_on_disk(root_path, mapping):
+def natural_sort_key(s):
     """
-    Walks through the directory and renames image files based on the mapping.
+    Creates a key for natural sorting (e.g., 'image10.png' comes after 'image2.png').
     """
-    print("--- Starting File Renaming Process ---")
-    renamed_count = 0
+    return [int(text) if text.isdigit() else text.lower() for text in re.split(r'(\d+)', s)]
+
+def rename_and_recount_all(root_path, json_path, mapping):
+    """
+    Gathers all image files, creates a comprehensive rename and re-count plan,
+    executes the file renaming, and updates the JSON annotation file.
+    """
+    print("--- Stage 1: Gathering and grouping files ---")
+    
+    file_groups = defaultdict(list)
+    
+    # Walk through the directory to find all image files
     for dirpath, _, filenames in os.walk(root_path):
         for filename in filenames:
-            # Continue only if it's an image file
-            if not filename.lower().endswith(('.png', '.jpg', '.jpeg', '.bmp', '.gif')):
+            if not filename.lower().endswith(('.png', '.jpg', '.jpeg')):
                 continue
 
-            # Extract the alphabetical prefix from the filename (e.g., "VRUCI" from "VRUCI25.png")
             match = re.match(r"([a-zA-Z]+)", filename)
             if not match:
                 continue
             
             old_prefix = match.group(1)
+            new_prefix = mapping.get(old_prefix, old_prefix)
+            
+            group_key = (dirpath, new_prefix)
+            file_groups[group_key].append(os.path.join(dirpath, filename))
 
-            # Check if this prefix needs to be renamed
-            if old_prefix in mapping:
-                new_prefix = mapping[old_prefix]
-                # Avoid renaming if the new name is the same as the old one
-                if old_prefix == new_prefix:
-                    continue
+    print(f"Found and grouped files into {len(file_groups)} groups.\n")
 
-                # Create the new filename
-                new_filename = filename.replace(old_prefix, new_prefix, 1)
-                
-                # Get full old and new file paths
-                old_filepath = os.path.join(dirpath, filename)
-                new_filepath = os.path.join(dirpath, new_filename)
-                
-                # Rename the file
-                try:
-                    os.rename(old_filepath, new_filepath)
-                    print(f"✅ Renamed: {filename} -> {new_filename}")
-                    renamed_count += 1
-                except OSError as e:
-                    print(f"❌ Error renaming {filename}: {e}")
+    # --- Stage 2: Create a detailed rename plan ---
+    print("--- Stage 2: Generating rename and re-count plan ---")
+    rename_plan = {}
+    
+    for (dirpath, new_prefix), files in file_groups.items():
+        sorted_files = sorted(files, key=lambda f: natural_sort_key(os.path.basename(f)))
+        
+        for i, old_filepath in enumerate(sorted_files):
+            counter = i + 1
+            extension = os.path.splitext(old_filepath)[1]
+            
+            # --- MODIFIED LINE ---
+            # Format the counter with a leading zero to ensure it is two digits (e.g., 1 -> "01")
+            new_filename = f"{new_prefix}{counter:02d}{extension}"
+            
+            new_filepath = os.path.join(dirpath, new_filename)
+            rename_plan[old_filepath] = new_filepath
+            
+    print(f"Generated a plan to rename/re-count {len(rename_plan)} files.\n")
 
-    if renamed_count == 0:
-        print("No files needed renaming on disk.")
-    else:
-        print(f"\nSuccessfully renamed {renamed_count} files.")
-    print("--- File Renaming Process Complete ---\n")
+    # --- Stage 3: Execute file renaming (safe two-pass method) ---
+    print("--- Stage 3: Renaming files on disk ---")
+    try:
+        for old_path in rename_plan.keys():
+            if os.path.exists(old_path):
+                os.rename(old_path, old_path + ".tmp")
+    except OSError as e:
+        print(f"❌ Error during temporary rename pass: {e}")
+        return
 
+    renamed_count = 0
+    try:
+        for old_path, new_path in rename_plan.items():
+            if os.path.exists(old_path + ".tmp"):
+                os.rename(old_path + ".tmp", new_path)
+                renamed_count += 1
+    except OSError as e:
+        print(f"❌ Error during final rename pass: {e}")
+        return
+        
+    print(f"✅ Successfully renamed {renamed_count} files on disk.\n")
 
-def update_and_sort_json(json_path, mapping):
-    """
-    Updates the JSON file's keys and paths, then sorts and saves it.
-    """
-    print("--- Starting JSON Annotation Update Process ---")
+    # --- Stage 4: Update and sort the JSON file ---
+    print("--- Stage 4: Updating JSON annotation file ---")
     try:
         with open(json_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
     except FileNotFoundError:
         print(f"❌ Error: Annotation file not found at '{json_path}'")
         return
-    except json.JSONDecodeError:
-        print(f"❌ Error: Could not decode JSON from '{json_path}'. Check for syntax errors.")
-        return
 
     updated_data = {}
     updated_count = 0
-
+    
     for old_key, value in data.items():
-        # Extract the alphabetical prefix from the JSON key
-        match = re.match(r"([a-zA-Z]+)", old_key)
-        if not match:
-            # If no match, keep the original entry
+        relative_path_from_json = os.path.normpath(value.get("path", ""))
+        old_abs_path = os.path.join(root_path, relative_path_from_json)
+
+        if old_abs_path in rename_plan:
+            new_abs_path = rename_plan[old_abs_path]
+            new_key = os.path.basename(new_abs_path)
+            new_relative_path = os.path.relpath(new_abs_path, root_path).replace('\\', '/')
+
+            value['path'] = new_relative_path
+            updated_data[new_key] = value
+            updated_count += 1
+        else:
             updated_data[old_key] = value
-            continue
+            
+    sorted_updated_data = dict(sorted(updated_data.items(), key=lambda item: natural_sort_key(item[0])))
 
-        old_prefix = match.group(1)
-        new_key = old_key
-        
-        # If the prefix is in our map, create the new key
-        if old_prefix in mapping:
-            new_prefix = mapping[old_prefix]
-            if old_prefix != new_prefix:
-                new_key = old_key.replace(old_prefix, new_prefix, 1)
-                updated_count += 1
-
-                # Update the path inside the JSON value
-                if 'path' in value and old_key in value['path']:
-                    value['path'] = value['path'].replace(old_key, new_key)
-        
-        # Add the (possibly updated) entry to our new dictionary
-        updated_data[new_key] = value
-
-    # Sort the dictionary by its new keys
-    # Dictionaries in Python 3.7+ maintain insertion order.
-    # We create a new dictionary from sorted items.
-    sorted_updated_data = dict(sorted(updated_data.items()))
-
-    # Write the updated and sorted data back to the JSON file
     try:
         with open(json_path, 'w', encoding='utf-8') as f:
             json.dump(sorted_updated_data, f, indent=4)
-        if updated_count == 0:
-             print("No entries needed updating in the JSON file.")
-        else:
-            print(f"✅ Successfully updated {updated_count} entries and sorted the JSON file.")
+        print(f"✅ Successfully updated {updated_count} entries and saved sorted JSON.\n")
     except IOError as e:
         print(f"❌ Error writing to JSON file '{json_path}': {e}")
-        
-    print("--- JSON Annotation Update Complete ---")
 
 
 # --- Main Execution ---
 if __name__ == "__main__":
-    rename_files_on_disk(folder_path, rename_map)
-    update_and_sort_json(annotation_path, rename_map)
-    print("\nScript finished successfully. ✨")
+    rename_and_recount_all(folder_path, annotation_path, rename_map)
+    print("Script finished successfully. ✨")
