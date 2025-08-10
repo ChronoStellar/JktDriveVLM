@@ -1,6 +1,24 @@
 import os
 
 folder_path = r'Dataset'
+annotarion_path = "/Users/rx0/Desktop/Thesis/Experiment/JktDriveVLM/Dataset/annotation.json"
+
+rename = {
+    "EMP" : "EMP",
+    "VRUCI" : "VRU",
+    "VCI" : "VCI",
+    "VR" : "VRE",
+    "NR" : "NRO",
+    "UT" : "UTR",
+    "LR" : "LRE",
+    "NDM" : "NDM",
+    "OR" : "ORE",
+    "LSP" : "LSP",
+    "IRC" : "IRC",
+    "TPS" : "TPS",
+    "TSR" : "TSR",
+    "RSR" : "RSR",
+}
 
 for subfolder in os.listdir(folder_path):
     subfolder_path = os.path.join(folder_path, subfolder)

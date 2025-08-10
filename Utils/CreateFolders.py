@@ -2,25 +2,25 @@ import os
 
 folders = {
     "UrbanFlowComplexity": [
-        "EvasiveManeuverPlanning",   # Corrected spelling
-        "VRUCut-In",                 # Corrected spelling
-        "VehicleCut-In",             # Corrected spelling
+        "EvasiveManeuverPlanning",   
+        "VRUCut-In",                 
+        "VehicleCut-In",             
         "VehicleRecognition"
     ],
-    "PerceptionReasoning": [       # Corrected spelling
+    "PerceptionReasoning": [       
         "NarrowRoadway",
         "UnidirectionalTraffic",
         "LaneRecognition",
-        "NavigationDecisionMaking" # Corrected spelling
+        "NavigationDecisionMaking" 
     ],
-    "SafetyCompliance": [          # Corrected spelling
+    "SafetyCompliance": [          
         "ObstacleRecognition",
         "LongShortParking",
-        "TrainRailwayRecognition",
+        # "TrainRailwayRecognition",
         "InadequateRoadConditions",
         "TrajectoryPlanningSigns",
         "TrafficSignalRecognition",
-        "RoadSignsRecognition"     # Corrected spelling
+        "RoadSignsRecognition"     
     ]
 }
 

@@ -314,27 +314,27 @@
         "distractor2": "Speed up to find a gap in the right lane.",
         "distractor3": "Merge suddenly to prevent other cars from blocking."
     },
-    "TRR1.png": {
-        "path": "SafetyCompliance/TrainRailwayRecognition/TRR1.png",
-        "category": "SafetyCompliance/TrainRailwayRecognition",
+    "OR17.png": {
+        "path": "SafetyCompliance/ObstacleRecognition/OR17.png",
+        "category": "SafetyCompliance/ObstacleRecognition",
         "question": "The vehicle is approaching a railway crossing with a passing train. What is the mandatory safety action?",
         "answers": "Stop at a safe distance before the crossing and wait for the train to pass completely.",
         "distractor1": "Slow down and prepare to cross as soon as the last train car passes.",
         "distractor2": "Check for an alternate route that doesn't involve a railway crossing.",
         "distractor3": "Attempt to race the train and cross before it arrives."
     },
-    "TRR2.png": {
-        "path": "SafetyCompliance/TrainRailwayRecognition/TRR2.png",
-        "category": "SafetyCompliance/TrainRailwayRecognition",
+    "OR18.png": {
+        "path": "SafetyCompliance/ObstacleRecognition/OR18.png",
+        "category": "SafetyCompliance/ObstacleRecognition",
         "question": "The vehicle is approaching a railway crossing. What should it do?",
         "answers": "Observe the crossing gate; if it is closing or closed, stop. Otherwise, proceed with caution.",
         "distractor1": "Proceed if the gate is not fully down yet.",
         "distractor2": "Always stop, look, and listen at every railway crossing, regardless of the gate.",
         "distractor3": "Accelerate to cross the tracks as quickly as possible."
     },
-    "TRR3.png": {
-        "path": "SafetyCompliance/TrainRailwayRecognition/TRR3.png",
-        "category": "SafetyCompliance/TrainRailwayRecognition",
+    "OR19.png": {
+        "path": "SafetyCompliance/ObstacleRecognition/OR19.png",
+        "category": "SafetyCompliance/ObstacleRecognition",
         "question": "The vehicle is in traffic near a railway crossing. What should it do?",
         "answers": "Wait for the vehicles ahead to move and ensure the tracks are clear before proceeding.",
         "distractor1": "Stop on the tracks if necessary to keep up with traffic flow.",
