@@ -1,5 +1,5 @@
 *.tsv
-*.csv
+annotation.csv
 *.xslx
 .DS_Store
 __pycache__/
