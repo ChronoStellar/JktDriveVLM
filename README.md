@@ -66,7 +66,8 @@ The evaluated models include:
 All models are evaluated under the same multiple-choice question answering (MCQA) setting, using identical prompts and response constraints to ensure a fair and consistent comparison. The evaluation focuses on each model’s ability to understand visual scenes, perform reasoning, and select the correct answer based on the given options.
 
 ## ⚒️ What is in this repository:
-### Dataset 
+## Dataset 
+This directory contains the image and annotation of JKTDrive dataset
 ```bash
 Dataset/
 ├── UrbanFlowComplexity/
@@ -90,7 +91,24 @@ Dataset/
 │   └── RoadSignsRecognition/
 └── annotation.json
 ```
-### Result 
+In annotation.json the MCQA data format can be seen as followed: 
+```bash
+{
+    "EMP01.png": {
+        "path": "UrbanFlowComplexity/EvasiveManeuverPlanning/EMP01.png",
+        "category": "UrbanFlowComplexity/EvasiveManeuverPlanning",
+        "question": "In this complex traffic scenario, what immediate hazard or condition should the autonomous vehicle prioritize in its evasive maneuver planning?",
+        "answers": "The potential for unpredictable movements from the blurry motorcycle.",
+        "distractor1": "The stationary vehicles parked on the side of the road.",
+        "distractor2": "The need to maintain a high speed to keep up with the flow of traffic.",
+        "distractor3": "The clear and open lane to the far left as a potential escape route."
+    },
+    ...
+}
+```
+
+## Result 
+This directory contains the raw result of VLMevalkit with circular evaluation and the summary of each models' performance.
 ```bash
 Result/
 ├── GPT5/
@@ -118,9 +136,9 @@ Result/
 │   ├── Qwen2_5_VL_7B_circular_SC_group_results.csv
 │   ├── Qwen2_5_VL_7B_circular_UC_group_results.csv
 │   └── summary_results.csv
-└── getAccuracy.py
+└── getAccuracy.py (to get the summary)
 ```
-### Utils
+## Utils
 - CreateFolders.py, containins dataset's folder structure and create those folder
 - JSON2TSV.ipynb, encodes image to base64 and convert the VQA dataset into .tsv format
 - JSONReformater.py, reformat the raw path and answer json into mcqa format
@@ -128,7 +146,6 @@ Result/
 - Reformat4CircularEval.ipynb, copy each QA pairs to rotate the multiple choices 4 times
 - RenameFiles.py, abriviates the files into Ids e.g. EMP01
 - XLSX2JSON.py, normalize files into json format
-
 
 ## 🖊️ Citation
 If you find this work helpful, please consider to **star🌟** this repo. Thanks for your support!
