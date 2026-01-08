@@ -1,0 +1,19 @@
+Metric Type,Group,Accuracy
+Total Accuracy,Overall,0.8278388278388278
+File Accuracy,ovis1_6_gemma2_9b_circular_PR.xlsx,0.7884615384615384
+File Accuracy,ovis1_6_gemma2_9b_circular_SC.xlsx,0.7996031746031746
+File Accuracy,ovis1_6_gemma2_9b_circular_UC.xlsx,0.9024390243902439
+Larger Group Accuracy,EMP,0.7894736842105263
+Larger Group Accuracy,IRC,0.9305555555555556
+Larger Group Accuracy,LRE,0.7894736842105263
+Larger Group Accuracy,LSP,0.725
+Larger Group Accuracy,NDM,0.7
+Larger Group Accuracy,NRO,0.890625
+Larger Group Accuracy,ORE,0.9166666666666666
+Larger Group Accuracy,RSR,0.7734375
+Larger Group Accuracy,TPS,0.65
+Larger Group Accuracy,TSR,0.9230769230769231
+Larger Group Accuracy,UTR,0.8
+Larger Group Accuracy,VCI,0.8409090909090909
+Larger Group Accuracy,VRE,1.0
+Larger Group Accuracy,VRU,0.9772727272727273

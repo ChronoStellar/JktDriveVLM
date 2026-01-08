@@ -1,0 +1,19 @@
+Metric Type,Group,Accuracy
+Total Accuracy,Overall,0.8644688644688645
+File Accuracy,InternVL2_5-8B_circular_PR.xlsx,0.7884615384615384
+File Accuracy,InternVL2_5-8B_circular_SC.xlsx,0.8670634920634921
+File Accuracy,InternVL2_5-8B_circular_UC.xlsx,0.9207317073170732
+Larger Group Accuracy,EMP,0.8157894736842105
+Larger Group Accuracy,IRC,0.9583333333333334
+Larger Group Accuracy,LRE,0.7236842105263158
+Larger Group Accuracy,LSP,0.8125
+Larger Group Accuracy,NDM,0.7125
+Larger Group Accuracy,NRO,0.875
+Larger Group Accuracy,ORE,0.9305555555555556
+Larger Group Accuracy,RSR,0.90625
+Larger Group Accuracy,TPS,0.7
+Larger Group Accuracy,TSR,0.9615384615384616
+Larger Group Accuracy,UTR,0.925
+Larger Group Accuracy,VCI,0.9431818181818182
+Larger Group Accuracy,VRE,0.9473684210526315
+Larger Group Accuracy,VRU,0.9659090909090909

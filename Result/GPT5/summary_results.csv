@@ -1,0 +1,19 @@
+Metric Type,Group,Accuracy
+Total Accuracy,Overall,0.8690476190476191
+File Accuracy,GPT_5_circular_perception_reasoning.xlsx,0.8653846153846154
+File Accuracy,GPT_5_circular_safety_compliance.xlsx,0.8571428571428571
+File Accuracy,GPT_5_circular_urban_flow_complexity.xlsx,0.8902439024390244
+Larger Group Accuracy,EMP,0.7631578947368421
+Larger Group Accuracy,IRC,0.9722222222222222
+Larger Group Accuracy,LRE,0.9078947368421053
+Larger Group Accuracy,LSP,0.75
+Larger Group Accuracy,NDM,0.775
+Larger Group Accuracy,NRO,0.875
+Larger Group Accuracy,ORE,0.9166666666666666
+Larger Group Accuracy,RSR,0.875
+Larger Group Accuracy,TPS,0.73
+Larger Group Accuracy,TSR,0.9807692307692307
+Larger Group Accuracy,UTR,0.95
+Larger Group Accuracy,VCI,0.9204545454545454
+Larger Group Accuracy,VRE,0.9342105263157895
+Larger Group Accuracy,VRU,0.9318181818181818
